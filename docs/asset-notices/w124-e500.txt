@@ -1,0 +1,56 @@
+My second work on prevention in DFF only!
+
+[CREDITS]
+
+Convert to SA: Athalone's
+Edited & Ported to Mobile: Rev_Groma
+
+
+[FEATURES]
+
+- LQ Model
+- Low reflection 
+- Low size DFF
+- Damaged parts
+- SA Lights
+- SA Plate
+- SA support colors
+- Can be painted in 2 colors: 1 - Body, 2 - Bumpers
+- Custom setting
+- Custom collision
+- Custom shadow
+- Great work on weak devices
+- Replaces: washing
+
+
+[SETTING]
+
+vehicles.ide
+
+421,	washing,		washing,		car, 		WASHING, 	WASHING, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+
+handling.cfg
+
+WASHING 1400.0 3400.0 2.4 0.0 0.1 -0.1 75 0.80 0.8 0.5 5 200.0 28.0 5.0 R P 10.0 0.5 0 30.0 1.2 0.15 0.0 0.28 -0.20 0.5 0.3 0.25 0.60 35000 2800 4000002 1 1 0
+
+carcols.dat
+
+washing, 52,39, 9,39, 17,1, 21,1, 33,0, 37,0, 41,29, 56,29
+
+carmods.dat
+
+washing,	nto_b_l, nto_b_s, nto_b_tw
+
+
+[NOTE]
+
+Don't use to modpacks without permission
+Don't edit without permission
+Don't re-upload this mod without permission
+Share allowed with credits to me 
+
+
+[SPECIAL THANKS]
+
+Athalone's - For the original mod
+

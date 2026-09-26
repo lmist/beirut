@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-09-15T21:36:01.473Z",
+  "route": "street-pan-and-walk + city-orbit",
+  "frames": 3000,
+  "durationSeconds": 30,
+  "averageFps": 100,
+  "onePercentLowFps": 90.57971014492435,
+  "p50Ms": 10,
+  "p95Ms": 10.900000000008731,
+  "p99Ms": 11,
+  "maxMs": 11.10000000000582,
+  "over20Ms": 0,
+  "over33Ms": 0,
+  "averageCpuMs": 0.23893333066503206,
+  "meets60Fps": true,
+  "street": {
+    "frames": 2000,
+    "durationSeconds": 19.999,
+    "averageFps": 100.0050002500125,
+    "onePercentLowFps": 90.57971014490843,
+    "p50Ms": 10,
+    "p95Ms": 10.900000000008731,
+    "p99Ms": 11,
+    "maxMs": 11.10000000000582,
+    "over20Ms": 0,
+    "over33Ms": 0,
+    "averageCpuMs": null,
+    "meets60Fps": true
+  },
+  "overview": {
+    "frames": 1000,
+    "durationSeconds": 10.001,
+    "averageFps": 99.9900009999,
+    "onePercentLowFps": 90.5797101449562,
+    "p50Ms": 10,
+    "p95Ms": 10.900000000008731,
+    "p99Ms": 11,
+    "maxMs": 11.099999999991269,
+    "over20Ms": 0,
+    "over33Ms": 0,
+    "averageCpuMs": null,
+    "meets60Fps": true
+  },
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "devicePixelRatio": 1
+  },
+  "renderScale": {
+    "min": 1,
+    "max": 1
+  },
+  "resolutionMode": "native",
+  "viewingDistance": 1800,
+  "maxDrawCalls": 125,
+  "maxTriangles": 1745136,
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+  "sourceTriangles": 5238768,
+  "buildings": 17575,
+  "wasm": [
+    "meshoptimizer decoder",
+    "Rapier character controller"
+  ],
+  "errors": 0
+}

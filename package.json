@@ -1,0 +1,28 @@
+{
+  "name": "beirut-world",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "prepare:map": ".venv/bin/python scripts/prepare_map.py && node scripts/optimize_map.mjs && node scripts/prepare_building_ground.mjs",
+    "test": "node --test tests/*.test.js",
+    "start": "vite --host 127.0.0.1 --port 5173",
+    "prepare:building-ground": "node scripts/prepare_building_ground.mjs",
+    "prepare:satellite-textures": ".venv/bin/python scripts/prepare_satellite_textures.py",
+    "prepare:facade-textures": ".cache/registration-venv/bin/python scripts/prepare_facade_textures.py --build-only",
+    "prepare:bliss": "node scripts/prepare_bliss_corridor.mjs && .cache/registration-venv/bin/python scripts/prepare_bliss_photos.py && node scripts/prepare_bliss_landmarks.mjs && node scripts/prepare_bliss_architecture.mjs && node scripts/prepare_bliss_heritage.mjs && node scripts/prepare_bliss_architecture.mjs && .cache/registration-venv/bin/python scripts/prepare_bliss_shopfronts.py"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.20.0",
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "meshoptimizer": "^1.2.0",
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}

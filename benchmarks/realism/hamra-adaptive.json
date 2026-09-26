@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-09-26T04:38:40.595Z",
+  "route": "on-foot + Mercedes drive + city orbit",
+  "frames": 2376,
+  "durationSeconds": 30.003800000000002,
+  "averageFps": 79.18996927055906,
+  "onePercentLowFps": 31.961646024769905,
+  "p50Ms": 9.400000000001455,
+  "p95Ms": 17.400000000001455,
+  "p99Ms": 24.19999999999891,
+  "maxMs": 83.20000000000073,
+  "over20Ms": 27,
+  "over33Ms": 5,
+  "averageCpuMs": 3.644023568466657,
+  "meets60Fps": false,
+  "routeValid": true,
+  "drivingSeconds": 9.986400000000001,
+  "street": {
+    "frames": 758,
+    "durationSeconds": 10.008300000000002,
+    "averageFps": 75.73713817531448,
+    "onePercentLowFps": 30.406689471683517,
+    "p50Ms": 15.899999999999636,
+    "p95Ms": 17.5,
+    "p99Ms": 25.100000000002183,
+    "maxMs": 66.60000000000036,
+    "over20Ms": 16,
+    "over33Ms": 2,
+    "averageCpuMs": null,
+    "meets60Fps": false
+  },
+  "driving": {
+    "frames": 844,
+    "durationSeconds": 10.003099999999998,
+    "averageFps": 84.37384410832644,
+    "onePercentLowFps": 32.36245954692531,
+    "p50Ms": 8.69999999999709,
+    "p95Ms": 17.099999999998545,
+    "p99Ms": 17.700000000000728,
+    "maxMs": 83.20000000000073,
+    "over20Ms": 7,
+    "over33Ms": 2,
+    "averageCpuMs": null,
+    "meets60Fps": false
+  },
+  "overview": {
+    "frames": 774,
+    "durationSeconds": 9.992400000000002,
+    "averageFps": 77.45886874024258,
+    "onePercentLowFps": 41.279669762637404,
+    "p50Ms": 15.80000000000291,
+    "p95Ms": 17.5,
+    "p99Ms": 17.700000000004366,
+    "maxMs": 41.30000000000291,
+    "over20Ms": 4,
+    "over33Ms": 1,
+    "averageCpuMs": null,
+    "meets60Fps": false
+  },
+  "viewport": {
+    "width": 1132,
+    "height": 637,
+    "devicePixelRatio": 2.259999990463257
+  },
+  "renderScale": {
+    "min": 1.5,
+    "max": 1.5
+  },
+  "resolutionMode": "auto",
+  "viewingDistance": 1800,
+  "worldTextures": true,
+  "photographs": {
+    "available": true,
+    "enabled": true,
+    "referenceFacades": 16,
+    "residentTiles": 0,
+    "loading": 0,
+    "wantedTiles": 0,
+    "estimatedGpuMiB": 71,
+    "facadeBuildings": 8854,
+    "errors": [],
+    "maxGpuMiB": 258,
+    "maxResidentTiles": 12
+  },
+  "textureArray": {
+    "layers": 16,
+    "tileSize": 256
+  },
+  "renderBuffer": {
+    "width": 1698,
+    "height": 955
+  },
+  "maxDrawCalls": 643,
+  "maxTriangles": 1812936,
+  "maxDrivingSpeedKmh": 78.82366591938177,
+  "game": {
+    "started": true,
+    "cars": 4,
+    "carModels": 11,
+    "pedModels": 4,
+    "pedestrians": 24,
+    "residentPaths": 14,
+    "savedProgress": true,
+    "driving": false,
+    "speed": 0.009934899984761368,
+    "playerHealth": 89,
+    "vehicleHealth": null,
+    "missionStage": 0,
+    "missionComplete": false,
+    "location": {
+      "area": "El Hamra",
+      "areaAr": "الحمرا",
+      "street": "شارع القاهرة",
+      "distance": 14.919661030093065
+    }
+  },
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+  "sourceTriangles": 5238768,
+  "buildings": 17575,
+  "wasm": [
+    "meshoptimizer decoder",
+    "Rapier character controller"
+  ],
+  "errors": 0
+}

@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "crs": "WGS84",
+  "modelUnits": "metres",
+  "method": "reflected-similarity-from-street-block-fit",
+  "anchorLat": 33.888,
+  "anchorLon": 35.495,
+  "metresPerDegreeLatitude": 111320,
+  "angleDeg": -0.03433903190136345,
+  "translationEast": 1259.9070773504736,
+  "translationNorth": -142.65213378157046,
+  "scale": 1.0007898128943244,
+  "zSign": -1,
+  "accuracyMeters": null,
+  "accuracyStatus": "Street-network and satellite spot checks passed; facade-level accuracy has not been measured.",
+  "axisConvention": "Browser positions use Rhino (X, Z, -Y). Near this fit, +X is east and -Z is north.",
+  "formula": "EN = scale * R(angleDeg) * [modelX, zSign * modelZ] + [translationEast, translationNorth]",
+  "validation": {
+    "method": "OSM street samples against CAD block occupancy; entire OSM ways held out by id modulo 5",
+    "heldOutSamples": 6607,
+    "insideBlockPercent": 21.99,
+    "p90BlockPenetrationMetres": 4.39,
+    "independentSatelliteAreas": 4,
+    "warning": "Block penetration is a street-consistency proxy, not a building-position or photo-reprojection error.",
+    "baselineInsideBlockPercent": 67.55,
+    "baselineP90BlockPenetrationMetres": 34.52
+  },
+  "supersedes": {
+    "angleDeg": -5.5,
+    "translationEast": 870,
+    "translationNorth": -680,
+    "scale": 1,
+    "zSign": 1,
+    "reason": "The prior transform omitted the north/south reflection required by the browser coordinate frame."
+  }
+}

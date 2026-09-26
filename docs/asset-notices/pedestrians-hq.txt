@@ -1,0 +1,10 @@
+Original Skin Peds in HD Pack
+English :
+Use Alci's IMG Editor or Spark to import and replace into gta3.img or copy the folder into modloader
+
+Indonesian :
+Gunakan Alci's IMG Editor atau Spark untuk mengimport file ke dalam gta3.img atau copy folder ke dalam modloader
+
+CREDITS:
+SKIN by Vados
+Pack by Steven JR

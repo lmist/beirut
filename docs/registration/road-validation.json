@@ -1,0 +1,58 @@
+{
+  "method": "street/block occupancy fit; diagnostic proxy, not building accuracy",
+  "baseline": {
+    "parameters": [
+      -5.5,
+      870.0,
+      -680.0,
+      1.0
+    ],
+    "zSign": 1,
+    "score": 40.44327455696342,
+    "train": {
+      "roadSamples": 27984,
+      "insideBlockPercent": 64.39,
+      "medianBlockPenetrationM": 7.5,
+      "p90BlockPenetrationM": 33.54,
+      "modelCoveragePercent": 81.84
+    },
+    "heldOut": {
+      "roadSamples": 6607,
+      "insideBlockPercent": 67.55,
+      "medianBlockPenetrationM": 8.88,
+      "p90BlockPenetrationM": 34.52,
+      "modelCoveragePercent": 82.94
+    }
+  },
+  "candidate": {
+    "parameters": [
+      -0.03433903190136345,
+      1259.9070773504736,
+      -142.65213378157046,
+      1.0007898128943244
+    ],
+    "zSign": -1,
+    "score": 12.685525882600531,
+    "train": {
+      "roadSamples": 27984,
+      "insideBlockPercent": 23.17,
+      "medianBlockPenetrationM": 0.26,
+      "p90BlockPenetrationM": 4.49,
+      "modelCoveragePercent": 87.07
+    },
+    "heldOut": {
+      "roadSamples": 6607,
+      "insideBlockPercent": 21.99,
+      "medianBlockPenetrationM": 0.16,
+      "p90BlockPenetrationM": 4.39,
+      "modelCoveragePercent": 86.97
+    }
+  },
+  "sampleSplit": "OSM way ID modulo 5; 20% held out",
+  "parameters": [
+    "rotationDeg",
+    "eastingOffsetM",
+    "northingOffsetM",
+    "uniformScale"
+  ]
+}

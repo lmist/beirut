@@ -1,0 +1,5606 @@
+{
+  "version": 1,
+  "name": "Bliss Street",
+  "nameAr": "شارع بليس",
+  "registrationVersion": 2,
+  "registrationFingerprint": "9ba325d3022df10ed696b496cac228f5a45f54c226658d488b6e4126f2069830",
+  "stationDirection": "eastern endpoint to western endpoint, including the west bend",
+  "length": 1395.104,
+  "bounds": {
+    "minX": -3503.02,
+    "minZ": -1485.44,
+    "maxX": -2183,
+    "maxZ": -1072.02
+  },
+  "roadBounds": {
+    "minX": -3439.7,
+    "minZ": -1414.6,
+    "maxX": -2200.5,
+    "maxZ": -1123.2
+  },
+  "endpoints": [
+    {
+      "x": -2200.5,
+      "z": -1373.6,
+      "lat": 33.89907934,
+      "lon": 35.48481163
+    },
+    {
+      "x": -3433.7,
+      "z": -1123.2,
+      "lat": 33.89683484,
+      "lon": 35.47145459
+    }
+  ],
+  "selection": {
+    "method": "First modeled building intersected on each side of the road by perpendicular samples.",
+    "sampleSpacingMetres": 2,
+    "maximumFrontageSetbackMetres": 65,
+    "minimumVolumeHeightMetres": 6,
+    "minimumFootprintAreaSquareMetres": 30,
+    "sideConvention": "Left/right while travelling from station zero (east) toward the west bend.",
+    "limitations": "Axis-aligned bounds approximate footprints. A building visible through a gap is included; hidden buildings and very small rooftop volumes are excluded. This is geometry-based corridor coverage, not a surveyed cadastral inventory."
+  },
+  "accuracyStatus": "Registration v2 is street-checked, not facade-surveyed. Cached photograph associations are geometric candidates requiring visual review.",
+  "roads": [
+    {
+      "id": "way/211453302",
+      "name": "Bliss Street",
+      "nameAr": "شارع بليس",
+      "points": [
+        [
+          -2200.5,
+          -1373.6
+        ],
+        [
+          -2239.4,
+          -1378.3
+        ]
+      ],
+      "stationStart": 0,
+      "stationEnd": 39.183
+    },
+    {
+      "id": "way/699482717",
+      "name": "Bliss Street",
+      "nameAr": "شارع بليس",
+      "points": [
+        [
+          -2239.4,
+          -1378.3
+        ],
+        [
+          -2371.1,
+          -1402.1
+        ]
+      ],
+      "stationStart": 39.183,
+      "stationEnd": 173.016
+    },
+    {
+      "id": "way/199994414",
+      "name": "Bliss Street",
+      "nameAr": "شارع بليس",
+      "points": [
+        [
+          -2371.1,
+          -1402.1
+        ],
+        [
+          -2441,
+          -1414.2
+        ],
+        [
+          -2459.3,
+          -1414.6
+        ],
+        [
+          -2481.2,
+          -1411.1
+        ]
+      ],
+      "stationStart": 173.016,
+      "stationEnd": 284.438
+    },
+    {
+      "id": "way/692521435",
+      "name": "Bliss Street",
+      "nameAr": "شارع بليس",
+      "points": [
+        [
+          -2481.2,
+          -1411.1
+        ],
+        [
+          -2758.3,
+          -1350.9
+        ]
+      ],
+      "stationStart": 284.438,
+      "stationEnd": 568.002
+    },
+    {
+      "id": "way/481214984",
+      "name": "Bliss Street",
+      "nameAr": "شارع بليس",
+      "points": [
+        [
+          -2758.3,
+          -1350.9
+        ],
+        [
+          -2880.4,
+          -1324.1
+        ]
+      ],
+      "stationStart": 568.002,
+      "stationEnd": 693.008
+    },
+    {
+      "id": "way/483635757",
+      "name": "Bliss Street",
+      "nameAr": "شارع بليس",
+      "points": [
+        [
+          -2880.4,
+          -1324.1
+        ],
+        [
+          -3080.1,
+          -1278.3
+        ],
+        [
+          -3271,
+          -1241.6
+        ],
+        [
+          -3287.8,
+          -1244
+        ],
+        [
+          -3301.8,
+          -1262.5
+        ],
+        [
+          -3312,
+          -1267.8
+        ],
+        [
+          -3363,
+          -1266.8
+        ],
+        [
+          -3386.9,
+          -1261.6
+        ],
+        [
+          -3419.1,
+          -1244.5
+        ],
+        [
+          -3430.6,
+          -1234.7
+        ],
+        [
+          -3437,
+          -1223.6
+        ],
+        [
+          -3439.7,
+          -1202.8
+        ],
+        [
+          -3437.5,
+          -1187.9
+        ],
+        [
+          -3419.7,
+          -1157.1
+        ],
+        [
+          -3418.2,
+          -1149.1
+        ],
+        [
+          -3418.6,
+          -1141.7
+        ],
+        [
+          -3422.4,
+          -1134.4
+        ],
+        [
+          -3433.7,
+          -1123.2
+        ]
+      ],
+      "stationStart": 693.008,
+      "stationEnd": 1395.104
+    }
+  ],
+  "points": [
+    [
+      -2200.5,
+      -1373.6
+    ],
+    [
+      -2239.4,
+      -1378.3
+    ],
+    [
+      -2371.1,
+      -1402.1
+    ],
+    [
+      -2441,
+      -1414.2
+    ],
+    [
+      -2459.3,
+      -1414.6
+    ],
+    [
+      -2481.2,
+      -1411.1
+    ],
+    [
+      -2758.3,
+      -1350.9
+    ],
+    [
+      -2880.4,
+      -1324.1
+    ],
+    [
+      -3080.1,
+      -1278.3
+    ],
+    [
+      -3271,
+      -1241.6
+    ],
+    [
+      -3287.8,
+      -1244
+    ],
+    [
+      -3301.8,
+      -1262.5
+    ],
+    [
+      -3312,
+      -1267.8
+    ],
+    [
+      -3363,
+      -1266.8
+    ],
+    [
+      -3386.9,
+      -1261.6
+    ],
+    [
+      -3419.1,
+      -1244.5
+    ],
+    [
+      -3430.6,
+      -1234.7
+    ],
+    [
+      -3437,
+      -1223.6
+    ],
+    [
+      -3439.7,
+      -1202.8
+    ],
+    [
+      -3437.5,
+      -1187.9
+    ],
+    [
+      -3419.7,
+      -1157.1
+    ],
+    [
+      -3418.2,
+      -1149.1
+    ],
+    [
+      -3418.6,
+      -1141.7
+    ],
+    [
+      -3422.4,
+      -1134.4
+    ],
+    [
+      -3433.7,
+      -1123.2
+    ]
+  ],
+  "segments": [
+    {
+      "a": [
+        -2200.5,
+        -1373.6
+      ],
+      "b": [
+        -2239.4,
+        -1378.3
+      ],
+      "station": 0,
+      "length": 39.183,
+      "roadId": "way/211453302",
+      "direction": [
+        -0.993,
+        -0.12
+      ]
+    },
+    {
+      "a": [
+        -2239.4,
+        -1378.3
+      ],
+      "b": [
+        -2371.1,
+        -1402.1
+      ],
+      "station": 39.183,
+      "length": 133.833,
+      "roadId": "way/699482717",
+      "direction": [
+        -0.984,
+        -0.178
+      ]
+    },
+    {
+      "a": [
+        -2371.1,
+        -1402.1
+      ],
+      "b": [
+        -2441,
+        -1414.2
+      ],
+      "station": 173.016,
+      "length": 70.94,
+      "roadId": "way/199994414",
+      "direction": [
+        -0.985,
+        -0.171
+      ]
+    },
+    {
+      "a": [
+        -2441,
+        -1414.2
+      ],
+      "b": [
+        -2459.3,
+        -1414.6
+      ],
+      "station": 243.956,
+      "length": 18.304,
+      "roadId": "way/199994414",
+      "direction": [
+        -1,
+        -0.022
+      ]
+    },
+    {
+      "a": [
+        -2459.3,
+        -1414.6
+      ],
+      "b": [
+        -2481.2,
+        -1411.1
+      ],
+      "station": 262.26,
+      "length": 22.178,
+      "roadId": "way/199994414",
+      "direction": [
+        -0.987,
+        0.158
+      ]
+    },
+    {
+      "a": [
+        -2481.2,
+        -1411.1
+      ],
+      "b": [
+        -2758.3,
+        -1350.9
+      ],
+      "station": 284.438,
+      "length": 283.564,
+      "roadId": "way/692521435",
+      "direction": [
+        -0.977,
+        0.212
+      ]
+    },
+    {
+      "a": [
+        -2758.3,
+        -1350.9
+      ],
+      "b": [
+        -2880.4,
+        -1324.1
+      ],
+      "station": 568.002,
+      "length": 125.007,
+      "roadId": "way/481214984",
+      "direction": [
+        -0.977,
+        0.214
+      ]
+    },
+    {
+      "a": [
+        -2880.4,
+        -1324.1
+      ],
+      "b": [
+        -3080.1,
+        -1278.3
+      ],
+      "station": 693.008,
+      "length": 204.885,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.975,
+        0.224
+      ]
+    },
+    {
+      "a": [
+        -3080.1,
+        -1278.3
+      ],
+      "b": [
+        -3271,
+        -1241.6
+      ],
+      "station": 897.893,
+      "length": 194.396,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.982,
+        0.189
+      ]
+    },
+    {
+      "a": [
+        -3271,
+        -1241.6
+      ],
+      "b": [
+        -3287.8,
+        -1244
+      ],
+      "station": 1092.289,
+      "length": 16.971,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.99,
+        -0.141
+      ]
+    },
+    {
+      "a": [
+        -3287.8,
+        -1244
+      ],
+      "b": [
+        -3301.8,
+        -1262.5
+      ],
+      "station": 1109.259,
+      "length": 23.2,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.603,
+        -0.797
+      ]
+    },
+    {
+      "a": [
+        -3301.8,
+        -1262.5
+      ],
+      "b": [
+        -3312,
+        -1267.8
+      ],
+      "station": 1132.46,
+      "length": 11.495,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.887,
+        -0.461
+      ]
+    },
+    {
+      "a": [
+        -3312,
+        -1267.8
+      ],
+      "b": [
+        -3363,
+        -1266.8
+      ],
+      "station": 1143.954,
+      "length": 51.01,
+      "roadId": "way/483635757",
+      "direction": [
+        -1,
+        0.02
+      ]
+    },
+    {
+      "a": [
+        -3363,
+        -1266.8
+      ],
+      "b": [
+        -3386.9,
+        -1261.6
+      ],
+      "station": 1194.964,
+      "length": 24.459,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.977,
+        0.213
+      ]
+    },
+    {
+      "a": [
+        -3386.9,
+        -1261.6
+      ],
+      "b": [
+        -3419.1,
+        -1244.5
+      ],
+      "station": 1219.423,
+      "length": 36.459,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.883,
+        0.469
+      ]
+    },
+    {
+      "a": [
+        -3419.1,
+        -1244.5
+      ],
+      "b": [
+        -3430.6,
+        -1234.7
+      ],
+      "station": 1255.882,
+      "length": 15.109,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.761,
+        0.649
+      ]
+    },
+    {
+      "a": [
+        -3430.6,
+        -1234.7
+      ],
+      "b": [
+        -3437,
+        -1223.6
+      ],
+      "station": 1270.991,
+      "length": 12.813,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.499,
+        0.866
+      ]
+    },
+    {
+      "a": [
+        -3437,
+        -1223.6
+      ],
+      "b": [
+        -3439.7,
+        -1202.8
+      ],
+      "station": 1283.804,
+      "length": 20.975,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.129,
+        0.992
+      ]
+    },
+    {
+      "a": [
+        -3439.7,
+        -1202.8
+      ],
+      "b": [
+        -3437.5,
+        -1187.9
+      ],
+      "station": 1304.779,
+      "length": 15.062,
+      "roadId": "way/483635757",
+      "direction": [
+        0.146,
+        0.989
+      ]
+    },
+    {
+      "a": [
+        -3437.5,
+        -1187.9
+      ],
+      "b": [
+        -3419.7,
+        -1157.1
+      ],
+      "station": 1319.84,
+      "length": 35.574,
+      "roadId": "way/483635757",
+      "direction": [
+        0.5,
+        0.866
+      ]
+    },
+    {
+      "a": [
+        -3419.7,
+        -1157.1
+      ],
+      "b": [
+        -3418.2,
+        -1149.1
+      ],
+      "station": 1355.414,
+      "length": 8.139,
+      "roadId": "way/483635757",
+      "direction": [
+        0.184,
+        0.983
+      ]
+    },
+    {
+      "a": [
+        -3418.2,
+        -1149.1
+      ],
+      "b": [
+        -3418.6,
+        -1141.7
+      ],
+      "station": 1363.553,
+      "length": 7.411,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.054,
+        0.999
+      ]
+    },
+    {
+      "a": [
+        -3418.6,
+        -1141.7
+      ],
+      "b": [
+        -3422.4,
+        -1134.4
+      ],
+      "station": 1370.964,
+      "length": 8.23,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.462,
+        0.887
+      ]
+    },
+    {
+      "a": [
+        -3422.4,
+        -1134.4
+      ],
+      "b": [
+        -3433.7,
+        -1123.2
+      ],
+      "station": 1379.194,
+      "length": 15.91,
+      "roadId": "way/483635757",
+      "direction": [
+        -0.71,
+        0.704
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "id": 237,
+      "bounds": [
+        -2229.9,
+        -1350.46,
+        -2187.22,
+        -1309.27
+      ],
+      "ground": 36.99,
+      "roof": 45.34,
+      "sourceBase": 31.79,
+      "height": 8.35,
+      "center": [
+        -2208.56,
+        -1329.865
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8986862,
+      "lon": 35.48472406,
+      "distance": 44.386,
+      "station": 2.756,
+      "side": "left",
+      "nearestPoint": [
+        -2203.236,
+        -1373.931
+      ],
+      "roadDirection": [
+        -0.993,
+        -0.12
+      ],
+      "roadId": "way/211453302",
+      "segmentIndex": 0,
+      "frontage": {
+        "sampleCount": 14,
+        "stationStart": 0,
+        "stationEnd": 25.469,
+        "minimumSetback": 23.308
+      },
+      "photo": {
+        "camera": [
+          -2237.079,
+          41.224,
+          -1327.488
+        ],
+        "headingDeg": 104.6,
+        "pitchDeg": -5,
+        "fovDeg": 90,
+        "imageId": "legacy-13849",
+        "confidence": 0.663,
+        "date": "2023-04",
+        "distanceMetres": 28.62
+      }
+    },
+    {
+      "id": 577,
+      "bounds": [
+        -2238.27,
+        -1469.12,
+        -2183,
+        -1427.13
+      ],
+      "ground": 30.71,
+      "roof": 47.38,
+      "sourceBase": 25.28,
+      "height": 16.67,
+      "center": [
+        -2210.635,
+        -1448.125
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89974939,
+      "lon": 35.48470236,
+      "distance": 72.771,
+      "station": 19.001,
+      "side": "right",
+      "nearestPoint": [
+        -2219.364,
+        -1375.879
+      ],
+      "roadDirection": [
+        -0.993,
+        -0.12
+      ],
+      "roadId": "way/211453302",
+      "segmentIndex": 0,
+      "frontage": {
+        "sampleCount": 5,
+        "stationStart": 0,
+        "stationEnd": 49.17,
+        "minimumSetback": 48.538
+      },
+      "photo": null
+    },
+    {
+      "id": 491,
+      "bounds": [
+        -2241.53,
+        -1393.54,
+        -2203.41,
+        -1374.48
+      ],
+      "ground": 36.32,
+      "roof": 50.46,
+      "sourceBase": 31.21,
+      "height": 14.14,
+      "center": [
+        -2222.47,
+        -1384.01
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89917305,
+      "lon": 35.48457377,
+      "distance": 7.7,
+      "station": 23.06,
+      "side": "right",
+      "nearestPoint": [
+        -2223.394,
+        -1376.366
+      ],
+      "roadDirection": [
+        -0.993,
+        -0.12
+      ],
+      "roadId": "way/211453302",
+      "segmentIndex": 0,
+      "frontage": {
+        "sampleCount": 22,
+        "stationStart": 3.918,
+        "stationEnd": 43.178,
+        "minimumSetback": 0
+      },
+      "photo": {
+        "camera": [
+          -2180.503,
+          37.814,
+          -1373.84
+        ],
+        "headingDeg": 283.7,
+        "pitchDeg": 12.3,
+        "fovDeg": 66.1,
+        "imageId": "corrected-491",
+        "confidence": 0.741,
+        "date": "2023-04",
+        "distanceMetres": 43.18
+      }
+    },
+    {
+      "id": 1669,
+      "bounds": [
+        -2273.89,
+        -1370.74,
+        -2241.23,
+        -1334.35
+      ],
+      "ground": 38.73,
+      "roof": 72.66,
+      "sourceBase": 33.46,
+      "height": 33.93,
+      "center": [
+        -2257.56,
+        -1352.545
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89889036,
+      "lon": 35.48419354,
+      "distance": 28.574,
+      "station": 52.473,
+      "side": "left",
+      "nearestPoint": [
+        -2252.479,
+        -1380.663
+      ],
+      "roadDirection": [
+        -0.984,
+        -0.178
+      ],
+      "roadId": "way/699482717",
+      "segmentIndex": 1,
+      "frontage": {
+        "sampleCount": 19,
+        "stationStart": 37.224,
+        "stationEnd": 71.143,
+        "minimumSetback": 8.043
+      },
+      "photo": {
+        "camera": [
+          -2180.503,
+          37.814,
+          -1373.84
+        ],
+        "headingDeg": 250.8,
+        "pitchDeg": -5,
+        "fovDeg": 90,
+        "imageId": "legacy-13807",
+        "confidence": 0.622,
+        "date": "2023-04",
+        "distanceMetres": 79.95
+      }
+    },
+    {
+      "id": 2101,
+      "bounds": [
+        -2305.17,
+        -1362.54,
+        -2274.81,
+        -1339.8
+      ],
+      "ground": 40.44,
+      "roof": 131.46,
+      "sourceBase": 35.26,
+      "height": 91.02,
+      "center": [
+        -2289.99,
+        -1351.17
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89887817,
+      "lon": 35.48384232,
+      "distance": 35.694,
+      "station": 84.142,
+      "side": "left",
+      "nearestPoint": [
+        -2283.642,
+        -1386.295
+      ],
+      "roadDirection": [
+        -0.984,
+        -0.178
+      ],
+      "roadId": "way/699482717",
+      "segmentIndex": 1,
+      "frontage": {
+        "sampleCount": 14,
+        "stationStart": 73.141,
+        "stationEnd": 99.108,
+        "minimumSetback": 22.152
+      },
+      "photo": null
+    },
+    {
+      "id": 597,
+      "bounds": [
+        -2325.4,
+        -1428.66,
+        -2254.08,
+        -1385.3
+      ],
+      "ground": 37.01,
+      "roof": 54,
+      "sourceBase": 31.9,
+      "height": 16.99,
+      "center": [
+        -2289.74,
+        -1406.98
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89937992,
+      "lon": 35.48384539,
+      "distance": 19.271,
+      "station": 93.821,
+      "side": "right",
+      "nearestPoint": [
+        -2293.167,
+        -1388.016
+      ],
+      "roadDirection": [
+        -0.984,
+        -0.178
+      ],
+      "roadId": "way/699482717",
+      "segmentIndex": 1,
+      "frontage": {
+        "sampleCount": 39,
+        "stationStart": 55.163,
+        "stationEnd": 131.068,
+        "minimumSetback": 0
+      },
+      "photo": null
+    },
+    {
+      "id": 1379,
+      "bounds": [
+        -2322.62,
+        -1374.89,
+        -2303.97,
+        -1361.67
+      ],
+      "ground": 39.7,
+      "roof": 68.01,
+      "sourceBase": 34.51,
+      "height": 28.31,
+      "center": [
+        -2313.295,
+        -1368.28
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89903212,
+      "lon": 35.48359004,
+      "distance": 23.001,
+      "station": 110.118,
+      "side": "left",
+      "nearestPoint": [
+        -2309.205,
+        -1390.915
+      ],
+      "roadDirection": [
+        -0.984,
+        -0.178
+      ],
+      "roadId": "way/699482717",
+      "segmentIndex": 1,
+      "frontage": {
+        "sampleCount": 10,
+        "stationStart": 101.106,
+        "stationEnd": 119.083,
+        "minimumSetback": 15.017
+      },
+      "photo": null
+    },
+    {
+      "id": 1488,
+      "bounds": [
+        -2348.26,
+        -1381.93,
+        -2324.39,
+        -1367.95
+      ],
+      "ground": 39.98,
+      "roof": 68.28,
+      "sourceBase": 34.78,
+      "height": 28.3,
+      "center": [
+        -2336.325,
+        -1374.94
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89909212,
+      "lon": 35.48334067,
+      "distance": 20.543,
+      "station": 133.965,
+      "side": "left",
+      "nearestPoint": [
+        -2332.672,
+        -1395.155
+      ],
+      "roadDirection": [
+        -0.984,
+        -0.178
+      ],
+      "roadId": "way/699482717",
+      "segmentIndex": 1,
+      "frontage": {
+        "sampleCount": 13,
+        "stationStart": 121.081,
+        "stationEnd": 145.051,
+        "minimumSetback": 11.833
+      },
+      "photo": {
+        "camera": [
+          -2330.463,
+          42.322,
+          -1391.324
+        ],
+        "headingDeg": 199.7,
+        "pitchDeg": 27.9,
+        "fovDeg": 110,
+        "imageId": "corrected-1488",
+        "confidence": 0.788,
+        "date": "2023-04",
+        "distanceMetres": 17.4
+      }
+    },
+    {
+      "id": 641,
+      "bounds": [
+        -2355.44,
+        -1370.92,
+        -2337.06,
+        -1323.81
+      ],
+      "ground": 41.82,
+      "roof": 58.76,
+      "sourceBase": 36.66,
+      "height": 16.94,
+      "center": [
+        -2346.25,
+        -1347.365
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89884427,
+      "lon": 35.48323301,
+      "distance": 49.443,
+      "station": 138.829,
+      "side": "left",
+      "nearestPoint": [
+        -2337.457,
+        -1396.02
+      ],
+      "roadDirection": [
+        -0.984,
+        -0.178
+      ],
+      "roadId": "way/699482717",
+      "segmentIndex": 1,
+      "frontage": {
+        "sampleCount": 3,
+        "stationStart": 147.048,
+        "stationEnd": 151.044,
+        "minimumSetback": 26.992
+      },
+      "photo": {
+        "camera": [
+          -2413.743,
+          49.055,
+          -1308.226
+        ],
+        "headingDeg": 59.9,
+        "pitchDeg": 1,
+        "fovDeg": 49.2,
+        "imageId": "corrected-641",
+        "confidence": 0.678,
+        "date": "2023-04",
+        "distanceMetres": 78.02
+      }
+    },
+    {
+      "id": 87,
+      "bounds": [
+        -2380.46,
+        -1437.93,
+        -2337.6,
+        -1411.43
+      ],
+      "ground": 36.95,
+      "roof": 42.37,
+      "sourceBase": 31.67,
+      "height": 5.42,
+      "center": [
+        -2359.03,
+        -1424.68
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89953942,
+      "lon": 35.4830951,
+      "distance": 24.367,
+      "station": 165.154,
+      "side": "right",
+      "nearestPoint": [
+        -2363.363,
+        -1400.702
+      ],
+      "roadDirection": [
+        -0.984,
+        -0.178
+      ],
+      "roadId": "way/699482717",
+      "segmentIndex": 1,
+      "frontage": {
+        "sampleCount": 24,
+        "stationStart": 143.053,
+        "stationEnd": 186.81,
+        "minimumSetback": 7.763
+      },
+      "photo": {
+        "camera": [
+          -2394.91,
+          38.477,
+          -1453.317
+        ],
+        "headingDeg": 128.6,
+        "pitchDeg": 2.7,
+        "fovDeg": 76.7,
+        "imageId": "corrected-87",
+        "confidence": 0.737,
+        "date": "2017-10",
+        "distanceMetres": 45.91
+      }
+    },
+    {
+      "id": 107,
+      "bounds": [
+        -2404.3,
+        -1337.84,
+        -2362.02,
+        -1317.59
+      ],
+      "ground": 44.32,
+      "roof": 49.82,
+      "sourceBase": 39.12,
+      "height": 5.5,
+      "center": [
+        -2383.16,
+        -1327.715
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89866781,
+      "lon": 35.48283315,
+      "distance": 75.344,
+      "station": 171.656,
+      "side": "left",
+      "nearestPoint": [
+        -2369.761,
+        -1401.858
+      ],
+      "roadDirection": [
+        -0.984,
+        -0.178
+      ],
+      "roadId": "way/699482717",
+      "segmentIndex": 1,
+      "frontage": {
+        "sampleCount": 1,
+        "stationStart": 153.041,
+        "stationEnd": 153.041,
+        "minimumSetback": 61.691
+      },
+      "photo": {
+        "camera": [
+          -2413.743,
+          49.055,
+          -1308.226
+        ],
+        "headingDeg": 57.5,
+        "pitchDeg": -6.3,
+        "fovDeg": 91.6,
+        "imageId": "corrected-107",
+        "confidence": 0.742,
+        "date": "2023-04",
+        "distanceMetres": 36.26
+      }
+    },
+    {
+      "id": 360,
+      "bounds": [
+        -2410.55,
+        -1394.51,
+        -2356.13,
+        -1378.17
+      ],
+      "ground": 40.88,
+      "roof": 52.08,
+      "sourceBase": 35.68,
+      "height": 11.2,
+      "center": [
+        -2383.34,
+        -1386.34
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89919486,
+      "lon": 35.48283158,
+      "distance": 17.617,
+      "station": 182.389,
+      "side": "left",
+      "nearestPoint": [
+        -2380.335,
+        -1403.699
+      ],
+      "roadDirection": [
+        -0.985,
+        -0.171
+      ],
+      "roadId": "way/199994414",
+      "segmentIndex": 2,
+      "frontage": {
+        "sampleCount": 29,
+        "stationStart": 155.039,
+        "stationEnd": 208.486,
+        "minimumSetback": 4.825
+      },
+      "photo": {
+        "camera": [
+          -2394.91,
+          38.477,
+          -1453.317
+        ],
+        "headingDeg": 167,
+        "pitchDeg": -5,
+        "fovDeg": 90,
+        "imageId": "legacy-14774",
+        "confidence": 0.643,
+        "date": "2017-10",
+        "distanceMetres": 67.97
+      }
+    },
+    {
+      "id": 839,
+      "bounds": [
+        -2425.1,
+        -1394.78,
+        -2409.48,
+        -1366.94
+      ],
+      "ground": 42.07,
+      "roof": 61.82,
+      "sourceBase": 36.87,
+      "height": 19.75,
+      "center": [
+        -2417.29,
+        -1380.86
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89914578,
+      "lon": 35.48246387,
+      "distance": 28.807,
+      "station": 214.906,
+      "side": "left",
+      "nearestPoint": [
+        -2412.376,
+        -1409.245
+      ],
+      "roadDirection": [
+        -0.985,
+        -0.171
+      ],
+      "roadId": "way/199994414",
+      "segmentIndex": 2,
+      "frontage": {
+        "sampleCount": 8,
+        "stationStart": 210.456,
+        "stationEnd": 224.25,
+        "minimumSetback": 13.91
+      },
+      "photo": {
+        "camera": [
+          -2412.536,
+          44.497,
+          -1406.318
+        ],
+        "headingDeg": 183.3,
+        "pitchDeg": -5,
+        "fovDeg": 90,
+        "imageId": "legacy-14905",
+        "confidence": 0.654,
+        "date": "2023-04",
+        "distanceMetres": 25.9
+      }
+    },
+    {
+      "id": 595,
+      "bounds": [
+        -2455.33,
+        -1485.44,
+        -2397.4,
+        -1452.45
+      ],
+      "ground": 36.17,
+      "roof": 53.09,
+      "sourceBase": 30.99,
+      "height": 16.92,
+      "center": [
+        -2426.365,
+        -1468.945
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89993773,
+      "lon": 35.48236616,
+      "distance": 56.439,
+      "station": 238.873,
+      "side": "right",
+      "nearestPoint": [
+        -2435.992,
+        -1413.333
+      ],
+      "roadDirection": [
+        -0.985,
+        -0.171
+      ],
+      "roadId": "way/199994414",
+      "segmentIndex": 2,
+      "frontage": {
+        "sampleCount": 28,
+        "stationStart": 208.486,
+        "stationEnd": 258.599,
+        "minimumSetback": 37.939
+      },
+      "photo": {
+        "camera": [
+          -2433.128,
+          44.809,
+          -1409.839
+        ],
+        "headingDeg": 346.1,
+        "pitchDeg": -5,
+        "fovDeg": 90,
+        "imageId": "legacy-15138",
+        "confidence": 0.61,
+        "date": "2023-04",
+        "distanceMetres": 59.49
+      }
+    },
+    {
+      "id": 640,
+      "bounds": [
+        -2462.45,
+        -1400.39,
+        -2426.48,
+        -1380
+      ],
+      "ground": 42.08,
+      "roof": 58.95,
+      "sourceBase": 36.85,
+      "height": 16.87,
+      "center": [
+        -2444.465,
+        -1390.195
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89922985,
+      "lon": 35.48216963,
+      "distance": 24.075,
+      "station": 246.895,
+      "side": "left",
+      "nearestPoint": [
+        -2443.939,
+        -1414.264
+      ],
+      "roadDirection": [
+        -1,
+        -0.022
+      ],
+      "roadId": "way/199994414",
+      "segmentIndex": 3,
+      "frontage": {
+        "sampleCount": 25,
+        "stationStart": 226.221,
+        "stationEnd": 267.805,
+        "minimumSetback": 11.287
+      },
+      "photo": {
+        "camera": [
+          -2475.772,
+          44.243,
+          -1408.142
+        ],
+        "headingDeg": 119.9,
+        "pitchDeg": 17.7,
+        "fovDeg": 81.7,
+        "imageId": "corrected-640",
+        "confidence": 0.754,
+        "date": "2023-04",
+        "distanceMetres": 36.09
+      }
+    },
+    {
+      "id": 359,
+      "bounds": [
+        -2484.23,
+        -1400.98,
+        -2463.72,
+        -1378.1
+      ],
+      "ground": 42.22,
+      "roof": 53.42,
+      "sourceBase": 37.02,
+      "height": 11.2,
+      "center": [
+        -2473.975,
+        -1389.54
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89922412,
+      "lon": 35.48185003,
+      "distance": 22.43,
+      "station": 280.706,
+      "side": "left",
+      "nearestPoint": [
+        -2477.515,
+        -1411.689
+      ],
+      "roadDirection": [
+        -0.987,
+        0.158
+      ],
+      "roadId": "way/199994414",
+      "segmentIndex": 4,
+      "frontage": {
+        "sampleCount": 14,
+        "stationStart": 269.653,
+        "stationEnd": 292.426,
+        "minimumSetback": 9.488
+      },
+      "photo": null
+    },
+    {
+      "id": 639,
+      "bounds": [
+        -2487.75,
+        -1376.75,
+        -2459.92,
+        -1359.33
+      ],
+      "ground": 43.37,
+      "roof": 60.26,
+      "sourceBase": 38.16,
+      "height": 16.89,
+      "center": [
+        -2473.835,
+        -1368.04
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89903083,
+      "lon": 35.48185141,
+      "distance": 43.642,
+      "station": 286.382,
+      "side": "left",
+      "nearestPoint": [
+        -2483.1,
+        -1410.687
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 4,
+        "stationStart": 294.423,
+        "stationEnd": 300.413,
+        "minimumSetback": 32.548
+      },
+      "photo": null
+    },
+    {
+      "id": 601,
+      "bounds": [
+        -2513.09,
+        -1443.07,
+        -2471.31,
+        -1416.11
+      ],
+      "ground": 39.36,
+      "roof": 56.29,
+      "sourceBase": 34.19,
+      "height": 16.93,
+      "center": [
+        -2492.2,
+        -1429.59
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89958428,
+      "lon": 35.48165292,
+      "distance": 20.404,
+      "station": 291.262,
+      "side": "right",
+      "nearestPoint": [
+        -2487.868,
+        -1409.651
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 23,
+        "stationStart": 269.653,
+        "stationEnd": 310.398,
+        "minimumSetback": 3.597
+      },
+      "photo": {
+        "camera": [
+          -2475.772,
+          44.243,
+          -1408.142
+        ],
+        "headingDeg": 323.6,
+        "pitchDeg": -5,
+        "fovDeg": 90,
+        "imageId": "legacy-14776",
+        "confidence": 0.686,
+        "date": "2023-04",
+        "distanceMetres": 27.02
+      }
+    },
+    {
+      "id": 134,
+      "bounds": [
+        -2526.97,
+        -1395.61,
+        -2494.63,
+        -1381.72
+      ],
+      "ground": 42.61,
+      "roof": 48.1,
+      "sourceBase": 37.4,
+      "height": 5.49,
+      "center": [
+        -2510.8,
+        -1388.665
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89921645,
+      "lon": 35.48145122,
+      "distance": 15.64,
+      "station": 318.126,
+      "side": "left",
+      "nearestPoint": [
+        -2514.12,
+        -1403.948
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 16,
+        "stationStart": 302.41,
+        "stationEnd": 332.364,
+        "minimumSetback": 5.439
+      },
+      "photo": {
+        "camera": [
+          -2475.772,
+          44.243,
+          -1408.142
+        ],
+        "headingDeg": 241,
+        "pitchDeg": 2.4,
+        "fovDeg": 62.8,
+        "imageId": "corrected-134",
+        "confidence": 0.747,
+        "date": "2023-04",
+        "distanceMetres": 40.08
+      }
+    },
+    {
+      "id": 602,
+      "bounds": [
+        -2540.5,
+        -1429.54,
+        -2510.63,
+        -1414.05
+      ],
+      "ground": 40.12,
+      "roof": 56.85,
+      "sourceBase": 34.75,
+      "height": 16.73,
+      "center": [
+        -2525.565,
+        -1421.795
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89951438,
+      "lon": 35.48129153,
+      "distance": 19.87,
+      "station": 325.521,
+      "side": "right",
+      "nearestPoint": [
+        -2521.347,
+        -1402.378
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 15,
+        "stationStart": 312.395,
+        "stationEnd": 340.352,
+        "minimumSetback": 9.526
+      },
+      "photo": {
+        "camera": [
+          -2527.084,
+          44.899,
+          -1395.214
+        ],
+        "headingDeg": 3.3,
+        "pitchDeg": 9.1,
+        "fovDeg": 89.5,
+        "imageId": "corrected-602",
+        "confidence": 0.762,
+        "date": "2023-04",
+        "distanceMetres": 26.62
+      }
+    },
+    {
+      "id": 285,
+      "bounds": [
+        -2545.18,
+        -1388.25,
+        -2524.98,
+        -1370.5
+      ],
+      "ground": 42.7,
+      "roof": 51.08,
+      "sourceBase": 37.53,
+      "height": 8.38,
+      "center": [
+        -2535.08,
+        -1379.375
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89913306,
+      "lon": 35.48118821,
+      "distance": 19.563,
+      "station": 343.825,
+      "side": "left",
+      "nearestPoint": [
+        -2539.233,
+        -1398.492
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 9,
+        "stationStart": 334.361,
+        "stationEnd": 350.337,
+        "minimumSetback": 9.067
+      },
+      "photo": {
+        "camera": [
+          -2527.084,
+          44.899,
+          -1395.214
+        ],
+        "headingDeg": 206.8,
+        "pitchDeg": 11.3,
+        "fovDeg": 99.2,
+        "imageId": "corrected-285",
+        "confidence": 0.766,
+        "date": "2023-04",
+        "distanceMetres": 17.74
+      }
+    },
+    {
+      "id": 286,
+      "bounds": [
+        -2554.02,
+        -1386.63,
+        -2541.99,
+        -1369.86
+      ],
+      "ground": 42.57,
+      "roof": 50.9,
+      "sourceBase": 37.35,
+      "height": 8.33,
+      "center": [
+        -2548.005,
+        -1378.245
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89912297,
+      "lon": 35.48104822,
+      "distance": 17.924,
+      "station": 356.695,
+      "side": "left",
+      "nearestPoint": [
+        -2551.81,
+        -1395.76
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 5,
+        "stationStart": 352.334,
+        "stationEnd": 360.321,
+        "minimumSetback": 8.555
+      },
+      "photo": {
+        "camera": [
+          -2547.918,
+          44.97,
+          -1390.373
+        ],
+        "headingDeg": 180.4,
+        "pitchDeg": 12.5,
+        "fovDeg": 110,
+        "imageId": "corrected-286",
+        "confidence": 0.798,
+        "date": "2023-04",
+        "distanceMetres": 12.13
+      }
+    },
+    {
+      "id": 1258,
+      "bounds": [
+        -2569.13,
+        -1381.52,
+        -2554.01,
+        -1369.41
+      ],
+      "ground": 42.77,
+      "roof": 68.22,
+      "sourceBase": 37.57,
+      "height": 25.45,
+      "center": [
+        -2561.57,
+        -1375.465
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89909805,
+      "lon": 35.4809013,
+      "distance": 17.76,
+      "station": 370.541,
+      "side": "left",
+      "nearestPoint": [
+        -2565.34,
+        -1392.82
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 9,
+        "stationStart": 362.318,
+        "stationEnd": 378.294,
+        "minimumSetback": 10.314
+      },
+      "photo": {
+        "camera": [
+          -2527.084,
+          44.899,
+          -1395.214
+        ],
+        "headingDeg": 240.2,
+        "pitchDeg": 16.5,
+        "fovDeg": 52.9,
+        "imageId": "corrected-1258",
+        "confidence": 0.748,
+        "date": "2023-04",
+        "distanceMetres": 39.74
+      }
+    },
+    {
+      "id": 600,
+      "bounds": [
+        -2599.27,
+        -1426.11,
+        -2550.99,
+        -1392.18
+      ],
+      "ground": 39.94,
+      "roof": 56.82,
+      "sourceBase": 34.72,
+      "height": 16.88,
+      "center": [
+        -2575.13,
+        -1409.145
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89940092,
+      "lon": 35.48075466,
+      "distance": 18.031,
+      "station": 376.642,
+      "side": "right",
+      "nearestPoint": [
+        -2571.302,
+        -1391.525
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 27,
+        "stationStart": 350.337,
+        "stationEnd": 402.257,
+        "minimumSetback": 0
+      },
+      "photo": {
+        "camera": [
+          -2527.084,
+          44.899,
+          -1395.214
+        ],
+        "headingDeg": 286.2,
+        "pitchDeg": 7.2,
+        "fovDeg": 84.2,
+        "imageId": "corrected-600",
+        "confidence": 0.726,
+        "date": "2023-04",
+        "distanceMetres": 50.02
+      }
+    },
+    {
+      "id": 1953,
+      "bounds": [
+        -2595.76,
+        -1370.33,
+        -2567.99,
+        -1350.52
+      ],
+      "ground": 43.38,
+      "roof": 88.81,
+      "sourceBase": 38.21,
+      "height": 45.43,
+      "center": [
+        -2581.875,
+        -1360.425
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89896295,
+      "lon": 35.4806813,
+      "distance": 28.147,
+      "station": 393.576,
+      "side": "left",
+      "nearestPoint": [
+        -2587.851,
+        -1387.93
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 14,
+        "stationStart": 380.291,
+        "stationEnd": 406.251,
+        "minimumSetback": 15.691
+      },
+      "photo": {
+        "camera": [
+          -2586.7,
+          45.084,
+          -1381.367
+        ],
+        "headingDeg": 167.1,
+        "pitchDeg": 33.5,
+        "fovDeg": 110,
+        "imageId": "corrected-1953",
+        "confidence": 0.781,
+        "date": "2023-04",
+        "distanceMetres": 21.49
+      }
+    },
+    {
+      "id": 1872,
+      "bounds": [
+        -2608.78,
+        -1355.48,
+        -2586.27,
+        -1335.13
+      ],
+      "ground": 43.9,
+      "roof": 86.47,
+      "sourceBase": 38.72,
+      "height": 42.57,
+      "center": [
+        -2597.525,
+        -1345.305
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.8988271,
+      "lon": 35.48051171,
+      "distance": 39.6,
+      "station": 412.079,
+      "side": "left",
+      "nearestPoint": [
+        -2605.932,
+        -1384.002
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 2,
+        "stationStart": 408.248,
+        "stationEnd": 410.244,
+        "minimumSetback": 29.586
+      },
+      "photo": {
+        "camera": [
+          -2602.504,
+          47.435,
+          -1327.512
+        ],
+        "headingDeg": 15.7,
+        "pitchDeg": 27.2,
+        "fovDeg": 110,
+        "imageId": "corrected-1872",
+        "confidence": 0.786,
+        "date": "2023-04",
+        "distanceMetres": 18.48
+      }
+    },
+    {
+      "id": 592,
+      "bounds": [
+        -2633.51,
+        -1427.2,
+        -2611.38,
+        -1399.46
+      ],
+      "ground": 39.26,
+      "roof": 56.16,
+      "sourceBase": 34.06,
+      "height": 16.9,
+      "center": [
+        -2622.445,
+        -1413.33
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8994388,
+      "lon": 35.48024227,
+      "distance": 32.165,
+      "station": 421.99,
+      "side": "right",
+      "nearestPoint": [
+        -2615.616,
+        -1381.898
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 14,
+        "stationStart": 408.248,
+        "stationEnd": 434.208,
+        "minimumSetback": 16.288
+      },
+      "photo": {
+        "camera": [
+          -2638.111,
+          39.743,
+          -1432.127
+        ],
+        "headingDeg": 140.2,
+        "pitchDeg": 31.3,
+        "fovDeg": 91.5,
+        "imageId": "corrected-592",
+        "confidence": 0.776,
+        "date": "2017-10",
+        "distanceMetres": 24.47
+      }
+    },
+    {
+      "id": 591,
+      "bounds": [
+        -2647.5,
+        -1474.03,
+        -2615.32,
+        -1433.11
+      ],
+      "ground": 36.39,
+      "roof": 53.35,
+      "sourceBase": 31.25,
+      "height": 16.96,
+      "center": [
+        -2631.41,
+        -1453.57
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89980061,
+      "lon": 35.48014545,
+      "distance": 73.391,
+      "station": 422.208,
+      "side": "right",
+      "nearestPoint": [
+        -2615.829,
+        -1381.852
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 3,
+        "stationStart": 436.205,
+        "stationEnd": 440.198,
+        "minimumSetback": 55.495
+      },
+      "photo": null
+    },
+    {
+      "id": 1245,
+      "bounds": [
+        -2645.62,
+        -1372.77,
+        -2603.05,
+        -1352.89
+      ],
+      "ground": 42.81,
+      "roof": 68.26,
+      "sourceBase": 37.61,
+      "height": 25.45,
+      "center": [
+        -2624.335,
+        -1362.83
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8989848,
+      "lon": 35.48022148,
+      "distance": 16.782,
+      "station": 434.558,
+      "side": "left",
+      "nearestPoint": [
+        -2627.898,
+        -1379.23
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 23,
+        "stationStart": 412.241,
+        "stationEnd": 456.174,
+        "minimumSetback": 2.782
+      },
+      "photo": null
+    },
+    {
+      "id": 1244,
+      "bounds": [
+        -2643.18,
+        -1354.6,
+        -2610.02,
+        -1335.41
+      ],
+      "ground": 43.86,
+      "roof": 69.52,
+      "sourceBase": 38.87,
+      "height": 25.66,
+      "center": [
+        -2626.6,
+        -1345.005
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89882456,
+      "lon": 35.48019683,
+      "distance": 33.72,
+      "station": 440.555,
+      "side": "left",
+      "nearestPoint": [
+        -2633.759,
+        -1377.957
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 1,
+        "stationStart": 458.171,
+        "stationEnd": 458.171,
+        "minimumSetback": 36.706
+      },
+      "photo": null
+    },
+    {
+      "id": 593,
+      "bounds": [
+        -2698.6,
+        -1412.23,
+        -2641.55,
+        -1375.84
+      ],
+      "ground": 39.52,
+      "roof": 56.42,
+      "sourceBase": 34.32,
+      "height": 16.9,
+      "center": [
+        -2670.075,
+        -1394.035
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89926559,
+      "lon": 35.47972632,
+      "distance": 23.422,
+      "station": 472.63,
+      "side": "right",
+      "nearestPoint": [
+        -2665.103,
+        -1371.147
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 32,
+        "stationStart": 442.195,
+        "stationEnd": 504.1,
+        "minimumSetback": 0
+      },
+      "photo": null
+    },
+    {
+      "id": 1950,
+      "bounds": [
+        -2682.9,
+        -1352.3,
+        -2652.05,
+        -1329.98
+      ],
+      "ground": 43.86,
+      "roof": 89.31,
+      "sourceBase": 38.71,
+      "height": 45.45,
+      "center": [
+        -2667.475,
+        -1341.14
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89879004,
+      "lon": 35.47975414,
+      "distance": 28.819,
+      "station": 481.319,
+      "side": "left",
+      "nearestPoint": [
+        -2673.593,
+        -1369.303
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 17,
+        "stationStart": 464.162,
+        "stationEnd": 496.112,
+        "minimumSetback": 15.053
+      },
+      "photo": {
+        "camera": [
+          -2677.159,
+          45.838,
+          -1360.609
+        ],
+        "headingDeg": 153.6,
+        "pitchDeg": 33,
+        "fovDeg": 110,
+        "imageId": "corrected-1950",
+        "confidence": 0.78,
+        "date": "2023-04",
+        "distanceMetres": 21.74
+      }
+    },
+    {
+      "id": 1951,
+      "bounds": [
+        -2711.02,
+        -1335.77,
+        -2678.21,
+        -1312.68
+      ],
+      "ground": 43.58,
+      "roof": 88.91,
+      "sourceBase": 38.31,
+      "height": 45.33,
+      "center": [
+        -2694.615,
+        -1324.225
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89863811,
+      "lon": 35.4794601,
+      "distance": 39.587,
+      "station": 511.432,
+      "side": "left",
+      "nearestPoint": [
+        -2703.019,
+        -1362.91
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 13,
+        "stationStart": 498.109,
+        "stationEnd": 522.072,
+        "minimumSetback": 25.461
+      },
+      "photo": {
+        "camera": [
+          -2697.731,
+          45.63,
+          -1355.763
+        ],
+        "headingDeg": 174.4,
+        "pitchDeg": 29.6,
+        "fovDeg": 90.5,
+        "imageId": "corrected-1951",
+        "confidence": 0.762,
+        "date": "2023-04",
+        "distanceMetres": 31.69
+      }
+    },
+    {
+      "id": 594,
+      "bounds": [
+        -2749.24,
+        -1441.94,
+        -2713.4,
+        -1394.02
+      ],
+      "ground": 38.11,
+      "roof": 55.06,
+      "sourceBase": 32.96,
+      "height": 16.95,
+      "center": [
+        -2731.32,
+        -1417.98
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89948119,
+      "lon": 35.4790632,
+      "distance": 59.823,
+      "station": 527.396,
+      "side": "right",
+      "nearestPoint": [
+        -2718.62,
+        -1359.521
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 21,
+        "stationStart": 508.094,
+        "stationEnd": 548.033,
+        "minimumSetback": 32.846
+      },
+      "photo": {
+        "camera": [
+          -2707.982,
+          40.294,
+          -1427.645
+        ],
+        "headingDeg": 247.5,
+        "pitchDeg": 24,
+        "fovDeg": 110,
+        "imageId": "corrected-594",
+        "confidence": 0.774,
+        "date": "2017-10",
+        "distanceMetres": 25.26
+      }
+    },
+    {
+      "id": 888,
+      "bounds": [
+        -2733.92,
+        -1346.38,
+        -2712.26,
+        -1316.99
+      ],
+      "ground": 42.49,
+      "roof": 62.26,
+      "sourceBase": 37.31,
+      "height": 19.77,
+      "center": [
+        -2723.09,
+        -1331.685
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89870533,
+      "lon": 35.47915177,
+      "distance": 26.252,
+      "station": 537.674,
+      "side": "left",
+      "nearestPoint": [
+        -2728.663,
+        -1357.339
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 12,
+        "stationStart": 524.069,
+        "stationEnd": 546.036,
+        "minimumSetback": 9.831
+      },
+      "photo": {
+        "camera": [
+          -2723.821,
+          45.454,
+          -1350.442
+        ],
+        "headingDeg": 177.8,
+        "pitchDeg": 20.2,
+        "fovDeg": 110,
+        "imageId": "corrected-888",
+        "confidence": 0.786,
+        "date": "2023-04",
+        "distanceMetres": 18.77
+      }
+    },
+    {
+      "id": 1995,
+      "bounds": [
+        -2761.47,
+        -1336.6,
+        -2730.68,
+        -1304.22
+      ],
+      "ground": 42.97,
+      "roof": 91.18,
+      "sourceBase": 37.73,
+      "height": 48.21,
+      "center": [
+        -2746.075,
+        -1320.41
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89860409,
+      "lon": 35.47890277,
+      "distance": 32.39,
+      "station": 562.528,
+      "side": "left",
+      "nearestPoint": [
+        -2752.951,
+        -1352.062
+      ],
+      "roadDirection": [
+        -0.977,
+        0.212
+      ],
+      "roadId": "way/692521435",
+      "segmentIndex": 5,
+      "frontage": {
+        "sampleCount": 18,
+        "stationStart": 548.033,
+        "stationEnd": 579.907,
+        "minimumSetback": 13.334
+      },
+      "photo": {
+        "camera": [
+          -2767.695,
+          45.018,
+          -1325.432
+        ],
+        "headingDeg": 103.1,
+        "pitchDeg": 32.2,
+        "fovDeg": 110,
+        "imageId": "corrected-1995",
+        "confidence": 0.78,
+        "date": "2023-04",
+        "distanceMetres": 22.2
+      }
+    },
+    {
+      "id": 1352,
+      "bounds": [
+        -2796.25,
+        -1419.83,
+        -2770.74,
+        -1360.63
+      ],
+      "ground": 38.59,
+      "roof": 66.86,
+      "sourceBase": 33.36,
+      "height": 28.27,
+      "center": [
+        -2783.495,
+        -1390.23
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89923199,
+      "lon": 35.47849797,
+      "distance": 43.817,
+      "station": 584.179,
+      "side": "right",
+      "nearestPoint": [
+        -2774.101,
+        -1347.432
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 16,
+        "stationStart": 568.002,
+        "stationEnd": 595.781,
+        "minimumSetback": 12.575
+      },
+      "photo": {
+        "camera": [
+          -2756.925,
+          41.796,
+          -1390.954
+        ],
+        "headingDeg": 268.5,
+        "pitchDeg": 24,
+        "fovDeg": 110,
+        "imageId": "corrected-1352",
+        "confidence": 0.772,
+        "date": "2017-10",
+        "distanceMetres": 26.58
+      }
+    },
+    {
+      "id": 1433,
+      "bounds": [
+        -2774.4,
+        -1308.04,
+        -2755.28,
+        -1278.62
+      ],
+      "ground": 44.15,
+      "roof": 72.54,
+      "sourceBase": 39.04,
+      "height": 28.39,
+      "center": [
+        -2764.84,
+        -1293.33
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89836074,
+      "lon": 35.47869937,
+      "distance": 54.829,
+      "station": 586.732,
+      "side": "left",
+      "nearestPoint": [
+        -2776.595,
+        -1346.884
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 2,
+        "stationStart": 581.891,
+        "stationEnd": 583.876,
+        "minimumSetback": 40.396
+      },
+      "photo": null
+    },
+    {
+      "id": 17,
+      "bounds": [
+        -2797.99,
+        -1332.13,
+        -2771.06,
+        -1315.03
+      ],
+      "ground": 41.67,
+      "roof": 98.47,
+      "sourceBase": 36.47,
+      "height": 56.8,
+      "center": [
+        -2784.525,
+        -1323.58
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8986328,
+      "lon": 35.47848638,
+      "distance": 21.062,
+      "station": 599.474,
+      "side": "left",
+      "nearestPoint": [
+        -2789.041,
+        -1344.153
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 14,
+        "stationStart": 585.86,
+        "stationEnd": 611.655,
+        "minimumSetback": 10.071
+      },
+      "photo": {
+        "camera": [
+          -2784.698,
+          44.254,
+          -1340.222
+        ],
+        "headingDeg": 179.4,
+        "pitchDeg": 31.9,
+        "fovDeg": 110,
+        "imageId": "corrected-17",
+        "confidence": 0.79,
+        "date": "2023-04",
+        "distanceMetres": 16.64
+      }
+    },
+    {
+      "id": 1940,
+      "bounds": [
+        -2826.4,
+        -1319.73,
+        -2795.98,
+        -1299.3
+      ],
+      "ground": 41.68,
+      "roof": 87.08,
+      "sourceBase": 36.48,
+      "height": 45.4,
+      "center": [
+        -2811.19,
+        -1309.515
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8985065,
+      "lon": 35.47819751,
+      "distance": 29.084,
+      "station": 628.534,
+      "side": "left",
+      "nearestPoint": [
+        -2817.425,
+        -1337.922
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 16,
+        "stationStart": 613.639,
+        "stationEnd": 643.403,
+        "minimumSetback": 16.233
+      },
+      "photo": {
+        "camera": [
+          -2811.891,
+          43.519,
+          -1333.749
+        ],
+        "headingDeg": 178.4,
+        "pitchDeg": 32.3,
+        "fovDeg": 107.3,
+        "imageId": "corrected-1940",
+        "confidence": 0.776,
+        "date": "2023-04",
+        "distanceMetres": 24.24
+      }
+    },
+    {
+      "id": 1813,
+      "bounds": [
+        -2866.91,
+        -1363.31,
+        -2789.65,
+        -1332.96
+      ],
+      "ground": 39.97,
+      "roof": 79.67,
+      "sourceBase": 34.77,
+      "height": 39.7,
+      "center": [
+        -2828.28,
+        -1348.135
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89885379,
+      "lon": 35.47801268,
+      "distance": 12.302,
+      "station": 636.947,
+      "side": "right",
+      "nearestPoint": [
+        -2825.643,
+        -1336.119
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 40,
+        "stationStart": 597.765,
+        "stationEnd": 675.15,
+        "minimumSetback": 0
+      },
+      "photo": null
+    },
+    {
+      "id": 264,
+      "bounds": [
+        -2839.92,
+        -1322.2,
+        -2829.2,
+        -1311.11
+      ],
+      "ground": 40.95,
+      "roof": 49.3,
+      "sourceBase": 35.75,
+      "height": 8.35,
+      "center": [
+        -2834.56,
+        -1316.655
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89857081,
+      "lon": 35.47794447,
+      "distance": 17.099,
+      "station": 649.83,
+      "side": "left",
+      "nearestPoint": [
+        -2838.226,
+        -1333.357
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 6,
+        "stationStart": 645.387,
+        "stationEnd": 655.308,
+        "minimumSetback": 10.656
+      },
+      "photo": {
+        "camera": [
+          -2832.216,
+          43.4,
+          -1328.962
+        ],
+        "headingDeg": 190.8,
+        "pitchDeg": 10.5,
+        "fovDeg": 87.9,
+        "imageId": "corrected-264",
+        "confidence": 0.797,
+        "date": "2023-04",
+        "distanceMetres": 12.53
+      }
+    },
+    {
+      "id": 265,
+      "bounds": [
+        -2857.21,
+        -1321.89,
+        -2843.22,
+        -1312.08
+      ],
+      "ground": 40.9,
+      "roof": 49.24,
+      "sourceBase": 35.69,
+      "height": 8.34,
+      "center": [
+        -2850.215,
+        -1316.985
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89857386,
+      "lon": 35.47777493,
+      "distance": 13.421,
+      "station": 665.051,
+      "side": "left",
+      "nearestPoint": [
+        -2853.092,
+        -1330.094
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 8,
+        "stationStart": 657.292,
+        "stationEnd": 671.182,
+        "minimumSetback": 7.489
+      },
+      "photo": null
+    },
+    {
+      "id": 1383,
+      "bounds": [
+        -2873.6,
+        -1311.8,
+        -2857.07,
+        -1297.69
+      ],
+      "ground": 41.52,
+      "roof": 69.82,
+      "sourceBase": 36.32,
+      "height": 28.3,
+      "center": [
+        -2865.335,
+        -1304.745
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8984639,
+      "lon": 35.4776111,
+      "distance": 22.135,
+      "station": 682.443,
+      "side": "left",
+      "nearestPoint": [
+        -2870.08,
+        -1326.365
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 10,
+        "stationStart": 673.166,
+        "stationEnd": 691.024,
+        "minimumSetback": 13.638
+      },
+      "photo": null
+    },
+    {
+      "id": 1927,
+      "bounds": [
+        -2883.57,
+        -1344.48,
+        -2864.76,
+        -1329.26
+      ],
+      "ground": 39.73,
+      "roof": 85.11,
+      "sourceBase": 34.51,
+      "height": 45.38,
+      "center": [
+        -2874.165,
+        -1336.87
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89875276,
+      "lon": 35.47751568,
+      "distance": 11.136,
+      "station": 684.181,
+      "side": "right",
+      "nearestPoint": [
+        -2871.777,
+        -1325.993
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 10,
+        "stationStart": 677.135,
+        "stationEnd": 693.008,
+        "minimumSetback": 1.799
+      },
+      "photo": {
+        "camera": [
+          -2852.357,
+          43.562,
+          -1324.134
+        ],
+        "headingDeg": 300.3,
+        "pitchDeg": 28,
+        "fovDeg": 97.9,
+        "imageId": "corrected-1927",
+        "confidence": 0.774,
+        "date": "2023-04",
+        "distanceMetres": 25.26
+      }
+    },
+    {
+      "id": 1939,
+      "bounds": [
+        -2876.71,
+        -1260.61,
+        -2842.96,
+        -1242.02
+      ],
+      "ground": 43.92,
+      "roof": 89.32,
+      "sourceBase": 38.72,
+      "height": 45.4,
+      "center": [
+        -2859.835,
+        -1251.315
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89798353,
+      "lon": 35.47767032,
+      "distance": 75.502,
+      "station": 688.526,
+      "side": "left",
+      "nearestPoint": [
+        -2876.022,
+        -1325.061
+      ],
+      "roadDirection": [
+        -0.977,
+        0.214
+      ],
+      "roadId": "way/481214984",
+      "segmentIndex": 6,
+      "frontage": {
+        "sampleCount": 5,
+        "stationStart": 694.998,
+        "stationEnd": 702.954,
+        "minimumSetback": 62.857
+      },
+      "photo": null
+    },
+    {
+      "id": 231,
+      "bounds": [
+        -2908.16,
+        -1341.82,
+        -2883.98,
+        -1324.07
+      ],
+      "ground": 39.93,
+      "roof": 48.27,
+      "sourceBase": 34.72,
+      "height": 8.34,
+      "center": [
+        -2896.07,
+        -1332.945
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89871759,
+      "lon": 35.47727842,
+      "distance": 12.124,
+      "station": 706.305,
+      "side": "right",
+      "nearestPoint": [
+        -2893.36,
+        -1321.128
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 13,
+        "stationStart": 694.998,
+        "stationEnd": 718.868,
+        "minimumSetback": 0.882
+      },
+      "photo": null
+    },
+    {
+      "id": 1131,
+      "bounds": [
+        -2909.1,
+        -1309.38,
+        -2888.46,
+        -1293.55
+      ],
+      "ground": 41.53,
+      "roof": 66.97,
+      "sourceBase": 36.32,
+      "height": 25.44,
+      "center": [
+        -2898.78,
+        -1301.465
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8984346,
+      "lon": 35.47724887,
+      "distance": 17.954,
+      "station": 715.983,
+      "side": "left",
+      "nearestPoint": [
+        -2902.793,
+        -1318.964
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 11,
+        "stationStart": 704.943,
+        "stationEnd": 724.835,
+        "minimumSetback": 8.259
+      },
+      "photo": {
+        "camera": [
+          -2925.649,
+          43.831,
+          -1307.21
+        ],
+        "headingDeg": 102.1,
+        "pitchDeg": 23,
+        "fovDeg": 73.6,
+        "imageId": "corrected-1131",
+        "confidence": 0.77,
+        "date": "2023-04",
+        "distanceMetres": 27.48
+      }
+    },
+    {
+      "id": 214,
+      "bounds": [
+        -2909.11,
+        -1301.23,
+        -2886.49,
+        -1276.41
+      ],
+      "ground": 42.11,
+      "roof": 50.51,
+      "sourceBase": 36.96,
+      "height": 8.4,
+      "center": [
+        -2897.8,
+        -1288.82
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89832091,
+      "lon": 35.4772594,
+      "distance": 30.498,
+      "station": 717.855,
+      "side": "left",
+      "nearestPoint": [
+        -2904.617,
+        -1318.546
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 3,
+        "stationStart": 726.824,
+        "stationEnd": 730.803,
+        "minimumSetback": 19.013
+      },
+      "photo": {
+        "camera": [
+          -2871.161,
+          44.258,
+          -1292.726
+        ],
+        "headingDeg": 261.7,
+        "pitchDeg": 7,
+        "fovDeg": 88.9,
+        "imageId": "corrected-214",
+        "confidence": 0.771,
+        "date": "2023-04",
+        "distanceMetres": 26.92
+      }
+    },
+    {
+      "id": 1630,
+      "bounds": [
+        -2937.72,
+        -1348.66,
+        -2918.69,
+        -1319.67
+      ],
+      "ground": 40.07,
+      "roof": 74.09,
+      "sourceBase": 34.89,
+      "height": 34.02,
+      "center": [
+        -2928.205,
+        -1334.165
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89872873,
+      "lon": 35.47693041,
+      "distance": 20.497,
+      "station": 737.354,
+      "side": "right",
+      "nearestPoint": [
+        -2923.623,
+        -1314.187
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 11,
+        "stationStart": 726.824,
+        "stationEnd": 746.716,
+        "minimumSetback": 4.579
+      },
+      "photo": null
+    },
+    {
+      "id": 13,
+      "bounds": [
+        -2930.17,
+        -1263.2,
+        -2908.44,
+        -1235.22
+      ],
+      "ground": 43.23,
+      "roof": 100.04,
+      "sourceBase": 38.04,
+      "height": 56.81,
+      "center": [
+        -2919.305,
+        -1249.21
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89796492,
+      "lon": 35.47702625,
+      "distance": 64.298,
+      "station": 747.67,
+      "side": "left",
+      "nearestPoint": [
+        -2933.678,
+        -1311.881
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 2,
+        "stationStart": 734.781,
+        "stationEnd": 736.77,
+        "minimumSetback": 52.445
+      },
+      "photo": {
+        "camera": [
+          -2913.082,
+          46.332,
+          -1225.612
+        ],
+        "headingDeg": 345.3,
+        "pitchDeg": 31.1,
+        "fovDeg": 108.9,
+        "imageId": "corrected-13",
+        "confidence": 0.776,
+        "date": "2023-04",
+        "distanceMetres": 24.41
+      }
+    },
+    {
+      "id": 213,
+      "bounds": [
+        -2939.07,
+        -1304.75,
+        -2920.95,
+        -1282.65
+      ],
+      "ground": 41.48,
+      "roof": 49.78,
+      "sourceBase": 36.23,
+      "height": 8.3,
+      "center": [
+        -2930.01,
+        -1293.7
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89836496,
+      "lon": 35.4769106,
+      "distance": 18.541,
+      "station": 748.159,
+      "side": "left",
+      "nearestPoint": [
+        -2934.155,
+        -1311.772
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 10,
+        "stationStart": 738.759,
+        "stationEnd": 756.662,
+        "minimumSetback": 6.166
+      },
+      "photo": null
+    },
+    {
+      "id": 77,
+      "bounds": [
+        -2951.9,
+        -1301.12,
+        -2941.87,
+        -1291.57
+      ],
+      "ground": 41.2,
+      "roof": 46.7,
+      "sourceBase": 36,
+      "height": 5.5,
+      "center": [
+        -2946.885,
+        -1296.345
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89838883,
+      "lon": 35.47672787,
+      "distance": 12.191,
+      "station": 764.015,
+      "side": "left",
+      "nearestPoint": [
+        -2949.61,
+        -1308.227
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 6,
+        "stationStart": 758.651,
+        "stationEnd": 768.597,
+        "minimumSetback": 6.697
+      },
+      "photo": null
+    },
+    {
+      "id": 2055,
+      "bounds": [
+        -2975.71,
+        -1346.89,
+        -2935.15,
+        -1315.52
+      ],
+      "ground": 40.11,
+      "roof": 105.47,
+      "sourceBase": 34.92,
+      "height": 65.36,
+      "center": [
+        -2955.43,
+        -1331.205
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89870227,
+      "lon": 35.47663555,
+      "distance": 23.697,
+      "station": 764.551,
+      "side": "right",
+      "nearestPoint": [
+        -2950.133,
+        -1308.107
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 20,
+        "stationStart": 748.705,
+        "stationEnd": 786.499,
+        "minimumSetback": 3.971
+      },
+      "photo": null
+    },
+    {
+      "id": 1650,
+      "bounds": [
+        -2971.57,
+        -1295.6,
+        -2947.84,
+        -1274.87
+      ],
+      "ground": 41.36,
+      "roof": 75.36,
+      "sourceBase": 36.16,
+      "height": 34,
+      "center": [
+        -2959.705,
+        -1285.235
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89828901,
+      "lon": 35.47658895,
+      "distance": 20.154,
+      "station": 778.994,
+      "side": "left",
+      "nearestPoint": [
+        -2964.21,
+        -1304.879
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 11,
+        "stationStart": 770.586,
+        "stationEnd": 790.478,
+        "minimumSetback": 7.798
+      },
+      "photo": null
+    },
+    {
+      "id": 1740,
+      "bounds": [
+        -2992.06,
+        -1320.25,
+        -2979,
+        -1306.87
+      ],
+      "ground": 40.51,
+      "roof": 77.36,
+      "sourceBase": 35.31,
+      "height": 36.85,
+      "center": [
+        -2985.53,
+        -1313.56
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8985438,
+      "lon": 35.47630946,
+      "distance": 13.228,
+      "station": 797.834,
+      "side": "right",
+      "nearestPoint": [
+        -2982.573,
+        -1300.667
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 8,
+        "stationStart": 790.478,
+        "stationEnd": 804.402,
+        "minimumSetback": 5.589
+      },
+      "photo": {
+        "camera": [
+          -2976.177,
+          43.749,
+          -1293.659
+        ],
+        "headingDeg": 334.9,
+        "pitchDeg": 27,
+        "fovDeg": 91,
+        "imageId": "corrected-1740",
+        "confidence": 0.78,
+        "date": "2023-04",
+        "distanceMetres": 21.99
+      }
+    },
+    {
+      "id": 1921,
+      "bounds": [
+        -2989.98,
+        -1279.53,
+        -2964.09,
+        -1259.07
+      ],
+      "ground": 41.7,
+      "roof": 87.1,
+      "sourceBase": 36.5,
+      "height": 45.4,
+      "center": [
+        -2977.035,
+        -1269.3
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89814585,
+      "lon": 35.47640117,
+      "distance": 31.811,
+      "station": 799.448,
+      "side": "left",
+      "nearestPoint": [
+        -2984.146,
+        -1300.306
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 10,
+        "stationStart": 792.467,
+        "stationEnd": 810.37,
+        "minimumSetback": 19.267
+      },
+      "photo": {
+        "camera": [
+          -2976.177,
+          43.749,
+          -1293.659
+        ],
+        "headingDeg": 182.1,
+        "pitchDeg": 31.8,
+        "fovDeg": 97.1,
+        "imageId": "corrected-1921",
+        "confidence": 0.776,
+        "date": "2023-04",
+        "distanceMetres": 24.37
+      }
+    },
+    {
+      "id": 1554,
+      "bounds": [
+        -3026.76,
+        -1325.62,
+        -2994.11,
+        -1296.83
+      ],
+      "ground": 40.36,
+      "roof": 71.52,
+      "sourceBase": 35.17,
+      "height": 31.16,
+      "center": [
+        -3010.435,
+        -1311.225
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89852294,
+      "lon": 35.47603972,
+      "distance": 16.519,
+      "station": 822.631,
+      "side": "right",
+      "nearestPoint": [
+        -3006.742,
+        -1295.124
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 18,
+        "stationStart": 806.391,
+        "stationEnd": 840.207,
+        "minimumSetback": 0
+      },
+      "photo": {
+        "camera": [
+          -3006.296,
+          43.208,
+          -1287.84
+        ],
+        "headingDeg": 350,
+        "pitchDeg": 27.4,
+        "fovDeg": 110,
+        "imageId": "corrected-1554",
+        "confidence": 0.777,
+        "date": "2023-04",
+        "distanceMetres": 23.75
+      }
+    },
+    {
+      "id": 2063,
+      "bounds": [
+        -3025.62,
+        -1271.29,
+        -2984.92,
+        -1239.02
+      ],
+      "ground": 41.42,
+      "roof": 112.47,
+      "sourceBase": 36.22,
+      "height": 71.05,
+      "center": [
+        -3005.27,
+        -1255.155
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89801883,
+      "lon": 35.4760953,
+      "distance": 39.287,
+      "station": 830.131,
+      "side": "left",
+      "nearestPoint": [
+        -3014.052,
+        -1293.448
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 18,
+        "stationStart": 812.359,
+        "stationEnd": 846.175,
+        "minimumSetback": 19.053
+      },
+      "photo": {
+        "camera": [
+          -3006.18,
+          44.436,
+          -1222.675
+        ],
+        "headingDeg": 1.6,
+        "pitchDeg": 33,
+        "fovDeg": 110,
+        "imageId": "corrected-2063",
+        "confidence": 0.761,
+        "date": "2023-04",
+        "distanceMetres": 32.49
+      }
+    },
+    {
+      "id": 558,
+      "bounds": [
+        -3041.04,
+        -1318.9,
+        -3026.45,
+        -1295.01
+      ],
+      "ground": 39.93,
+      "roof": 56.88,
+      "sourceBase": 34.78,
+      "height": 16.95,
+      "center": [
+        -3033.745,
+        -1306.955
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89848468,
+      "lon": 35.47578725,
+      "distance": 17.568,
+      "station": 846.306,
+      "side": "right",
+      "nearestPoint": [
+        -3029.818,
+        -1289.832
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 7,
+        "stationStart": 842.196,
+        "stationEnd": 854.131,
+        "minimumSetback": 4.37
+      },
+      "photo": {
+        "camera": [
+          -3025.773,
+          42.897,
+          -1284.081
+        ],
+        "headingDeg": 340.8,
+        "pitchDeg": 18,
+        "fovDeg": 82.4,
+        "imageId": "corrected-558",
+        "confidence": 0.776,
+        "date": "2023-04",
+        "distanceMetres": 24.22
+      }
+    },
+    {
+      "id": 333,
+      "bounds": [
+        -3049.53,
+        -1280.2,
+        -3029,
+        -1260.84
+      ],
+      "ground": 40.65,
+      "roof": 51.83,
+      "sourceBase": 35.43,
+      "height": 11.18,
+      "center": [
+        -3039.265,
+        -1270.52
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89815715,
+      "lon": 35.47572723,
+      "distance": 16.711,
+      "station": 859.831,
+      "side": "left",
+      "nearestPoint": [
+        -3043.001,
+        -1286.809
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 12,
+        "stationStart": 848.164,
+        "stationEnd": 870.045,
+        "minimumSetback": 5.35
+      },
+      "photo": null
+    },
+    {
+      "id": 207,
+      "bounds": [
+        -3062.99,
+        -1304.52,
+        -3049.99,
+        -1289.65
+      ],
+      "ground": 39.65,
+      "roof": 47.98,
+      "sourceBase": 34.43,
+      "height": 8.33,
+      "center": [
+        -3056.49,
+        -1297.085
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89839607,
+      "lon": 35.47554086,
+      "distance": 13.032,
+      "station": 870.681,
+      "side": "right",
+      "nearestPoint": [
+        -3053.577,
+        -1284.383
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 8,
+        "stationStart": 864.077,
+        "stationEnd": 878.001,
+        "minimumSetback": 4.345
+      },
+      "photo": null
+    },
+    {
+      "id": 10,
+      "bounds": [
+        -3079.69,
+        -1353.88,
+        -3055.64,
+        -1327.49
+      ],
+      "ground": 36.99,
+      "roof": 93.79,
+      "sourceBase": 31.79,
+      "height": 56.8,
+      "center": [
+        -3067.665,
+        -1340.685
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8987881,
+      "lon": 35.47542012,
+      "distance": 58.027,
+      "station": 871.827,
+      "side": "right",
+      "nearestPoint": [
+        -3054.694,
+        -1284.127
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 7,
+        "stationStart": 858.11,
+        "stationEnd": 885.958,
+        "minimumSetback": 46.361
+      },
+      "photo": {
+        "camera": [
+          -3046.323,
+          42.902,
+          -1279.2
+        ],
+        "headingDeg": 340.9,
+        "pitchDeg": 19.1,
+        "fovDeg": 63.5,
+        "imageId": "corrected-10",
+        "confidence": 0.702,
+        "date": "2023-04",
+        "distanceMetres": 65.08
+      }
+    },
+    {
+      "id": 1338,
+      "bounds": [
+        -3062.42,
+        -1272.17,
+        -3050.8,
+        -1259.91
+      ],
+      "ground": 40.38,
+      "roof": 68.66,
+      "sourceBase": 35.16,
+      "height": 28.28,
+      "center": [
+        -3056.61,
+        -1266.04
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89811697,
+      "lon": 35.47553936,
+      "distance": 17.201,
+      "station": 877.738,
+      "side": "left",
+      "nearestPoint": [
+        -3060.455,
+        -1282.805
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 7,
+        "stationStart": 872.034,
+        "stationEnd": 883.969,
+        "minimumSetback": 9.939
+      },
+      "photo": null
+    },
+    {
+      "id": 331,
+      "bounds": [
+        -3084.5,
+        -1261.51,
+        -3058.78,
+        -1248.03
+      ],
+      "ground": 40.16,
+      "roof": 51.39,
+      "sourceBase": 34.99,
+      "height": 11.23,
+      "center": [
+        -3071.64,
+        -1254.77
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89801573,
+      "lon": 35.47537651,
+      "distance": 24.826,
+      "station": 894.907,
+      "side": "left",
+      "nearestPoint": [
+        -3077.19,
+        -1278.967
+      ],
+      "roadDirection": [
+        -0.975,
+        0.224
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 7,
+      "frontage": {
+        "sampleCount": 12,
+        "stationStart": 885.958,
+        "stationEnd": 905.828,
+        "minimumSetback": 15.953
+      },
+      "photo": null
+    },
+    {
+      "id": 56,
+      "bounds": [
+        -3091.6,
+        -1323.4,
+        -3085.4,
+        -1310.57
+      ],
+      "ground": 37.43,
+      "roof": 42.93,
+      "sourceBase": 32.23,
+      "height": 5.5,
+      "center": [
+        -3088.5,
+        -1316.985
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89857515,
+      "lon": 35.47519433,
+      "distance": 39.575,
+      "station": 898.839,
+      "side": "right",
+      "nearestPoint": [
+        -3081.029,
+        -1278.121
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 1,
+        "stationStart": 893.915,
+        "stationEnd": 893.915,
+        "minimumSetback": 41.056
+      },
+      "photo": null
+    },
+    {
+      "id": 206,
+      "bounds": [
+        -3095.82,
+        -1302.71,
+        -3082.4,
+        -1288.83
+      ],
+      "ground": 38.63,
+      "roof": 46.97,
+      "sourceBase": 33.42,
+      "height": 8.34,
+      "center": [
+        -3089.11,
+        -1295.77
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89838442,
+      "lon": 35.47518758,
+      "distance": 18.857,
+      "station": 903.443,
+      "side": "right",
+      "nearestPoint": [
+        -3085.55,
+        -1277.252
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 9,
+        "stationStart": 895.904,
+        "stationEnd": 909.795,
+        "minimumSetback": 10.803
+      },
+      "photo": null
+    },
+    {
+      "id": 76,
+      "bounds": [
+        -3092.58,
+        -1250.32,
+        -3079.48,
+        -1240.83
+      ],
+      "ground": 39.78,
+      "roof": 45.27,
+      "sourceBase": 34.57,
+      "height": 5.49,
+      "center": [
+        -3086.03,
+        -1245.575
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89793314,
+      "lon": 35.47522061,
+      "distance": 31.017,
+      "station": 909.895,
+      "side": "left",
+      "nearestPoint": [
+        -3091.886,
+        -1276.034
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 5,
+        "stationStart": 907.811,
+        "stationEnd": 915.746,
+        "minimumSetback": 25.442
+      },
+      "photo": {
+        "camera": [
+          -3097.507,
+          41.894,
+          -1238.284
+        ],
+        "headingDeg": 57.6,
+        "pitchDeg": 5.1,
+        "fovDeg": 82.6,
+        "imageId": "corrected-76",
+        "confidence": 0.795,
+        "date": "2023-04",
+        "distanceMetres": 13.6
+      }
+    },
+    {
+      "id": 54,
+      "bounds": [
+        -3110.69,
+        -1327.34,
+        -3100.14,
+        -1297.4
+      ],
+      "ground": 37.34,
+      "roof": 42.94,
+      "sourceBase": 32.24,
+      "height": 5.6,
+      "center": [
+        -3105.415,
+        -1312.37
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89853375,
+      "lon": 35.47501111,
+      "distance": 38.237,
+      "station": 916.321,
+      "side": "right",
+      "nearestPoint": [
+        -3098.196,
+        -1274.821
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 7,
+        "stationStart": 911.778,
+        "stationEnd": 923.68,
+        "minimumSetback": 22.882
+      },
+      "photo": null
+    },
+    {
+      "id": 2062,
+      "bounds": [
+        -3131.05,
+        -1359.54,
+        -3112.41,
+        -1334.5
+      ],
+      "ground": 34.46,
+      "roof": 105.51,
+      "sourceBase": 29.26,
+      "height": 71.05,
+      "center": [
+        -3121.73,
+        -1347.02
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89884535,
+      "lon": 35.47483464,
+      "distance": 75.344,
+      "station": 925.801,
+      "side": "right",
+      "nearestPoint": [
+        -3107.506,
+        -1273.031
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 6,
+        "stationStart": 925.664,
+        "stationEnd": 935.582,
+        "minimumSetback": 62.568
+      },
+      "photo": {
+        "camera": [
+          -3129.211,
+          34.275,
+          -1365.592
+        ],
+        "headingDeg": 158.1,
+        "pitchDeg": 43.2,
+        "fovDeg": 108.5,
+        "imageId": "corrected-2062",
+        "confidence": 0.784,
+        "date": "2023-04",
+        "distanceMetres": 20.02
+      }
+    },
+    {
+      "id": 329,
+      "bounds": [
+        -3113.38,
+        -1217.39,
+        -3094.12,
+        -1197.58
+      ],
+      "ground": 38.64,
+      "roof": 49.8,
+      "sourceBase": 33.4,
+      "height": 11.16,
+      "center": [
+        -3103.75,
+        -1207.485
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.8975908,
+      "lon": 35.47502846,
+      "distance": 65.077,
+      "station": 934.487,
+      "side": "left",
+      "nearestPoint": [
+        -3116.036,
+        -1271.391
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 2,
+        "stationStart": 923.68,
+        "stationEnd": 925.664,
+        "minimumSetback": 56.687
+      },
+      "photo": {
+        "camera": [
+          -3097.1,
+          41.835,
+          -1230.46
+        ],
+        "headingDeg": 196.2,
+        "pitchDeg": 8.6,
+        "fovDeg": 82.2,
+        "imageId": "corrected-329",
+        "confidence": 0.777,
+        "date": "2023-04",
+        "distanceMetres": 23.92
+      }
+    },
+    {
+      "id": 1742,
+      "bounds": [
+        -3128.69,
+        -1262.21,
+        -3105.6,
+        -1243.96
+      ],
+      "ground": 37.62,
+      "roof": 74.48,
+      "sourceBase": 32.43,
+      "height": 36.86,
+      "center": [
+        -3117.145,
+        -1253.085
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89800083,
+      "lon": 35.47488369,
+      "distance": 17.768,
+      "station": 939.032,
+      "side": "left",
+      "nearestPoint": [
+        -3120.499,
+        -1270.533
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 13,
+        "stationStart": 927.648,
+        "stationEnd": 951.451,
+        "minimumSetback": 6.851
+      },
+      "photo": {
+        "camera": [
+          -3097.507,
+          41.894,
+          -1238.284
+        ],
+        "headingDeg": 307,
+        "pitchDeg": 24.9,
+        "fovDeg": 107.6,
+        "imageId": "corrected-1742",
+        "confidence": 0.775,
+        "date": "2023-04",
+        "distanceMetres": 24.59
+      }
+    },
+    {
+      "id": 988,
+      "bounds": [
+        -3152.94,
+        -1331.56,
+        -3138.06,
+        -1300.58
+      ],
+      "ground": 36.21,
+      "roof": 58.81,
+      "sourceBase": 31.01,
+      "height": 22.6,
+      "center": [
+        -3145.5,
+        -1316.07
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89856723,
+      "lon": 35.47457702,
+      "distance": 49.438,
+      "station": 954.986,
+      "side": "right",
+      "nearestPoint": [
+        -3136.167,
+        -1267.521
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 1,
+        "stationStart": 945.5,
+        "stationEnd": 945.5,
+        "minimumSetback": 59.373
+      },
+      "photo": null
+    },
+    {
+      "id": 1115,
+      "bounds": [
+        -3150.81,
+        -1297.26,
+        -3133.67,
+        -1269.59
+      ],
+      "ground": 37.4,
+      "roof": 62.84,
+      "sourceBase": 32.19,
+      "height": 25.44,
+      "center": [
+        -3142.24,
+        -1283.425
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89827372,
+      "lon": 35.47461211,
+      "distance": 16.764,
+      "station": 957.948,
+      "side": "right",
+      "nearestPoint": [
+        -3139.075,
+        -1266.962
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 11,
+        "stationStart": 947.484,
+        "stationEnd": 967.32,
+        "minimumSetback": 1.808
+      },
+      "photo": null
+    },
+    {
+      "id": 1319,
+      "bounds": [
+        -3157.66,
+        -1257.85,
+        -3131.77,
+        -1238.94
+      ],
+      "ground": 36.98,
+      "roof": 65.28,
+      "sourceBase": 31.78,
+      "height": 28.3,
+      "center": [
+        -3144.715,
+        -1248.395
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89795881,
+      "lon": 35.47458508,
+      "distance": 17.169,
+      "station": 966.992,
+      "side": "left",
+      "nearestPoint": [
+        -3147.956,
+        -1265.255
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 14,
+        "stationStart": 953.435,
+        "stationEnd": 979.222,
+        "minimumSetback": 5.571
+      },
+      "photo": null
+    },
+    {
+      "id": 1552,
+      "bounds": [
+        -3187.42,
+        -1354.5,
+        -3165.62,
+        -1313.06
+      ],
+      "ground": 34.31,
+      "roof": 65.5,
+      "sourceBase": 29.15,
+      "height": 31.19,
+      "center": [
+        -3176.52,
+        -1333.78
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89872661,
+      "lon": 35.47424119,
+      "distance": 72.685,
+      "station": 982.105,
+      "side": "right",
+      "nearestPoint": [
+        -3162.798,
+        -1262.402
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 2,
+        "stationStart": 973.271,
+        "stationEnd": 975.255,
+        "minimumSetback": 50.583
+      },
+      "photo": null
+    },
+    {
+      "id": 1113,
+      "bounds": [
+        -3173.91,
+        -1279.51,
+        -3162.39,
+        -1267.78
+      ],
+      "ground": 36.69,
+      "roof": 62.15,
+      "sourceBase": 31.5,
+      "height": 25.46,
+      "center": [
+        -3168.15,
+        -1273.645
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89818594,
+      "lon": 35.47433144,
+      "distance": 12.052,
+      "station": 985.239,
+      "side": "right",
+      "nearestPoint": [
+        -3165.875,
+        -1261.81
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 7,
+        "stationStart": 979.222,
+        "stationEnd": 991.124,
+        "minimumSetback": 5.304
+      },
+      "photo": null
+    },
+    {
+      "id": 1314,
+      "bounds": [
+        -3180.5,
+        -1305.57,
+        -3164.5,
+        -1280.16
+      ],
+      "ground": 36.12,
+      "roof": 64.41,
+      "sourceBase": 30.91,
+      "height": 28.29,
+      "center": [
+        -3172.5,
+        -1292.865
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89835876,
+      "lon": 35.47428446,
+      "distance": 31.747,
+      "station": 985.882,
+      "side": "right",
+      "nearestPoint": [
+        -3166.506,
+        -1261.689
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 1,
+        "stationStart": 977.238,
+        "stationEnd": 977.238,
+        "minimumSetback": 34.332
+      },
+      "photo": null
+    },
+    {
+      "id": 1318,
+      "bounds": [
+        -3171.93,
+        -1250.73,
+        -3155.11,
+        -1234.7
+      ],
+      "ground": 36.48,
+      "roof": 64.77,
+      "sourceBase": 31.27,
+      "height": 28.29,
+      "center": [
+        -3163.52,
+        -1242.715
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89790785,
+      "lon": 35.47438139,
+      "distance": 19.196,
+      "station": 986.531,
+      "side": "left",
+      "nearestPoint": [
+        -3167.144,
+        -1261.566
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 7,
+        "stationStart": 981.206,
+        "stationEnd": 993.107,
+        "minimumSetback": 9.77
+      },
+      "photo": null
+    },
+    {
+      "id": 1114,
+      "bounds": [
+        -3195.53,
+        -1279.49,
+        -3174.21,
+        -1259.25
+      ],
+      "ground": 36.14,
+      "roof": 61.77,
+      "sourceBase": 31.12,
+      "height": 25.63,
+      "center": [
+        -3184.87,
+        -1269.37
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8981476,
+      "lon": 35.47415034,
+      "distance": 11.01,
+      "station": 1002.465,
+      "side": "right",
+      "nearestPoint": [
+        -3182.791,
+        -1258.558
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 11,
+        "stationStart": 993.107,
+        "stationEnd": 1012.944,
+        "minimumSetback": 0
+      },
+      "photo": null
+    },
+    {
+      "id": 1317,
+      "bounds": [
+        -3196.81,
+        -1247.43,
+        -3171.45,
+        -1226.23
+      ],
+      "ground": 35.91,
+      "roof": 64.21,
+      "sourceBase": 30.71,
+      "height": 28.3,
+      "center": [
+        -3184.13,
+        -1236.83
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89785505,
+      "lon": 35.47415814,
+      "distance": 21.084,
+      "station": 1007.881,
+      "side": "left",
+      "nearestPoint": [
+        -3188.111,
+        -1257.535
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 14,
+        "stationStart": 995.091,
+        "stationEnd": 1020.878,
+        "minimumSetback": 8.554
+      },
+      "photo": null
+    },
+    {
+      "id": 2113,
+      "bounds": [
+        -3230.66,
+        -1286.27,
+        -3194.07,
+        -1258.16
+      ],
+      "ground": 35.42,
+      "roof": 137.79,
+      "sourceBase": 30.19,
+      "height": 102.37,
+      "center": [
+        -3212.365,
+        -1272.215
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89817332,
+      "lon": 35.47385259,
+      "distance": 18.995,
+      "station": 1028.928,
+      "side": "right",
+      "nearestPoint": [
+        -3208.779,
+        -1253.562
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 18,
+        "stationStart": 1014.927,
+        "stationEnd": 1048.649,
+        "minimumSetback": 1.991
+      },
+      "photo": {
+        "camera": [
+          -3212.319,
+          34.059,
+          -1328.004
+        ],
+        "headingDeg": 180.1,
+        "pitchDeg": 35,
+        "fovDeg": 78.2,
+        "imageId": "corrected-2113",
+        "confidence": 0.719,
+        "date": "2023-04",
+        "distanceMetres": 55.79
+      }
+    },
+    {
+      "id": 1639,
+      "bounds": [
+        -3216.11,
+        -1242.52,
+        -3198.93,
+        -1224.26
+      ],
+      "ground": 35.71,
+      "roof": 69.71,
+      "sourceBase": 30.51,
+      "height": 34,
+      "center": [
+        -3207.52,
+        -1233.39
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89782425,
+      "lon": 35.47390481,
+      "distance": 20.047,
+      "station": 1031.5,
+      "side": "left",
+      "nearestPoint": [
+        -3211.305,
+        -1253.076
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 10,
+        "stationStart": 1022.862,
+        "stationEnd": 1040.714,
+        "minimumSetback": 9.741
+      },
+      "photo": null
+    },
+    {
+      "id": 1638,
+      "bounds": [
+        -3241.92,
+        -1238.58,
+        -3219.5,
+        -1218.97
+      ],
+      "ground": 35.25,
+      "roof": 69.33,
+      "sourceBase": 30.13,
+      "height": 34.08,
+      "center": [
+        -3230.71,
+        -1228.775
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89778289,
+      "lon": 35.47365363,
+      "distance": 20.201,
+      "station": 1055.145,
+      "side": "left",
+      "nearestPoint": [
+        -3234.524,
+        -1248.612
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 12,
+        "stationStart": 1042.698,
+        "stationEnd": 1064.518,
+        "minimumSetback": 8.796
+      },
+      "photo": null
+    },
+    {
+      "id": 1316,
+      "bounds": [
+        -3268.56,
+        -1234.3,
+        -3241.65,
+        -1213.7
+      ],
+      "ground": 34.76,
+      "roof": 63.14,
+      "sourceBase": 29.64,
+      "height": 28.38,
+      "center": [
+        -3255.105,
+        -1224
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89774009,
+      "lon": 35.47338941,
+      "distance": 20.284,
+      "station": 1080.002,
+      "side": "left",
+      "nearestPoint": [
+        -3258.934,
+        -1243.92
+      ],
+      "roadDirection": [
+        -0.982,
+        0.189
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 8,
+      "frontage": {
+        "sampleCount": 14,
+        "stationStart": 1066.502,
+        "stationEnd": 1092.289,
+        "minimumSetback": 7.815
+      },
+      "photo": {
+        "camera": [
+          -3283.024,
+          36.133,
+          -1238.308
+        ],
+        "headingDeg": 117.2,
+        "pitchDeg": 27.1,
+        "fovDeg": 76.8,
+        "imageId": "corrected-1316",
+        "confidence": 0.763,
+        "date": "2023-04",
+        "distanceMetres": 31.37
+      }
+    },
+    {
+      "id": 1555,
+      "bounds": [
+        -3295.78,
+        -1226.55,
+        -3266.59,
+        -1208.39
+      ],
+      "ground": 34.19,
+      "roof": 65.33,
+      "sourceBase": 28.98,
+      "height": 31.14,
+      "center": [
+        -3281.185,
+        -1217.47
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89768152,
+      "lon": 35.47310692,
+      "distance": 25.328,
+      "station": 1098.959,
+      "side": "left",
+      "nearestPoint": [
+        -3277.603,
+        -1242.543
+      ],
+      "roadDirection": [
+        -0.99,
+        -0.141
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 9,
+      "frontage": {
+        "sampleCount": 10,
+        "stationStart": 1092.289,
+        "stationEnd": 1109.259,
+        "minimumSetback": 15.203
+      },
+      "photo": {
+        "camera": [
+          -3283.024,
+          36.133,
+          -1238.308
+        ],
+        "headingDeg": 175,
+        "pitchDeg": 29.3,
+        "fovDeg": 110,
+        "imageId": "corrected-1555",
+        "confidence": 0.782,
+        "date": "2023-04",
+        "distanceMetres": 20.92
+      }
+    },
+    {
+      "id": 2082,
+      "bounds": [
+        -3299.41,
+        -1300.85,
+        -3252.45,
+        -1275.92
+      ],
+      "ground": 32.96,
+      "roof": 112.51,
+      "sourceBase": 27.71,
+      "height": 79.55,
+      "center": [
+        -3275.93,
+        -1288.385
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89831904,
+      "lon": 35.47316429,
+      "distance": 36.596,
+      "station": 1132.46,
+      "side": "right",
+      "nearestPoint": [
+        -3301.8,
+        -1262.5
+      ],
+      "roadDirection": [
+        -0.603,
+        -0.797
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 10,
+      "frontage": {
+        "sampleCount": 42,
+        "stationStart": 1064.518,
+        "stationEnd": 1143.954,
+        "minimumSetback": 13.133
+      },
+      "photo": {
+        "camera": [
+          -3313.931,
+          33.958,
+          -1296.465
+        ],
+        "headingDeg": 102,
+        "pitchDeg": 37.7,
+        "fovDeg": 97.5,
+        "imageId": "corrected-2082",
+        "confidence": 0.749,
+        "date": "2023-04",
+        "distanceMetres": 38.85
+      }
+    },
+    {
+      "id": 780,
+      "bounds": [
+        -3339.67,
+        -1244.94,
+        -3312.28,
+        -1223.89
+      ],
+      "ground": 31.09,
+      "roof": 50.79,
+      "sourceBase": 25.84,
+      "height": 19.7,
+      "center": [
+        -3325.975,
+        -1234.415
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8978341,
+      "lon": 35.47262196,
+      "distance": 33.105,
+      "station": 1158.581,
+      "side": "left",
+      "nearestPoint": [
+        -3326.624,
+        -1267.513
+      ],
+      "roadDirection": [
+        -1,
+        0.02
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 12,
+      "frontage": {
+        "sampleCount": 12,
+        "stationStart": 1109.259,
+        "stationEnd": 1145.916,
+        "minimumSetback": 18.995
+      },
+      "photo": null
+    },
+    {
+      "id": 787,
+      "bounds": [
+        -3361.74,
+        -1251.75,
+        -3313.66,
+        -1233.15
+      ],
+      "ground": 29.25,
+      "roof": 48.19,
+      "sourceBase": 23.24,
+      "height": 18.94,
+      "center": [
+        -3337.7,
+        -1242.45
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8979064,
+      "lon": 35.47249503,
+      "distance": 24.841,
+      "station": 1170.146,
+      "side": "left",
+      "nearestPoint": [
+        -3338.187,
+        -1267.287
+      ],
+      "roadDirection": [
+        -1,
+        0.02
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 12,
+      "frontage": {
+        "sampleCount": 35,
+        "stationStart": 1126.66,
+        "stationEnd": 1196.846,
+        "minimumSetback": 14.993
+      },
+      "photo": {
+        "camera": [
+          -3338.267,
+          31.85,
+          -1259.212
+        ],
+        "headingDeg": 178.1,
+        "pitchDeg": 23.1,
+        "fovDeg": 110,
+        "imageId": "corrected-787",
+        "confidence": 0.79,
+        "date": "2023-04",
+        "distanceMetres": 16.77
+      }
+    },
+    {
+      "id": 778,
+      "bounds": [
+        -3379.01,
+        -1230.95,
+        -3359.85,
+        -1210.88
+      ],
+      "ground": 27.68,
+      "roof": 47.51,
+      "sourceBase": 22.56,
+      "height": 19.83,
+      "center": [
+        -3369.43,
+        -1220.915
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89771297,
+      "lon": 35.47215126,
+      "distance": 43.469,
+      "station": 1211.002,
+      "side": "left",
+      "nearestPoint": [
+        -3378.671,
+        -1263.39
+      ],
+      "roadDirection": [
+        -0.977,
+        0.213
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 13,
+      "frontage": {
+        "sampleCount": 2,
+        "stationStart": 1234.774,
+        "stationEnd": 1304.779,
+        "minimumSetback": 45.729
+      },
+      "photo": null
+    },
+    {
+      "id": 1332,
+      "bounds": [
+        -3387.03,
+        -1244.64,
+        -3359.85,
+        -1230
+      ],
+      "ground": 24.24,
+      "roof": 52.53,
+      "sourceBase": 19.03,
+      "height": 28.29,
+      "center": [
+        -3373.44,
+        -1237.32
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89786048,
+      "lon": 35.47210794,
+      "distance": 26.587,
+      "station": 1211.433,
+      "side": "left",
+      "nearestPoint": [
+        -3379.092,
+        -1263.299
+      ],
+      "roadDirection": [
+        -0.977,
+        0.213
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 13,
+      "frontage": {
+        "sampleCount": 21,
+        "stationStart": 1194.964,
+        "stationEnd": 1232.856,
+        "minimumSetback": 15.127
+      },
+      "photo": {
+        "camera": [
+          -3379.326,
+          28.279,
+          -1256.001
+        ],
+        "headingDeg": 162.5,
+        "pitchDeg": 22.6,
+        "fovDeg": 110,
+        "imageId": "corrected-1332",
+        "confidence": 0.784,
+        "date": "2023-04",
+        "distanceMetres": 19.59
+      }
+    },
+    {
+      "id": 989,
+      "bounds": [
+        -3423.2,
+        -1231.85,
+        -3403.76,
+        -1210.88
+      ],
+      "ground": 24.09,
+      "roof": 46.43,
+      "sourceBase": 18.63,
+      "height": 22.34,
+      "center": [
+        -3413.48,
+        -1221.365
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89771725,
+      "lon": 35.47167421,
+      "distance": 21.254,
+      "station": 1266.61,
+      "side": "left",
+      "nearestPoint": [
+        -3427.265,
+        -1237.542
+      ],
+      "roadDirection": [
+        -0.761,
+        0.649
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 15,
+      "frontage": {
+        "sampleCount": 27,
+        "stationStart": 1250.126,
+        "stationEnd": 1293.338,
+        "minimumSetback": 6.976
+      },
+      "photo": {
+        "camera": [
+          -3425.938,
+          25.875,
+          -1232.905
+        ],
+        "headingDeg": 132.8,
+        "pitchDeg": 27.1,
+        "fovDeg": 110,
+        "imageId": "corrected-989",
+        "confidence": 0.789,
+        "date": "2023-04",
+        "distanceMetres": 16.98
+      }
+    },
+    {
+      "id": 51,
+      "bounds": [
+        -3472.61,
+        -1230.66,
+        -3456.43,
+        -1222.55
+      ],
+      "ground": 16.46,
+      "roof": 21.96,
+      "sourceBase": 11.26,
+      "height": 5.5,
+      "center": [
+        -3464.52,
+        -1226.605
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89776464,
+      "lon": 35.47112148,
+      "distance": 27.678,
+      "station": 1284.367,
+      "side": "right",
+      "nearestPoint": [
+        -3437.072,
+        -1223.042
+      ],
+      "roadDirection": [
+        -0.129,
+        0.992
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 17,
+      "frontage": {
+        "sampleCount": 2,
+        "stationStart": 1283.804,
+        "stationEnd": 1285.711,
+        "minimumSetback": 19.346
+      },
+      "photo": {
+        "camera": [
+          -3437.582,
+          24.503,
+          -1215.684
+        ],
+        "headingDeg": 292.1,
+        "pitchDeg": -14.4,
+        "fovDeg": 48,
+        "imageId": "corrected-51",
+        "confidence": 0.767,
+        "date": "2023-04",
+        "distanceMetres": 29.07
+      }
+    },
+    {
+      "id": 50,
+      "bounds": [
+        -3492.69,
+        -1225.41,
+        -3457.31,
+        -1202.82
+      ],
+      "ground": 16.53,
+      "roof": 22.33,
+      "sourceBase": 11.63,
+      "height": 5.8,
+      "center": [
+        -3475,
+        -1214.115
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89765241,
+      "lon": 35.47100791,
+      "distance": 36.463,
+      "station": 1298.102,
+      "side": "right",
+      "nearestPoint": [
+        -3438.841,
+        -1209.421
+      ],
+      "roadDirection": [
+        -0.129,
+        0.992
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 17,
+      "frontage": {
+        "sampleCount": 10,
+        "stationStart": 1287.618,
+        "stationEnd": 1304.779,
+        "minimumSetback": 17.758
+      },
+      "photo": {
+        "camera": [
+          -3498.731,
+          17.464,
+          -1209.931
+        ],
+        "headingDeg": 80,
+        "pitchDeg": 14.9,
+        "fovDeg": 110,
+        "imageId": "corrected-50",
+        "confidence": 0.776,
+        "date": "2023-04",
+        "distanceMetres": 24.1
+      }
+    },
+    {
+      "id": 11,
+      "bounds": [
+        -3430.81,
+        -1198.13,
+        -3386.54,
+        -1179.16
+      ],
+      "ground": 28.6,
+      "roof": 85.4,
+      "sourceBase": 23.4,
+      "height": 56.8,
+      "center": [
+        -3408.675,
+        -1188.645
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89742307,
+      "lon": 35.47172603,
+      "distance": 25.33,
+      "station": 1333.619,
+      "side": "left",
+      "nearestPoint": [
+        -3430.606,
+        -1175.971
+      ],
+      "roadDirection": [
+        0.5,
+        0.866
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 19,
+      "frontage": {
+        "sampleCount": 23,
+        "stationStart": 1304.779,
+        "stationEnd": 1351.461,
+        "minimumSetback": 2.016
+      },
+      "photo": {
+        "camera": [
+          -3430.057,
+          28.786,
+          -1177.031
+        ],
+        "headingDeg": 61.5,
+        "pitchDeg": 41.6,
+        "fovDeg": 110,
+        "imageId": "corrected-11",
+        "confidence": 0.776,
+        "date": "2023-04",
+        "distanceMetres": 24.33
+      }
+    },
+    {
+      "id": 482,
+      "bounds": [
+        -3399.74,
+        -1200.04,
+        -3384.01,
+        -1187.94
+      ],
+      "ground": 29.29,
+      "roof": 43.29,
+      "sourceBase": 24.04,
+      "height": 14,
+      "center": [
+        -3391.875,
+        -1193.99
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89747103,
+      "lon": 35.47190801,
+      "distance": 42.55,
+      "station": 1337.397,
+      "side": "left",
+      "nearestPoint": [
+        -3428.715,
+        -1172.699
+      ],
+      "roadDirection": [
+        0.5,
+        0.866
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 19,
+      "frontage": {
+        "sampleCount": 2,
+        "stationStart": 1300.965,
+        "stationEnd": 1302.872,
+        "minimumSetback": 40.048
+      },
+      "photo": null
+    },
+    {
+      "id": 781,
+      "bounds": [
+        -3388.65,
+        -1205.35,
+        -3349.38,
+        -1187.52
+      ],
+      "ground": 29.62,
+      "roof": 49.37,
+      "sourceBase": 24.42,
+      "height": 19.75,
+      "center": [
+        -3369.015,
+        -1196.435
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89749289,
+      "lon": 35.4721556,
+      "distance": 63.566,
+      "station": 1346.719,
+      "side": "left",
+      "nearestPoint": [
+        -3424.051,
+        -1164.629
+      ],
+      "roadDirection": [
+        0.5,
+        0.866
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 19,
+      "frontage": {
+        "sampleCount": 13,
+        "stationStart": 1236.693,
+        "stationEnd": 1355.414,
+        "minimumSetback": 49.423
+      },
+      "photo": null
+    },
+    {
+      "id": 2099,
+      "bounds": [
+        -3403.19,
+        -1165.49,
+        -3375.1,
+        -1134.23
+      ],
+      "ground": 25.05,
+      "roof": 116.11,
+      "sourceBase": 19.91,
+      "height": 91.06,
+      "center": [
+        -3389.145,
+        -1149.86
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89707428,
+      "lon": 35.47193729,
+      "distance": 29.065,
+      "station": 1363.553,
+      "side": "left",
+      "nearestPoint": [
+        -3418.2,
+        -1149.1
+      ],
+      "roadDirection": [
+        0.184,
+        0.983
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 20,
+      "frontage": {
+        "sampleCount": 11,
+        "stationStart": 1355.414,
+        "stationEnd": 1370.964,
+        "minimumSetback": 15.032
+      },
+      "photo": {
+        "camera": [
+          -3416.889,
+          27.982,
+          -1150.051
+        ],
+        "headingDeg": 90.4,
+        "pitchDeg": 34.5,
+        "fovDeg": 109.6,
+        "imageId": "corrected-2099",
+        "confidence": 0.77,
+        "date": "2023-04",
+        "distanceMetres": 27.74
+      }
+    },
+    {
+      "id": 1331,
+      "bounds": [
+        -3384.89,
+        -1106.95,
+        -3356.89,
+        -1094.97
+      ],
+      "ground": 18.86,
+      "roof": 47.27,
+      "sourceBase": 13.77,
+      "height": 28.41,
+      "center": [
+        -3370.89,
+        -1100.96
+      ],
+      "selectionStatus": "partial-frontage",
+      "lat": 33.89663456,
+      "lon": 35.47213467,
+      "distance": 61.413,
+      "station": 1379.194,
+      "side": "left",
+      "nearestPoint": [
+        -3422.4,
+        -1134.4
+      ],
+      "roadDirection": [
+        -0.462,
+        0.887
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 22,
+      "frontage": {
+        "sampleCount": 2,
+        "stationStart": 1377.548,
+        "stationEnd": 1379.194,
+        "minimumSetback": 59.45
+      },
+      "photo": {
+        "camera": [
+          -3374.501,
+          22.13,
+          -1111.927
+        ],
+        "headingDeg": 161.8,
+        "pitchDeg": 23.1,
+        "fovDeg": 110,
+        "imageId": "corrected-1331",
+        "confidence": 0.799,
+        "date": "2023-04",
+        "distanceMetres": 11.55
+      }
+    },
+    {
+      "id": 8,
+      "bounds": [
+        -3403.91,
+        -1097.45,
+        -3382.32,
+        -1072.02
+      ],
+      "ground": 18.84,
+      "roof": 75.75,
+      "sourceBase": 13.75,
+      "height": 56.91,
+      "center": [
+        -3393.115,
+        -1084.735
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89648881,
+      "lon": 35.47189387,
+      "distance": 55.89,
+      "station": 1393.357,
+      "side": "left",
+      "nearestPoint": [
+        -3432.459,
+        -1124.43
+      ],
+      "roadDirection": [
+        -0.71,
+        0.704
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 23,
+      "frontage": {
+        "sampleCount": 6,
+        "stationStart": 1379.194,
+        "stationEnd": 1389.138,
+        "minimumSetback": 42.169
+      },
+      "photo": {
+        "camera": [
+          -3394.508,
+          21.518,
+          -1113.863
+        ],
+        "headingDeg": 177.3,
+        "pitchDeg": 31.9,
+        "fovDeg": 94.4,
+        "imageId": "corrected-8",
+        "confidence": 0.767,
+        "date": "2023-04",
+        "distanceMetres": 29.16
+      }
+    },
+    {
+      "id": 557,
+      "bounds": [
+        -3503.02,
+        -1165.3,
+        -3451.5,
+        -1127.28
+      ],
+      "ground": 13.16,
+      "roof": 30.12,
+      "sourceBase": 8.02,
+      "height": 16.96,
+      "center": [
+        -3477.26,
+        -1146.29
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.89704266,
+      "lon": 35.47098299,
+      "distance": 49.301,
+      "station": 1395.104,
+      "side": "right",
+      "nearestPoint": [
+        -3433.7,
+        -1123.2
+      ],
+      "roadDirection": [
+        -0.71,
+        0.704
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 23,
+      "frontage": {
+        "sampleCount": 45,
+        "stationStart": 1319.84,
+        "stationEnd": 1395.104,
+        "minimumSetback": 24.165
+      },
+      "photo": null
+    },
+    {
+      "id": 982,
+      "bounds": [
+        -3430.24,
+        -1104.62,
+        -3407.76,
+        -1083.08
+      ],
+      "ground": 15.39,
+      "roof": 37.72,
+      "sourceBase": 9.92,
+      "height": 22.33,
+      "center": [
+        -3419,
+        -1093.85
+      ],
+      "selectionStatus": "frontage",
+      "lat": 33.8965709,
+      "lon": 35.4716136,
+      "distance": 32.825,
+      "station": 1395.104,
+      "side": "left",
+      "nearestPoint": [
+        -3433.7,
+        -1123.2
+      ],
+      "roadDirection": [
+        -0.71,
+        0.704
+      ],
+      "roadId": "way/483635757",
+      "segmentIndex": 23,
+      "frontage": {
+        "sampleCount": 3,
+        "stationStart": 1391.127,
+        "stationEnd": 1395.104,
+        "minimumSetback": 26.16
+      },
+      "photo": {
+        "camera": [
+          -3415.132,
+          20.486,
+          -1116.135
+        ],
+        "headingDeg": 189.9,
+        "pitchDeg": 16.1,
+        "fovDeg": 97.7,
+        "imageId": "corrected-982",
+        "confidence": 0.779,
+        "date": "2023-04",
+        "distanceMetres": 22.62
+      }
+    }
+  ],
+  "summary": {
+    "namedWays": 6,
+    "centerlinePoints": 25,
+    "lengthMetres": 1395.104,
+    "frontageBuildings": 102,
+    "leftBuildings": 64,
+    "rightBuildings": 38,
+    "existingPhotoAssociations": 58,
+    "missingPhotoAssociations": 44
+  },
+  "sources": [
+    {
+      "path": "public/data/city-locations.json",
+      "provider": "OpenStreetMap contributors",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "ODbL 1.0"
+    },
+    {
+      "path": "public/data/buildings.json",
+      "provider": "Supplied Beirut city model",
+      "role": "Modeled bounds and roof elevations"
+    },
+    {
+      "path": "public/data/building-ground.json",
+      "role": "Existing terrain-derived ground elevations"
+    },
+    {
+      "path": "public/data/registration.json",
+      "role": "Canonical corrected registration v2"
+    },
+    {
+      "path": "public/assets/world/photographic/facades.json",
+      "provider": "Google Street View",
+      "attribution": "© Google",
+      "role": "Existing association metadata; not independently verified facade matches"
+    }
+  ]
+}

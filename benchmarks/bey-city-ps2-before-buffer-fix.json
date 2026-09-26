@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-09-16T01:45:35.287Z",
+  "route": "on-foot + Mercedes drive + city orbit",
+  "frames": 3597,
+  "durationSeconds": 30.007800000000003,
+  "averageFps": 119.86883410313317,
+  "onePercentLowFps": 98.65716634693267,
+  "p50Ms": 8.300000000001091,
+  "p95Ms": 9.099999999998545,
+  "p99Ms": 9.299999999999272,
+  "maxMs": 24.400000000001455,
+  "over20Ms": 1,
+  "over33Ms": 0,
+  "averageCpuMs": 2.0502085069840175,
+  "meets60Fps": true,
+  "routeValid": true,
+  "drivingSeconds": 9.991599999999998,
+  "street": {
+    "frames": 1199,
+    "durationSeconds": 10.008300000000002,
+    "averageFps": 119.80056553060957,
+    "onePercentLowFps": 95.16256938937049,
+    "p50Ms": 8.300000000001091,
+    "p95Ms": 9,
+    "p99Ms": 9.299999999999272,
+    "maxMs": 16.799999999999272,
+    "over20Ms": 0,
+    "over33Ms": 0,
+    "averageCpuMs": null,
+    "meets60Fps": true
+  },
+  "driving": {
+    "frames": 1200,
+    "durationSeconds": 9.999899999999998,
+    "averageFps": 120.00120001200014,
+    "onePercentLowFps": 107.52688172041749,
+    "p50Ms": 8.299999999999272,
+    "p95Ms": 9,
+    "p99Ms": 9.200000000000728,
+    "maxMs": 9.400000000001455,
+    "over20Ms": 0,
+    "over33Ms": 0,
+    "averageCpuMs": null,
+    "meets60Fps": true
+  },
+  "overview": {
+    "frames": 1198,
+    "durationSeconds": 9.999600000000003,
+    "averageFps": 119.80479219168764,
+    "onePercentLowFps": 94.41384736427307,
+    "p50Ms": 8.30000000000291,
+    "p95Ms": 9.10000000000582,
+    "p99Ms": 9.30000000000291,
+    "maxMs": 24.400000000001455,
+    "over20Ms": 1,
+    "over33Ms": 0,
+    "averageCpuMs": null,
+    "meets60Fps": true
+  },
+  "viewport": {
+    "width": 1371,
+    "height": 771,
+    "devicePixelRatio": 1.399999976158142
+  },
+  "renderScale": {
+    "min": 0.7003891050583657,
+    "max": 0.7003891050583657
+  },
+  "resolutionMode": "ps2",
+  "viewingDistance": 1800,
+  "renderBuffer": {
+    "width": 960,
+    "height": 540
+  },
+  "maxDrawCalls": 393,
+  "maxTriangles": 1746420,
+  "maxDrivingSpeedKmh": 100.8,
+  "game": {
+    "started": true,
+    "cars": 3,
+    "carModels": 3,
+    "pedModels": 4,
+    "pedestrians": 24,
+    "driving": false,
+    "speed": 0,
+    "playerHealth": 46,
+    "vehicleHealth": null,
+    "missionStage": 0,
+    "missionComplete": false,
+    "location": {
+      "area": "Burj Abi Haidar",
+      "areaAr": "برج أبي حيدر",
+      "street": "Amin Khairallah",
+      "distance": 10.206408360585208
+    }
+  },
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+  "sourceTriangles": 5238768,
+  "buildings": 17575,
+  "wasm": [
+    "meshoptimizer decoder",
+    "Rapier character controller"
+  ],
+  "errors": 0
+}

@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-09-16T04:06:40.789Z",
+  "route": "on-foot + Mercedes drive + city orbit",
+  "frames": 3600,
+  "durationSeconds": 30.007900000000003,
+  "averageFps": 119.96840831914263,
+  "onePercentLowFps": 104.68159348646047,
+  "p50Ms": 8.30000000000291,
+  "p95Ms": 9.299999999995634,
+  "p99Ms": 9.30000000000291,
+  "maxMs": 15.900000000001455,
+  "over20Ms": 0,
+  "over33Ms": 0,
+  "averageCpuMs": 1.9713055555812187,
+  "meets60Fps": true,
+  "routeValid": true,
+  "drivingSeconds": 9.991599999999998,
+  "street": {
+    "frames": 1201,
+    "durationSeconds": 10.008099999999999,
+    "averageFps": 120.0027977338356,
+    "onePercentLowFps": 106.38297872338778,
+    "p50Ms": 8.30000000000291,
+    "p95Ms": 9.299999999995634,
+    "p99Ms": 9.400000000001455,
+    "maxMs": 9.400000000001455,
+    "over20Ms": 0,
+    "over33Ms": 0,
+    "averageCpuMs": null,
+    "meets60Fps": true
+  },
+  "driving": {
+    "frames": 1200,
+    "durationSeconds": 10,
+    "averageFps": 120,
+    "onePercentLowFps": 107.04727921496716,
+    "p50Ms": 8.30000000000291,
+    "p95Ms": 9.299999999995634,
+    "p99Ms": 9.30000000000291,
+    "maxMs": 9.400000000001455,
+    "over20Ms": 0,
+    "over33Ms": 0,
+    "averageCpuMs": null,
+    "meets60Fps": true
+  },
+  "overview": {
+    "frames": 1199,
+    "durationSeconds": 9.999800000000002,
+    "averageFps": 119.90239804796093,
+    "onePercentLowFps": 101.18043844854303,
+    "p50Ms": 8.30000000000291,
+    "p95Ms": 9.200000000004366,
+    "p99Ms": 9.30000000000291,
+    "maxMs": 15.900000000001455,
+    "over20Ms": 0,
+    "over33Ms": 0,
+    "averageCpuMs": null,
+    "meets60Fps": true
+  },
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "devicePixelRatio": 2
+  },
+  "renderScale": {
+    "min": 0.75,
+    "max": 0.75
+  },
+  "resolutionMode": "ps2",
+  "viewingDistance": 1800,
+  "worldTextures": true,
+  "photographs": {
+    "available": true,
+    "enabled": true,
+    "referenceFacades": 16,
+    "residentTiles": 0,
+    "loading": 0,
+    "wantedTiles": 0,
+    "estimatedGpuMiB": 71,
+    "facadeBuildings": 8854,
+    "errors": [],
+    "maxGpuMiB": 258,
+    "maxResidentTiles": 12
+  },
+  "textureArray": {
+    "layers": 16,
+    "tileSize": 256
+  },
+  "renderBuffer": {
+    "width": 960,
+    "height": 540
+  },
+  "maxDrawCalls": 299,
+  "maxTriangles": 1752420,
+  "maxDrivingSpeedKmh": 100.8,
+  "game": {
+    "started": true,
+    "cars": 3,
+    "carModels": 3,
+    "pedModels": 4,
+    "pedestrians": 24,
+    "driving": false,
+    "speed": 0,
+    "playerHealth": 49,
+    "vehicleHealth": null,
+    "missionStage": 0,
+    "missionComplete": false,
+    "location": {
+      "area": "Basta Tahta",
+      "areaAr": "البسطة التحتا",
+      "street": "Basta",
+      "distance": 3.3250122206553274
+    }
+  },
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+  "sourceTriangles": 5238768,
+  "buildings": 17575,
+  "wasm": [
+    "meshoptimizer decoder",
+    "Rapier character controller"
+  ],
+  "errors": 0
+}

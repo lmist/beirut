@@ -1,0 +1,827 @@
+{
+  "version": 1,
+  "name": "Inspected Bliss Street shopfront signs",
+  "registrationVersion": 2,
+  "attribution": "Street imagery \u00a9 Google; recorded capture dates are retained per sign.",
+  "method": "Manually traced source-photo quadrilaterals, perspective rectification, and CAD-mounted fascia geometry. No generated image content.",
+  "limitations": [
+    "Sign identity is visually observed; exact dimensions and source-to-CAD registration are approximate.",
+    "Only legible unobstructed fascias are published. No shops are inferred on residential or unseen frontages.",
+    "Small dark shop bays below selected signs are geometric placeholders based on visible glazing, not photographed interiors."
+  ],
+  "summary": {
+    "signs": 9,
+    "businesses": 8,
+    "buildings": 6,
+    "sourcePhotos": 6,
+    "cadMountSegments": 13
+  },
+  "signs": [
+    {
+      "id": "mcdonalds",
+      "name": "McDonald's",
+      "buildingId": 839,
+      "sourceId": "bliss-839",
+      "sourcePath": "data/bliss-street/imagery-collected/839.jpg",
+      "sourceUrl": "/assets/world/bliss/photos/bliss-839-bb4b1f1e40.webp",
+      "sourceCorners": [
+        [
+          0,
+          368
+        ],
+        [
+          531,
+          363
+        ],
+        [
+          532,
+          429
+        ],
+        [
+          0,
+          435
+        ]
+      ],
+      "sourceCaptureDate": "2023-04",
+      "sourcePanoramaId": "gECYmJknonobwCzvVT5blg",
+      "copyright": "\u00a9 Google",
+      "faceId": "839-0",
+      "targetFacadeCenter": [
+        -2414.802,
+        -1393.752
+      ],
+      "width": 10.41407,
+      "height": 1.25,
+      "physicalAspectRatio": 8.3313,
+      "widthRatio": 0.96,
+      "heightRatio": 0.0594,
+      "baseOffset": 2.85,
+      "depth": 0.28,
+      "mounts": [
+        {
+          "faceId": "839-0",
+          "center": [
+            -2414.6037,
+            -1393.713724
+          ],
+          "normal": [
+            0.189523,
+            -0.981876
+          ],
+          "tangent": [
+            0.981876,
+            0.189523
+          ],
+          "base": 40.781,
+          "width": 10.41408,
+          "height": 1.25,
+          "uv": [
+            0.0,
+            1.0
+          ],
+          "facadeWidth": 10.848
+        }
+      ],
+      "dimensionsEstimated": true,
+      "geometryConfidence": "approximate-photo-to-CAD-fit",
+      "dimensionBasis": "Horizontal camera rays fitted/clipped to existing CAD frontage; height and distance above local facade ground estimated from photographed retail floors.",
+      "projectedWidthBeforeClipping": 16.02122,
+      "notes": "Photographic fascia only. Unobserved shop interiors are not reconstructed.",
+      "textureUrl": "/assets/world/bliss/shopfronts/mcdonalds.webp",
+      "sourceSha256": "bb4b1f1e402d67799ff0920bbad6d1e7bdbbaf25ef442a20f50fc26368b1c3c9",
+      "textureWidth": 532,
+      "textureHeight": 67,
+      "transparent": true,
+      "storefront": {
+        "height": 2.75,
+        "bays": 3,
+        "pierColor": "#795944",
+        "estimated": true
+      }
+    },
+    {
+      "id": "dunkin",
+      "name": "Dunkin'",
+      "buildingId": 640,
+      "sourceId": "bliss-640",
+      "sourcePath": "data/bliss-street/imagery-collected/640.jpg",
+      "sourceUrl": "/assets/world/bliss/photos/bliss-640-4556ecb8fa.webp",
+      "sourceCorners": [
+        [
+          62,
+          374
+        ],
+        [
+          271,
+          383
+        ],
+        [
+          269,
+          434
+        ],
+        [
+          52,
+          431
+        ]
+      ],
+      "sourceCaptureDate": "2023-04",
+      "sourcePanoramaId": "KOe2m3jJ7lvGwYw_BmbO5g",
+      "copyright": "\u00a9 Google",
+      "faceId": "640-6",
+      "targetFacadeCenter": [
+        -2446.346,
+        -1399.938
+      ],
+      "width": 5.26933,
+      "height": 1.15,
+      "physicalAspectRatio": 4.582,
+      "widthRatio": 1.16966,
+      "heightRatio": 0.06536,
+      "baseOffset": 2.75,
+      "depth": 0.28,
+      "mounts": [
+        {
+          "faceId": "640-7",
+          "center": [
+            -2441.942635,
+            -1399.448631
+          ],
+          "normal": [
+            0.131443,
+            -0.991324
+          ],
+          "tangent": [
+            0.991324,
+            0.131443
+          ],
+          "base": 41.198,
+          "width": 4.35746,
+          "height": 1.15,
+          "uv": [
+            0.0,
+            0.826234
+          ],
+          "facadeWidth": 4.504
+        },
+        {
+          "faceId": "640-6",
+          "center": [
+            -2444.558518,
+            -1399.776261
+          ],
+          "normal": [
+            0.090116,
+            -0.995931
+          ],
+          "tangent": [
+            0.995931,
+            0.090116
+          ],
+          "base": 41.353,
+          "width": 0.91543,
+          "height": 1.15,
+          "uv": [
+            0.826272,
+            1.0
+          ],
+          "facadeWidth": 4.505
+        }
+      ],
+      "dimensionsEstimated": true,
+      "geometryConfidence": "approximate-photo-to-CAD-fit",
+      "dimensionBasis": "Horizontal camera rays fitted/clipped to existing CAD frontage; height and distance above local facade ground estimated from photographed retail floors.",
+      "projectedWidthBeforeClipping": 5.26933,
+      "notes": "Photographic fascia only. Unobserved shop interiors are not reconstructed.",
+      "textureUrl": "/assets/world/bliss/shopfronts/dunkin.webp",
+      "sourceSha256": "4556ecb8fa7d35a3b998a129fabbe2ed4d5a2909affdd041eabbf3fc3660bde7",
+      "textureWidth": 217,
+      "textureHeight": 58,
+      "transparent": false,
+      "storefront": {
+        "height": 2.65,
+        "bays": 2,
+        "pierColor": "#7b7067",
+        "estimated": true
+      }
+    },
+    {
+      "id": "le-sam-upper",
+      "name": "Le Sam",
+      "buildingId": 640,
+      "sourceId": "bliss-640",
+      "sourcePath": "data/bliss-street/imagery-collected/640.jpg",
+      "sourceUrl": "/assets/world/bliss/photos/bliss-640-4556ecb8fa.webp",
+      "sourceCorners": [
+        [
+          519,
+          353
+        ],
+        [
+          585,
+          364
+        ],
+        [
+          590,
+          405
+        ],
+        [
+          520,
+          398
+        ]
+      ],
+      "sourceCaptureDate": "2023-04",
+      "sourcePanoramaId": "KOe2m3jJ7lvGwYw_BmbO5g",
+      "copyright": "\u00a9 Google",
+      "faceId": "640-6",
+      "targetFacadeCenter": [
+        -2446.346,
+        -1399.938
+      ],
+      "width": 2.17057,
+      "height": 1.55,
+      "physicalAspectRatio": 1.4004,
+      "widthRatio": 0.48181,
+      "heightRatio": 0.08809,
+      "baseOffset": 3.65,
+      "depth": 0.12,
+      "mounts": [
+        {
+          "faceId": "640-1",
+          "center": [
+            -2452.685558,
+            -1400.340063
+          ],
+          "normal": [
+            0.048663,
+            -0.998815
+          ],
+          "tangent": [
+            0.998815,
+            0.048663
+          ],
+          "base": 41.312,
+          "width": 0.79795,
+          "height": 1.55,
+          "uv": [
+            0.0,
+            0.367305
+          ],
+          "facadeWidth": 4.5
+        },
+        {
+          "faceId": "640-5",
+          "center": [
+            -2453.777459,
+            -1400.317466
+          ],
+          "normal": [
+            0.028019,
+            -0.999607
+          ],
+          "tangent": [
+            0.999607,
+            0.028019
+          ],
+          "base": 41.337,
+          "width": 1.37571,
+          "height": 1.55,
+          "uv": [
+            0.367429,
+            1.0
+          ],
+          "facadeWidth": 8.992
+        }
+      ],
+      "dimensionsEstimated": true,
+      "geometryConfidence": "approximate-photo-to-CAD-fit",
+      "dimensionBasis": "Horizontal camera rays fitted/clipped to existing CAD frontage; height and distance above local facade ground estimated from photographed retail floors.",
+      "projectedWidthBeforeClipping": 2.17057,
+      "notes": "Photographic fascia only. Unobserved shop interiors are not reconstructed.",
+      "textureUrl": "/assets/world/bliss/shopfronts/le-sam-upper.webp",
+      "sourceSha256": "4556ecb8fa7d35a3b998a129fabbe2ed4d5a2909affdd041eabbf3fc3660bde7",
+      "textureWidth": 70,
+      "textureHeight": 45,
+      "transparent": false
+    },
+    {
+      "id": "le-sam-canopy",
+      "name": "Le Sam canopy fascia",
+      "buildingId": 640,
+      "sourceId": "bliss-640",
+      "sourcePath": "data/bliss-street/imagery-collected/640.jpg",
+      "sourceUrl": "/assets/world/bliss/photos/bliss-640-4556ecb8fa.webp",
+      "sourceCorners": [
+        [
+          277,
+          383
+        ],
+        [
+          622,
+          412
+        ],
+        [
+          624,
+          437
+        ],
+        [
+          276,
+          407
+        ]
+      ],
+      "sourceCaptureDate": "2023-04",
+      "sourcePanoramaId": "KOe2m3jJ7lvGwYw_BmbO5g",
+      "copyright": "\u00a9 Google",
+      "faceId": "640-6",
+      "targetFacadeCenter": [
+        -2446.346,
+        -1399.938
+      ],
+      "width": 10.20808,
+      "height": 0.52,
+      "physicalAspectRatio": 19.6309,
+      "widthRatio": 2.26595,
+      "heightRatio": 0.02955,
+      "baseOffset": 2.8,
+      "depth": 0.6,
+      "mounts": [
+        {
+          "faceId": "640-6",
+          "center": [
+            -2446.881662,
+            -1399.986469
+          ],
+          "normal": [
+            0.090116,
+            -0.995931
+          ],
+          "tangent": [
+            0.995931,
+            0.090116
+          ],
+          "base": 41.353,
+          "width": 3.4293,
+          "height": 0.52,
+          "uv": [
+            0.0,
+            0.335939
+          ],
+          "facadeWidth": 4.505
+        },
+        {
+          "faceId": "640-1",
+          "center": [
+            -2450.837835,
+            -1400.250041
+          ],
+          "normal": [
+            0.048663,
+            -0.998815
+          ],
+          "tangent": [
+            0.998815,
+            0.048663
+          ],
+          "base": 41.312,
+          "width": 4.49778,
+          "height": 0.52,
+          "uv": [
+            0.336158,
+            0.776387
+          ],
+          "facadeWidth": 4.5
+        },
+        {
+          "faceId": "640-5",
+          "center": [
+            -2454.232833,
+            -1400.33023
+          ],
+          "normal": [
+            0.028019,
+            -0.999607
+          ],
+          "tangent": [
+            0.999607,
+            0.028019
+          ],
+          "base": 41.337,
+          "width": 2.28681,
+          "height": 0.52,
+          "uv": [
+            0.776414,
+            1.0
+          ],
+          "facadeWidth": 8.992
+        }
+      ],
+      "dimensionsEstimated": true,
+      "geometryConfidence": "approximate-photo-to-CAD-fit",
+      "dimensionBasis": "Horizontal camera rays fitted/clipped to existing CAD frontage; height and distance above local facade ground estimated from photographed retail floors.",
+      "projectedWidthBeforeClipping": 10.20808,
+      "notes": "Photographic fascia only. Unobserved shop interiors are not reconstructed.",
+      "textureUrl": "/assets/world/bliss/shopfronts/le-sam-canopy.webp",
+      "sourceSha256": "4556ecb8fa7d35a3b998a129fabbe2ed4d5a2909affdd041eabbf3fc3660bde7",
+      "textureWidth": 349,
+      "textureHeight": 25,
+      "transparent": false,
+      "storefront": {
+        "height": 2.7,
+        "bays": 4,
+        "pierColor": "#8f9694",
+        "estimated": true
+      }
+    },
+    {
+      "id": "bubbles",
+      "name": "Bubbles",
+      "buildingId": 359,
+      "sourceId": "bliss-359",
+      "sourcePath": "data/bliss-street/imagery-collected/359.jpg",
+      "sourceUrl": "/assets/world/bliss/photos/bliss-359-0805565305.webp",
+      "sourceCorners": [
+        [
+          166,
+          337
+        ],
+        [
+          453,
+          324
+        ],
+        [
+          456,
+          355
+        ],
+        [
+          160,
+          368
+        ]
+      ],
+      "sourceCaptureDate": "2023-04",
+      "sourcePanoramaId": "k-yvt8m2FtJ6JQyKciiUmQ",
+      "copyright": "\u00a9 Google",
+      "faceId": "359-1",
+      "targetFacadeCenter": [
+        -2472.076,
+        -1399.641
+      ],
+      "width": 9.89465,
+      "height": 1.1,
+      "physicalAspectRatio": 8.9951,
+      "widthRatio": 0.72113,
+      "heightRatio": 0.09284,
+      "baseOffset": 2.8,
+      "depth": 0.28,
+      "mounts": [
+        {
+          "faceId": "359-1",
+          "center": [
+            -2471.199419,
+            -1399.815569
+          ],
+          "normal": [
+            -0.195312,
+            -0.980741
+          ],
+          "tangent": [
+            0.980741,
+            -0.195312
+          ],
+          "base": 41.571,
+          "width": 9.89465,
+          "height": 1.1,
+          "uv": [
+            0.0,
+            1.0
+          ],
+          "facadeWidth": 13.721
+        }
+      ],
+      "dimensionsEstimated": true,
+      "geometryConfidence": "approximate-photo-to-CAD-fit",
+      "dimensionBasis": "Horizontal camera rays fitted/clipped to existing CAD frontage; height and distance above local facade ground estimated from photographed retail floors.",
+      "projectedWidthBeforeClipping": 9.89465,
+      "notes": "Photographic fascia only. Unobserved shop interiors are not reconstructed.",
+      "textureUrl": "/assets/world/bliss/shopfronts/bubbles.webp",
+      "sourceSha256": "0805565305865c0a7dfa95efb4161fa95ef7a9457bb3039821dbed7061a91166",
+      "textureWidth": 296,
+      "textureHeight": 32,
+      "transparent": false,
+      "storefront": {
+        "height": 2.7,
+        "bays": 3,
+        "pierColor": "#afa575",
+        "estimated": true
+      }
+    },
+    {
+      "id": "bliss-one",
+      "name": "Bliss One",
+      "buildingId": 360,
+      "sourceId": "bliss-360",
+      "sourcePath": "data/bliss-street/imagery-collected/360.jpg",
+      "sourceUrl": "/assets/world/bliss/photos/bliss-360-5ba50630ed.webp",
+      "sourceCorners": [
+        [
+          239,
+          294
+        ],
+        [
+          341,
+          292
+        ],
+        [
+          342,
+          320
+        ],
+        [
+          239,
+          323
+        ]
+      ],
+      "sourceCaptureDate": "2023-04",
+      "sourcePanoramaId": "0OfA9NG6Np32pikCJPqURw",
+      "copyright": "\u00a9 Google",
+      "faceId": "360-0",
+      "targetFacadeCenter": [
+        -2382.632,
+        -1390.026
+      ],
+      "width": 5.96428,
+      "height": 1.35,
+      "physicalAspectRatio": 4.418,
+      "widthRatio": 0.11096,
+      "heightRatio": 0.11813,
+      "baseOffset": 2.7,
+      "depth": 0.3,
+      "mounts": [
+        {
+          "faceId": "360-0",
+          "center": [
+            -2380.89982,
+            -1389.732933
+          ],
+          "normal": [
+            0.166819,
+            -0.985988
+          ],
+          "tangent": [
+            0.985988,
+            0.166819
+          ],
+          "base": 40.652,
+          "width": 5.96427,
+          "height": 1.35,
+          "uv": [
+            0.0,
+            1.0
+          ],
+          "facadeWidth": 53.753
+        }
+      ],
+      "dimensionsEstimated": true,
+      "geometryConfidence": "approximate-photo-to-CAD-fit",
+      "dimensionBasis": "Horizontal camera rays fitted/clipped to existing CAD frontage; height and distance above local facade ground estimated from photographed retail floors.",
+      "projectedWidthBeforeClipping": 5.96428,
+      "notes": "Photographic fascia only. Unobserved shop interiors are not reconstructed.",
+      "textureUrl": "/assets/world/bliss/shopfronts/bliss-one.webp",
+      "sourceSha256": "5ba50630ed3a8eac7de1aeb3204f121a7c9b7d21d8680be35858d6e6380f0624",
+      "textureWidth": 103,
+      "textureHeight": 29,
+      "transparent": false,
+      "storefront": {
+        "height": 2.6,
+        "bays": 2,
+        "pierColor": "#5a5655",
+        "estimated": true
+      }
+    },
+    {
+      "id": "mini-malik",
+      "name": "Mini Malik",
+      "buildingId": 360,
+      "sourceId": "bliss-360",
+      "sourcePath": "data/bliss-street/imagery-collected/360.jpg",
+      "sourceUrl": "/assets/world/bliss/photos/bliss-360-5ba50630ed.webp",
+      "sourceCorners": [
+        [
+          347,
+          286
+        ],
+        [
+          489,
+          281
+        ],
+        [
+          490,
+          344
+        ],
+        [
+          345,
+          345
+        ]
+      ],
+      "sourceCaptureDate": "2023-04",
+      "sourcePanoramaId": "0OfA9NG6Np32pikCJPqURw",
+      "copyright": "\u00a9 Google",
+      "faceId": "360-0",
+      "targetFacadeCenter": [
+        -2382.632,
+        -1390.026
+      ],
+      "width": 7.78456,
+      "height": 3.0,
+      "physicalAspectRatio": 2.5949,
+      "widthRatio": 0.14482,
+      "heightRatio": 0.26251,
+      "baseOffset": 1.7,
+      "depth": 0.25,
+      "mounts": [
+        {
+          "faceId": "360-0",
+          "center": [
+            -2387.920403,
+            -1390.920743
+          ],
+          "normal": [
+            0.166819,
+            -0.985988
+          ],
+          "tangent": [
+            0.985988,
+            0.166819
+          ],
+          "base": 40.652,
+          "width": 7.78455,
+          "height": 3.0,
+          "uv": [
+            0.0,
+            1.0
+          ],
+          "facadeWidth": 53.753
+        }
+      ],
+      "dimensionsEstimated": true,
+      "geometryConfidence": "approximate-photo-to-CAD-fit",
+      "dimensionBasis": "Horizontal camera rays fitted/clipped to existing CAD frontage; height and distance above local facade ground estimated from photographed retail floors.",
+      "projectedWidthBeforeClipping": 7.78456,
+      "notes": "Photographic fascia only. Unobserved shop interiors are not reconstructed.",
+      "textureUrl": "/assets/world/bliss/shopfronts/mini-malik.webp",
+      "sourceSha256": "5ba50630ed3a8eac7de1aeb3204f121a7c9b7d21d8680be35858d6e6380f0624",
+      "textureWidth": 145,
+      "textureHeight": 63,
+      "transparent": false
+    },
+    {
+      "id": "bliss-suite-hotel",
+      "name": "Bliss Suite Hotel",
+      "buildingId": 17,
+      "sourceId": "bliss-17",
+      "sourcePath": "data/bliss-street/imagery-collected/17.jpg",
+      "sourceUrl": "/assets/world/bliss/photos/bliss-17-8b4601f51e.webp",
+      "sourceCorners": [
+        [
+          109,
+          301
+        ],
+        [
+          340,
+          331
+        ],
+        [
+          338,
+          350
+        ],
+        [
+          103,
+          320
+        ]
+      ],
+      "sourceCaptureDate": "2023-04",
+      "sourcePanoramaId": "6Tv2rGn1hFeLU183YKtIig",
+      "copyright": "\u00a9 Google",
+      "faceId": "17-0",
+      "targetFacadeCenter": [
+        -2785.851,
+        -1329.498
+      ],
+      "width": 11.96272,
+      "height": 1.05,
+      "physicalAspectRatio": 11.3931,
+      "widthRatio": 0.48159,
+      "heightRatio": 0.01837,
+      "baseOffset": 5.45,
+      "depth": 0.25,
+      "mounts": [
+        {
+          "faceId": "17-0",
+          "center": [
+            -2781.270795,
+            -1330.490989
+          ],
+          "normal": [
+            -0.211878,
+            -0.977296
+          ],
+          "tangent": [
+            0.977296,
+            -0.211878
+          ],
+          "base": 41.31,
+          "width": 11.96272,
+          "height": 1.05,
+          "uv": [
+            0.0,
+            1.0
+          ],
+          "facadeWidth": 24.84
+        }
+      ],
+      "dimensionsEstimated": true,
+      "geometryConfidence": "approximate-photo-to-CAD-fit",
+      "dimensionBasis": "Horizontal camera rays fitted/clipped to existing CAD frontage; height and distance above local facade ground estimated from photographed retail floors.",
+      "projectedWidthBeforeClipping": 11.96272,
+      "notes": "Photographic fascia only. Unobserved shop interiors are not reconstructed.",
+      "textureUrl": "/assets/world/bliss/shopfronts/bliss-suite-hotel.webp",
+      "sourceSha256": "8b4601f51ebafca078ced3a5d369615f35c1bf8a532c75f692340cc48955686c",
+      "textureWidth": 237,
+      "textureHeight": 20,
+      "transparent": false
+    },
+    {
+      "id": "zaatar-w-zeit",
+      "name": "Zaatar w Zeit \u2014 photographed logo and Arabic sign",
+      "buildingId": 1669,
+      "sourceId": "bliss-1669",
+      "sourcePath": "data/bliss-street/imagery-collected/1669.jpg",
+      "sourceUrl": "/assets/world/bliss/photos/bliss-1669-a5be5f4555.webp",
+      "sourceCorners": [
+        [
+          70,
+          466
+        ],
+        [
+          194,
+          491
+        ],
+        [
+          191,
+          526
+        ],
+        [
+          67,
+          501
+        ]
+      ],
+      "sourceCaptureDate": "2023-04",
+      "sourcePanoramaId": "UAF4u7SADG9xGAprTpT_bg",
+      "copyright": "\u00a9 Google",
+      "faceId": "1669-0",
+      "targetFacadeCenter": [
+        -2255.631,
+        -1367.977
+      ],
+      "width": 5.15388,
+      "height": 1.0,
+      "physicalAspectRatio": 5.1539,
+      "widthRatio": 0.17569,
+      "heightRatio": 0.02912,
+      "baseOffset": 2.8,
+      "depth": 0.3,
+      "mounts": [
+        {
+          "faceId": "1669-0",
+          "center": [
+            -2243.772439,
+            -1365.698139
+          ],
+          "normal": [
+            0.188717,
+            -0.982031
+          ],
+          "tangent": [
+            0.982031,
+            0.188717
+          ],
+          "base": 38.323,
+          "width": 5.15388,
+          "height": 1.0,
+          "uv": [
+            0.0,
+            1.0
+          ],
+          "facadeWidth": 29.335
+        }
+      ],
+      "dimensionsEstimated": true,
+      "geometryConfidence": "approximate-photo-to-CAD-fit",
+      "dimensionBasis": "Horizontal camera rays fitted/clipped to existing CAD frontage; height and distance above local facade ground estimated from photographed retail floors.",
+      "projectedWidthBeforeClipping": 5.15388,
+      "notes": "Only the fully visible logo/Arabic portion is cropped; the English name leaves the original frame.",
+      "textureUrl": "/assets/world/bliss/shopfronts/zaatar-w-zeit.webp",
+      "sourceSha256": "a5be5f45556aecd9f1c34ba6abfae570b5138dc0ec4223d774abdddab51b9491",
+      "textureWidth": 126,
+      "textureHeight": 35,
+      "transparent": false
+    }
+  ]
+}

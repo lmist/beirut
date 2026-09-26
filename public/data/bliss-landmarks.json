@@ -1,0 +1,4362 @@
+{
+  "version": 1,
+  "registrationVersion": 2,
+  "title": "Bliss Street — AUB frontage",
+  "note": "Architectural reconstruction from published AUB photographs and mapped footprints. Approximate dimensions, no invented landmark identities. Terrain elevation sampled directly from the current city mesh.",
+  "sources": [
+    {
+      "id": "aub-gate-footprint",
+      "url": "https://www.openstreetmap.org/way/332101455",
+      "local": "data/bliss-street/references/aub-main-gate-osm.json",
+      "use": "Footprint corners and orientation",
+      "license": "Open Database License; OpenStreetMap contributors"
+    },
+    {
+      "id": "aub-official-location",
+      "url": "https://linked.aub.edu.lb/collab/index.php/Main_Gate_Building",
+      "use": "Official coordinate cross-check: 33°53′58.19″N,35°28′56.23″E"
+    },
+    {
+      "id": "aub-architecture",
+      "url": "https://online-exhibit.aub.edu.lb/exhibits/show/aub-main-gate/1901-1902/the-main-gate-building-s-archi/architectural-features",
+      "local": "data/bliss-street/references/aub-main-gate-2015.jpg",
+      "use": "Symmetric gatehouse, horseshoe arch, paired towers and terracotta pitched roofs; visual reference only, not used as texture"
+    },
+    {
+      "id": "aub-materials",
+      "url": "https://online-exhibit.aub.edu.lb/exhibits/show/aub-main-gate/1901-1902/the-main-gate-building-s-archi/the-material",
+      "use": "Sandstone, yellow trim and wrought iron"
+    },
+    {
+      "id": "aub-campus-footprint",
+      "url": "https://www.openstreetmap.org/way/25579036",
+      "local": "data/bliss-street/references/aub-boundary-osm.json",
+      "use": "Southern campus boundary trace",
+      "license": "Open Database License; OpenStreetMap contributors"
+    },
+    {
+      "id": "aub-campus-edge",
+      "url": "https://www.aub.edu/Neighborhood/Documents/1-2AUB-NI-Report-2015-11-01_FINAL.pdf",
+      "use": "Campus wall edge along Bliss Street"
+    },
+    {
+      "id": "streetview-602",
+      "local": "data/photographic/facades/images/602.jpg",
+      "panoId": "jxt9PcBZ_3fypNtkExMOdw",
+      "date": "2023-04",
+      "lat": 33.89927541211059,
+      "lon": 35.48127490394604,
+      "headingDeg": 3.3,
+      "use": "Ashlar campus wall, pale coping and estimated height; image is a modelling reference, not a new texture"
+    },
+    {
+      "id": "assembly-footprint",
+      "url": "https://www.openstreetmap.org/way/25578952",
+      "local": "data/bliss-street/references/bliss-religious-footprints.json",
+      "use": "Named AssemblyHall footprint; nave, transept and apse",
+      "license": "Open Database License; OpenStreetMap contributors"
+    },
+    {
+      "id": "assembly-history",
+      "url": "https://www.aub.edu.lb/ieds/Documents/Fact%20Book/FB201516.pdf",
+      "use": "AUB identifies AssemblyHall as formerchapel with redroof tiles and rosewindows"
+    },
+    {
+      "id": "streetview-87",
+      "local": "data/photographic/facades/images/87.jpg",
+      "panoId": "atd26L2eSXUc3jfKHDfdBA",
+      "date": "2017-10",
+      "lat": 33.89979705813437,
+      "lon": 35.4827067170658,
+      "headingDeg": 128.6,
+      "use": "Stonewalls, pointedgables, windows, buttresses, redtiled crossingroofs"
+    },
+    {
+      "id": "mosque-footprint",
+      "url": "https://www.openstreetmap.org/way/551960432",
+      "local": "data/bliss-street/references/bliss-religious-footprints.json",
+      "use": "Named DaoukMosque footprint",
+      "license": "Open Database License; OpenStreetMap contributors"
+    },
+    {
+      "id": "streetview-264",
+      "local": "data/photographic/facades/images/264.jpg",
+      "panoId": "dgf9KphQPXiiqySe7Qe8bg",
+      "date": "2023-04",
+      "lat": 33.89868143676545,
+      "lon": 35.47796992585772,
+      "headingDeg": 190.8,
+      "use": "Lowarched streetarcade, flatroof, slendercylindrical minaret with gallery andsmallpointedlantern"
+    },
+    {
+      "id": "osm-aub-laurel",
+      "url": "https://www.openstreetmap.org/node/6048740953",
+      "local": "data/bliss-street/references/bliss-chapel-osm.xml",
+      "use": "Mapped Cuban-laurel trunk coordinate, evergreen broadleaved tree; canopy dimensions are estimated",
+      "license": "Open Database License; OpenStreetMap contributors"
+    },
+    {
+      "id": "canopy-photo-1813",
+      "local": "data/bliss-street/imagery-collected/1813.jpg",
+      "url": "/assets/world/bliss/photos/bliss-1813-99758dc008.webp",
+      "panoId": "6Tv2rGn1hFeLU183YKtIig",
+      "date": "2023-04",
+      "lat": 33.89878241118961,
+      "lon": 35.47848461630361,
+      "headingDeg": 270.929,
+      "use": "Highly oblique view points west down street, with facade normal cosine only 0.224. The right-hand building is visible but the photo cannot reliably distinguish the exact target frontage from nearer sections."
+    },
+    {
+      "id": "canopy-photo-594",
+      "local": "data/bliss-street/imagery-collected/594.jpg",
+      "url": "/assets/world/bliss/photos/bliss-594-cf01a17850.webp",
+      "panoId": "jVou1J0r5GJZTsD7SYH01Q",
+      "date": "2023-04",
+      "lat": 33.89888461245848,
+      "lon": 35.47921117848207,
+      "headingDeg": 353.939,
+      "use": "The target is behind a high campus boundary wall and dense trees. No target building facade or floor count is visible."
+    },
+    {
+      "id": "canopy-photo-593",
+      "local": "data/bliss-street/imagery-collected/593.jpg",
+      "url": "/assets/world/bliss/photos/bliss-593-1aa459b47f.webp",
+      "panoId": "5bIqjkceElJx40eSaOFJaQ",
+      "date": "2023-04",
+      "lat": 33.89903643169485,
+      "lon": 35.47998804872359,
+      "headingDeg": 348.54,
+      "use": "A two-level campus facade is visible behind the smooth block boundary. Roof/eave and two windows on each visible level are clear, but trees conceal the right half and boundary hides lower portion."
+    },
+    {
+      "id": "canopy-photo-592",
+      "local": "data/bliss-street/imagery-collected/592.jpg",
+      "url": "/assets/world/bliss/photos/bliss-592-1f82f7ece2.webp",
+      "panoId": "XGLN1-3gN7HLYbsTzMe0jg",
+      "date": "2023-04",
+      "lat": 33.89909278708672,
+      "lon": 35.48030640039855,
+      "headingDeg": 352.1,
+      "use": "Pale campus masonry facade is visible above tall stone boundary, but top and base are cropped and tree branches cover side openings. Three tall windows and part of a higher level are observable; full width/height unknown."
+    },
+    {
+      "id": "canopy-photo-600",
+      "local": "data/bliss-street/imagery-collected/600.jpg",
+      "url": "/assets/world/bliss/photos/bliss-600-a43099fbd6.webp",
+      "panoId": "h9H1xVvZdm-ICj0SkfrfLQ",
+      "date": "2023-04",
+      "lat": 33.89919228460821,
+      "lon": 35.48084263920431,
+      "headingDeg": 333.451,
+      "use": "Large trees and a shaded stone wall conceal target. A small upper building/eave fragment at top right provides no reliable floor or opening count."
+    },
+    {
+      "id": "canopy-photo-601",
+      "local": "data/bliss-street/imagery-collected/601.jpg",
+      "url": "/assets/world/bliss/photos/bliss-601-5d847d3fbb.webp",
+      "panoId": "-q5ljwj4IC-fjeouakc_qw",
+      "date": "2023-04",
+      "lat": 33.89932105861942,
+      "lon": 35.48150549434825,
+      "headingDeg": 31.277,
+      "use": "Long rough stone boundary and dense trees block the candidate. Small roof/building fragments cannot establish floors or bay rhythm."
+    },
+    {
+      "id": "canopy-photo-597",
+      "local": "data/bliss-street/imagery-collected/597.jpg",
+      "url": "/assets/world/bliss/photos/bliss-597-4e7b983536.webp",
+      "panoId": "oxLifU_5VtEpoeaz7W3qEw",
+      "date": "2023-04",
+      "lat": 33.89918851928577,
+      "lon": 35.4837505197425,
+      "headingDeg": 35.383,
+      "use": "A pale stone campus building is visible behind iron fence and trees. Only fragments of two levels are exposed; total floors and full bay count remain unknown."
+    },
+    {
+      "id": "canopy-photo-491",
+      "local": "data/bliss-street/imagery-collected/491.jpg",
+      "url": "/assets/world/bliss/photos/bliss-491-60c2a5e7b8.webp",
+      "panoId": "2CV-CJhubmJ47wHa8BfnLw",
+      "date": "2023-04",
+      "lat": 33.89910682761015,
+      "lon": 35.48429208459929,
+      "headingDeg": 87.579,
+      "use": "Camera looks along the street. Target on the campus side is screened by trees/fence; the large white grid tower at right is the opposite-side neighboring building and must not be assigned to491."
+    },
+    {
+      "id": "canopy-photo-577",
+      "local": "data/bliss-street/imagery-collected/577.jpg",
+      "url": "/assets/world/bliss/photos/bliss-577-80d2980659.webp",
+      "panoId": "0pA_pxkx3AubPesIqsqIIQ",
+      "date": "2023-04",
+      "lat": 33.89917328777545,
+      "lon": 35.48487376135187,
+      "headingDeg": 359.824,
+      "use": "Dense foliage fills virtually the entire image. No facade, window count, storey count or roof is observable for the target."
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "aub-main-gate",
+      "name": "AUB Main Gate",
+      "kind": "gatehouse",
+      "position": [
+        -2429.7965358505717,
+        39.007,
+        -1423.2398404028145
+      ],
+      "rotationY": -0.16595312564142906,
+      "width": 24.288325916009214,
+      "depth": 7.139504926970316,
+      "height": 10.4,
+      "archWidth": 3.55,
+      "archSpring": 4.15,
+      "roofRise": 1.45,
+      "sources": [
+        "aub-gate-footprint",
+        "aub-architecture",
+        "aub-materials"
+      ],
+      "confidence": "Located by OSM footprint and official AUB coordinate; elevations and ornament dimensions estimated from AUB photographs.",
+      "groundSamples": {
+        "center": 38.751,
+        "entrance": 38.972,
+        "rear": 38.479
+      },
+      "foundationDepth": 0.5279999999999987
+    },
+    {
+      "id": "aub-assembly-hall",
+      "name": "AUB Assembly Hall",
+      "kind": "assembly-hall",
+      "replacementBuildingId": 87,
+      "footprint": [
+        [
+          -2344.6854112279666,
+          -1416.466756518621
+        ],
+        [
+          -2357.4012593606767,
+          -1418.194357350865
+        ],
+        [
+          -2356.6290482591,
+          -1423.9010303463092
+        ],
+        [
+          -2375.4211658693453,
+          -1426.4481075306335
+        ],
+        [
+          -2374.6213403244005,
+          -1432.2993988947314
+        ],
+        [
+          -2373.683442564586,
+          -1438.8737820973531
+        ],
+        [
+          -2355.6023000372165,
+          -1436.2929091542649
+        ],
+        [
+          -2354.912692272287,
+          -1441.165291388194
+        ],
+        [
+          -2342.3999522591344,
+          -1439.3819527437593
+        ],
+        [
+          -2342.924040028149,
+          -1435.6553610356916
+        ],
+        [
+          -2339.008616900076,
+          -1435.1015468261203
+        ],
+        [
+          -2335.8476974458213,
+          -1430.1091169417632
+        ],
+        [
+          -2336.721865928409,
+          -1425.0475294100027
+        ],
+        [
+          -2339.951695150649,
+          -1421.764244741203
+        ],
+        [
+          -2344.207385307875,
+          -1420.015349153729
+        ]
+      ],
+      "height": 7.8,
+      "roofRise": 6.1,
+      "sources": [
+        "assembly-footprint",
+        "assembly-history",
+        "streetview-87"
+      ],
+      "confidence": "Named OSM footprint and photographed crossing roofs; eave and ridge heights are visual estimates, not surveyed elevations.",
+      "position": [
+        -2351.6011941957127,
+        36.32,
+        -1429.3811156088825
+      ]
+    },
+    {
+      "id": "daouk-mosque",
+      "name": "Daouk Mosque",
+      "kind": "mosque",
+      "replacementBuildingId": 264,
+      "footprint": [
+        [
+          -2839.5850343408306,
+          -1325.1933589927623
+        ],
+        [
+          -2837.943469237933,
+          -1313.181268752608
+        ],
+        [
+          -2840.7041262526486,
+          -1312.8125480581928
+        ],
+        [
+          -2839.9900112639825,
+          -1307.6073106134388
+        ],
+        [
+          -2828.282629963746,
+          -1309.2049471835066
+        ],
+        [
+          -2830.6290696870196,
+          -1326.411157189569
+        ]
+      ],
+      "height": 4.6,
+      "minaret": {
+        "position": [
+          -2835.9,
+          -1314.6
+        ],
+        "height": 18.8,
+        "radius": 0.62,
+        "confidence": "The minaret is visible near image column334/640. Its base is estimated by intersecting the camera bearing with the rear portion of the mapped mosque; position uncertainty about2m and height estimated photographically."
+      },
+      "sources": [
+        "mosque-footprint",
+        "streetview-264"
+      ],
+      "confidence": "Named OSM footprint replaces the incorrect tall CAD box. Low arcade and slender minaret observed in April2023 photo; rear decoration is omitted.",
+      "position": [
+        -2836.189056791027,
+        41.008,
+        -1315.7350984650132
+      ]
+    }
+  ],
+  "replacementBuildingIds": [
+    87,
+    264
+  ],
+  "walls": [
+    {
+      "id": "aub-boundary-1-0",
+      "a": [
+        -2860.3036952001603,
+        39.743,
+        -1337.6389444416366
+      ],
+      "b": [
+        -2855.541771207661,
+        39.741,
+        -1338.5892942278153
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-1",
+      "a": [
+        -2855.541771207661,
+        39.741,
+        -1338.5892942278153
+      ],
+      "b": [
+        -2850.7798472151617,
+        39.74,
+        -1339.539644013994
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-2",
+      "a": [
+        -2850.7798472151617,
+        39.74,
+        -1339.539644013994
+      ],
+      "b": [
+        -2846.0179232226624,
+        39.738,
+        -1340.4899938001727
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-3",
+      "a": [
+        -2846.0179232226624,
+        39.738,
+        -1340.4899938001727
+      ],
+      "b": [
+        -2841.255999230163,
+        39.811,
+        -1341.4403435863514
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-4",
+      "a": [
+        -2841.255999230163,
+        39.811,
+        -1341.4403435863514
+      ],
+      "b": [
+        -2836.4940752376638,
+        39.955,
+        -1342.39069337253
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-5",
+      "a": [
+        -2836.4940752376638,
+        39.955,
+        -1342.39069337253
+      ],
+      "b": [
+        -2831.7321512451645,
+        40.099,
+        -1343.3410431587088
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-6",
+      "a": [
+        -2831.7321512451645,
+        40.099,
+        -1343.3410431587088
+      ],
+      "b": [
+        -2826.970227252665,
+        40.138,
+        -1344.2913929448873
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-7",
+      "a": [
+        -2826.970227252665,
+        40.138,
+        -1344.2913929448873
+      ],
+      "b": [
+        -2822.208303260166,
+        40.155,
+        -1345.241742731066
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-8",
+      "a": [
+        -2822.208303260166,
+        40.155,
+        -1345.241742731066
+      ],
+      "b": [
+        -2817.4463792676665,
+        40.173,
+        -1346.1920925172449
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-9",
+      "a": [
+        -2817.4463792676665,
+        40.173,
+        -1346.1920925172449
+      ],
+      "b": [
+        -2812.6844552751672,
+        40.208,
+        -1347.1424423034234
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-10",
+      "a": [
+        -2812.6844552751672,
+        40.208,
+        -1347.1424423034234
+      ],
+      "b": [
+        -2807.9225312826684,
+        40.231,
+        -1348.0927920896022
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-11",
+      "a": [
+        -2807.9225312826684,
+        40.231,
+        -1348.0927920896022
+      ],
+      "b": [
+        -2803.160607290169,
+        40.223,
+        -1349.043141875781
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-12",
+      "a": [
+        -2803.160607290169,
+        40.223,
+        -1349.043141875781
+      ],
+      "b": [
+        -2798.39868329767,
+        40.228,
+        -1349.9934916619595
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-13",
+      "a": [
+        -2798.39868329767,
+        40.228,
+        -1349.9934916619595
+      ],
+      "b": [
+        -2793.6367593051705,
+        40.237,
+        -1350.9438414481383
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-14",
+      "a": [
+        -2793.6367593051705,
+        40.237,
+        -1350.9438414481383
+      ],
+      "b": [
+        -2788.874835312671,
+        40.233,
+        -1351.894191234317
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-15",
+      "a": [
+        -2788.874835312671,
+        40.233,
+        -1351.894191234317
+      ],
+      "b": [
+        -2784.112911320172,
+        40.225,
+        -1352.8445410204956
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-16",
+      "a": [
+        -2784.112911320172,
+        40.225,
+        -1352.8445410204956
+      ],
+      "b": [
+        -2779.3509873276726,
+        40.246,
+        -1353.7948908066744
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-17",
+      "a": [
+        -2779.3509873276726,
+        40.246,
+        -1353.7948908066744
+      ],
+      "b": [
+        -2774.5890633351733,
+        40.267,
+        -1354.745240592853
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-18",
+      "a": [
+        -2774.5890633351733,
+        40.267,
+        -1354.745240592853
+      ],
+      "b": [
+        -2769.827139342674,
+        40.289,
+        -1355.6955903790317
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-19",
+      "a": [
+        -2769.827139342674,
+        40.289,
+        -1355.6955903790317
+      ],
+      "b": [
+        -2765.0652153501746,
+        40.346,
+        -1356.6459401652105
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-20",
+      "a": [
+        -2765.0652153501746,
+        40.346,
+        -1356.6459401652105
+      ],
+      "b": [
+        -2760.3032913576753,
+        40.275,
+        -1357.596289951389
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-1-21",
+      "a": [
+        -2760.3032913576753,
+        40.275,
+        -1357.596289951389
+      ],
+      "b": [
+        -2755.541367365176,
+        40.54,
+        -1358.5466397375678
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-0",
+      "a": [
+        -2755.541367365176,
+        40.54,
+        -1358.5466397375678
+      ],
+      "b": [
+        -2750.714591589148,
+        40.503,
+        -1359.6755443522609
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-1",
+      "a": [
+        -2750.714591589148,
+        40.503,
+        -1359.6755443522609
+      ],
+      "b": [
+        -2745.8878158131197,
+        40.445,
+        -1360.804448966954
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-2",
+      "a": [
+        -2745.8878158131197,
+        40.445,
+        -1360.804448966954
+      ],
+      "b": [
+        -2741.0610400370915,
+        40.458,
+        -1361.933353581647
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-3",
+      "a": [
+        -2741.0610400370915,
+        40.458,
+        -1361.933353581647
+      ],
+      "b": [
+        -2736.2342642610633,
+        40.62,
+        -1363.0622581963398
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-4",
+      "a": [
+        -2736.2342642610633,
+        40.62,
+        -1363.0622581963398
+      ],
+      "b": [
+        -2731.4074884850347,
+        40.503,
+        -1364.1911628110329
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-5",
+      "a": [
+        -2731.4074884850347,
+        40.503,
+        -1364.1911628110329
+      ],
+      "b": [
+        -2726.5807127090065,
+        40.375,
+        -1365.320067425726
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-6",
+      "a": [
+        -2726.5807127090065,
+        40.375,
+        -1365.320067425726
+      ],
+      "b": [
+        -2721.7539369329784,
+        40.277,
+        -1366.448972040419
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-7",
+      "a": [
+        -2721.7539369329784,
+        40.277,
+        -1366.448972040419
+      ],
+      "b": [
+        -2716.92716115695,
+        40.34,
+        -1367.577876655112
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-8",
+      "a": [
+        -2716.92716115695,
+        40.34,
+        -1367.577876655112
+      ],
+      "b": [
+        -2712.100385380922,
+        40.461,
+        -1368.706781269805
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-9",
+      "a": [
+        -2712.100385380922,
+        40.461,
+        -1368.706781269805
+      ],
+      "b": [
+        -2707.273609604894,
+        40.383,
+        -1369.835685884498
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-10",
+      "a": [
+        -2707.273609604894,
+        40.383,
+        -1369.835685884498
+      ],
+      "b": [
+        -2702.4468338288657,
+        40.402,
+        -1370.964590499191
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-11",
+      "a": [
+        -2702.4468338288657,
+        40.402,
+        -1370.964590499191
+      ],
+      "b": [
+        -2697.6200580528375,
+        40.466,
+        -1372.093495113884
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-12",
+      "a": [
+        -2697.6200580528375,
+        40.466,
+        -1372.093495113884
+      ],
+      "b": [
+        -2692.793282276809,
+        40.518,
+        -1373.222399728577
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-13",
+      "a": [
+        -2692.793282276809,
+        40.518,
+        -1373.222399728577
+      ],
+      "b": [
+        -2687.9665065007807,
+        40.544,
+        -1374.3513043432702
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-14",
+      "a": [
+        -2687.9665065007807,
+        40.544,
+        -1374.3513043432702
+      ],
+      "b": [
+        -2683.1397307247526,
+        40.569,
+        -1375.4802089579632
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-15",
+      "a": [
+        -2683.1397307247526,
+        40.569,
+        -1375.4802089579632
+      ],
+      "b": [
+        -2678.3129549487244,
+        40.596,
+        -1376.6091135726563
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-16",
+      "a": [
+        -2678.3129549487244,
+        40.596,
+        -1376.6091135726563
+      ],
+      "b": [
+        -2673.486179172696,
+        40.66,
+        -1377.738018187349
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-17",
+      "a": [
+        -2673.486179172696,
+        40.66,
+        -1377.738018187349
+      ],
+      "b": [
+        -2668.659403396668,
+        40.724,
+        -1378.8669228020422
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-18",
+      "a": [
+        -2668.659403396668,
+        40.724,
+        -1378.8669228020422
+      ],
+      "b": [
+        -2663.83262762064,
+        40.758,
+        -1379.9958274167352
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-19",
+      "a": [
+        -2663.83262762064,
+        40.758,
+        -1379.9958274167352
+      ],
+      "b": [
+        -2659.0058518446117,
+        40.785,
+        -1381.1247320314283
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-20",
+      "a": [
+        -2659.0058518446117,
+        40.785,
+        -1381.1247320314283
+      ],
+      "b": [
+        -2654.1790760685835,
+        40.803,
+        -1382.2536366461213
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-21",
+      "a": [
+        -2654.1790760685835,
+        40.803,
+        -1382.2536366461213
+      ],
+      "b": [
+        -2649.352300292555,
+        40.829,
+        -1383.3825412608144
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-22",
+      "a": [
+        -2649.352300292555,
+        40.829,
+        -1383.3825412608144
+      ],
+      "b": [
+        -2644.5255245165267,
+        40.884,
+        -1384.5114458755072
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-23",
+      "a": [
+        -2644.5255245165267,
+        40.884,
+        -1384.5114458755072
+      ],
+      "b": [
+        -2639.6987487404986,
+        40.949,
+        -1385.6403504902003
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-24",
+      "a": [
+        -2639.6987487404986,
+        40.949,
+        -1385.6403504902003
+      ],
+      "b": [
+        -2634.8719729644704,
+        40.901,
+        -1386.7692551048933
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-2-25",
+      "a": [
+        -2634.8719729644704,
+        40.901,
+        -1386.7692551048933
+      ],
+      "b": [
+        -2630.045197188442,
+        40.822,
+        -1387.8981597195864
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-0",
+      "a": [
+        -2630.045197188442,
+        40.822,
+        -1387.8981597195864
+      ],
+      "b": [
+        -2625.148556634216,
+        40.761,
+        -1388.8289560824492
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-1",
+      "a": [
+        -2625.148556634216,
+        40.761,
+        -1388.8289560824492
+      ],
+      "b": [
+        -2620.2519160799907,
+        40.775,
+        -1389.7597524453117
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-2",
+      "a": [
+        -2620.2519160799907,
+        40.775,
+        -1389.7597524453117
+      ],
+      "b": [
+        -2615.3552755257647,
+        40.832,
+        -1390.6905488081745
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-3",
+      "a": [
+        -2615.3552755257647,
+        40.832,
+        -1390.6905488081745
+      ],
+      "b": [
+        -2610.4586349715387,
+        40.886,
+        -1391.621345171037
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-4",
+      "a": [
+        -2610.4586349715387,
+        40.886,
+        -1391.621345171037
+      ],
+      "b": [
+        -2605.561994417313,
+        40.907,
+        -1392.5521415338999
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-5",
+      "a": [
+        -2605.561994417313,
+        40.907,
+        -1392.5521415338999
+      ],
+      "b": [
+        -2600.665353863087,
+        40.723,
+        -1393.4829378967625
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-6",
+      "a": [
+        -2600.665353863087,
+        40.723,
+        -1393.4829378967625
+      ],
+      "b": [
+        -2595.768713308861,
+        40.94,
+        -1394.4137342596252
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-7",
+      "a": [
+        -2595.768713308861,
+        40.94,
+        -1394.4137342596252
+      ],
+      "b": [
+        -2590.872072754635,
+        40.966,
+        -1395.344530622488
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-8",
+      "a": [
+        -2590.872072754635,
+        40.966,
+        -1395.344530622488
+      ],
+      "b": [
+        -2585.9754322004096,
+        41.046,
+        -1396.2753269853506
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-9",
+      "a": [
+        -2585.9754322004096,
+        41.046,
+        -1396.2753269853506
+      ],
+      "b": [
+        -2581.0787916461836,
+        41.114,
+        -1397.2061233482134
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-10",
+      "a": [
+        -2581.0787916461836,
+        41.114,
+        -1397.2061233482134
+      ],
+      "b": [
+        -2576.1821510919576,
+        41.158,
+        -1398.136919711076
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-11",
+      "a": [
+        -2576.1821510919576,
+        41.158,
+        -1398.136919711076
+      ],
+      "b": [
+        -2571.285510537732,
+        40.92,
+        -1399.0677160739388
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-12",
+      "a": [
+        -2571.285510537732,
+        40.92,
+        -1399.0677160739388
+      ],
+      "b": [
+        -2566.388869983506,
+        40.699,
+        -1399.9985124368015
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-13",
+      "a": [
+        -2566.388869983506,
+        40.699,
+        -1399.9985124368015
+      ],
+      "b": [
+        -2561.49222942928,
+        40.619,
+        -1400.929308799664
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-14",
+      "a": [
+        -2561.49222942928,
+        40.619,
+        -1400.929308799664
+      ],
+      "b": [
+        -2556.5955888750545,
+        40.474,
+        -1401.860105162527
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-15",
+      "a": [
+        -2556.5955888750545,
+        40.474,
+        -1401.860105162527
+      ],
+      "b": [
+        -2551.6989483208285,
+        40.382,
+        -1402.7909015253895
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-16",
+      "a": [
+        -2551.6989483208285,
+        40.382,
+        -1402.7909015253895
+      ],
+      "b": [
+        -2546.8023077666026,
+        40.378,
+        -1403.7216978882523
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-17",
+      "a": [
+        -2546.8023077666026,
+        40.378,
+        -1403.7216978882523
+      ],
+      "b": [
+        -2541.905667212377,
+        40.617,
+        -1404.652494251115
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-18",
+      "a": [
+        -2541.905667212377,
+        40.617,
+        -1404.652494251115
+      ],
+      "b": [
+        -2537.009026658151,
+        40.669,
+        -1405.5832906139776
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-19",
+      "a": [
+        -2537.009026658151,
+        40.669,
+        -1405.5832906139776
+      ],
+      "b": [
+        -2532.112386103925,
+        40.607,
+        -1406.5140869768404
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-20",
+      "a": [
+        -2532.112386103925,
+        40.607,
+        -1406.5140869768404
+      ],
+      "b": [
+        -2527.215745549699,
+        40.546,
+        -1407.444883339703
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-21",
+      "a": [
+        -2527.215745549699,
+        40.546,
+        -1407.444883339703
+      ],
+      "b": [
+        -2522.3191049954735,
+        40.749,
+        -1408.3756797025658
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-22",
+      "a": [
+        -2522.3191049954735,
+        40.749,
+        -1408.3756797025658
+      ],
+      "b": [
+        -2517.4224644412475,
+        41.489,
+        -1409.3064760654283
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-23",
+      "a": [
+        -2517.4224644412475,
+        41.489,
+        -1409.3064760654283
+      ],
+      "b": [
+        -2512.5258238870215,
+        42.167,
+        -1410.2372724282911
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-24",
+      "a": [
+        -2512.5258238870215,
+        42.167,
+        -1410.2372724282911
+      ],
+      "b": [
+        -2507.629183332796,
+        42.381,
+        -1411.168068791154
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-25",
+      "a": [
+        -2507.629183332796,
+        42.381,
+        -1411.168068791154
+      ],
+      "b": [
+        -2502.73254277857,
+        42.197,
+        -1412.0988651540165
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-26",
+      "a": [
+        -2502.73254277857,
+        42.197,
+        -1412.0988651540165
+      ],
+      "b": [
+        -2497.835902224344,
+        42.004,
+        -1413.0296615168793
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-27",
+      "a": [
+        -2497.835902224344,
+        42.004,
+        -1413.0296615168793
+      ],
+      "b": [
+        -2492.9392616701184,
+        40.813,
+        -1413.9604578797419
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-28",
+      "a": [
+        -2492.9392616701184,
+        40.813,
+        -1413.9604578797419
+      ],
+      "b": [
+        -2488.0426211158924,
+        40.781,
+        -1414.8912542426046
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-29",
+      "a": [
+        -2488.0426211158924,
+        40.781,
+        -1414.8912542426046
+      ],
+      "b": [
+        -2483.1459805616664,
+        40.603,
+        -1415.8220506054672
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-30",
+      "a": [
+        -2483.1459805616664,
+        40.603,
+        -1415.8220506054672
+      ],
+      "b": [
+        -2478.2493400074404,
+        40.393,
+        -1416.75284696833
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-31",
+      "a": [
+        -2478.2493400074404,
+        40.393,
+        -1416.75284696833
+      ],
+      "b": [
+        -2473.352699453215,
+        40.254,
+        -1417.6836433311928
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-32",
+      "a": [
+        -2473.352699453215,
+        40.254,
+        -1417.6836433311928
+      ],
+      "b": [
+        -2468.456058898989,
+        40.075,
+        -1418.6144396940554
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-33",
+      "a": [
+        -2468.456058898989,
+        40.075,
+        -1418.6144396940554
+      ],
+      "b": [
+        -2463.559418344763,
+        39.839,
+        -1419.5452360569182
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-34",
+      "a": [
+        -2463.559418344763,
+        39.839,
+        -1419.5452360569182
+      ],
+      "b": [
+        -2458.6627777905373,
+        39.643,
+        -1420.4760324197807
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-3-35",
+      "a": [
+        -2458.6627777905373,
+        39.643,
+        -1420.4760324197807
+      ],
+      "b": [
+        -2453.7661372363114,
+        39.551,
+        -1421.4068287826435
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-0",
+      "a": [
+        -2453.7661372363114,
+        39.551,
+        -1421.4068287826435
+      ],
+      "b": [
+        -2448.846632380309,
+        39.677,
+        -1420.594330331013
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-1",
+      "a": [
+        -2448.846632380309,
+        39.677,
+        -1420.594330331013
+      ],
+      "b": [
+        -2443.927127524307,
+        39.766,
+        -1419.7818318793825
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-8",
+      "a": [
+        -2414.4100983882927,
+        39.033,
+        -1414.9068411695996
+      ],
+      "b": [
+        -2409.4905935322904,
+        38.965,
+        -1414.0943427179693
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-9",
+      "a": [
+        -2409.4905935322904,
+        38.965,
+        -1414.0943427179693
+      ],
+      "b": [
+        -2404.571088676288,
+        38.577,
+        -1413.2818442663388
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-10",
+      "a": [
+        -2404.571088676288,
+        38.577,
+        -1413.2818442663388
+      ],
+      "b": [
+        -2399.651583820286,
+        38.703,
+        -1412.4693458147083
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-11",
+      "a": [
+        -2399.651583820286,
+        38.703,
+        -1412.4693458147083
+      ],
+      "b": [
+        -2394.7320789642836,
+        38.828,
+        -1411.6568473630778
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-12",
+      "a": [
+        -2394.7320789642836,
+        38.828,
+        -1411.6568473630778
+      ],
+      "b": [
+        -2389.8125741082813,
+        38.757,
+        -1410.8443489114472
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-13",
+      "a": [
+        -2389.8125741082813,
+        38.757,
+        -1410.8443489114472
+      ],
+      "b": [
+        -2384.893069252279,
+        38.729,
+        -1410.0318504598167
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-14",
+      "a": [
+        -2384.893069252279,
+        38.729,
+        -1410.0318504598167
+      ],
+      "b": [
+        -2379.9735643962767,
+        38.703,
+        -1409.2193520081864
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-15",
+      "a": [
+        -2379.9735643962767,
+        38.703,
+        -1409.2193520081864
+      ],
+      "b": [
+        -2375.0540595402745,
+        38.732,
+        -1408.406853556556
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-16",
+      "a": [
+        -2375.0540595402745,
+        38.732,
+        -1408.406853556556
+      ],
+      "b": [
+        -2370.134554684272,
+        38.673,
+        -1407.5943551049254
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-17",
+      "a": [
+        -2370.134554684272,
+        38.673,
+        -1407.5943551049254
+      ],
+      "b": [
+        -2365.21504982827,
+        38.615,
+        -1406.7818566532949
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-18",
+      "a": [
+        -2365.21504982827,
+        38.615,
+        -1406.7818566532949
+      ],
+      "b": [
+        -2360.2955449722676,
+        38.42,
+        -1405.9693582016644
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-19",
+      "a": [
+        -2360.2955449722676,
+        38.42,
+        -1405.9693582016644
+      ],
+      "b": [
+        -2355.3760401162654,
+        38.178,
+        -1405.1568597500338
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-20",
+      "a": [
+        -2355.3760401162654,
+        38.178,
+        -1405.1568597500338
+      ],
+      "b": [
+        -2350.456535260263,
+        38.136,
+        -1404.3443612984036
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-21",
+      "a": [
+        -2350.456535260263,
+        38.136,
+        -1404.3443612984036
+      ],
+      "b": [
+        -2345.5370304042603,
+        38.22,
+        -1403.531862846773
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-22",
+      "a": [
+        -2345.5370304042603,
+        38.22,
+        -1403.531862846773
+      ],
+      "b": [
+        -2340.617525548258,
+        38.244,
+        -1402.7193643951425
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-23",
+      "a": [
+        -2340.617525548258,
+        38.244,
+        -1402.7193643951425
+      ],
+      "b": [
+        -2335.698020692256,
+        37.933,
+        -1401.906865943512
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-24",
+      "a": [
+        -2335.698020692256,
+        37.933,
+        -1401.906865943512
+      ],
+      "b": [
+        -2330.7785158362535,
+        37.875,
+        -1401.0943674918815
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-25",
+      "a": [
+        -2330.7785158362535,
+        37.875,
+        -1401.0943674918815
+      ],
+      "b": [
+        -2325.8590109802512,
+        37.861,
+        -1400.281869040251
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-26",
+      "a": [
+        -2325.8590109802512,
+        37.861,
+        -1400.281869040251
+      ],
+      "b": [
+        -2320.939506124249,
+        37.846,
+        -1399.4693705886207
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-27",
+      "a": [
+        -2320.939506124249,
+        37.846,
+        -1399.4693705886207
+      ],
+      "b": [
+        -2316.0200012682467,
+        37.865,
+        -1398.6568721369902
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-4-28",
+      "a": [
+        -2316.0200012682467,
+        37.865,
+        -1398.6568721369902
+      ],
+      "b": [
+        -2311.1004964122444,
+        37.928,
+        -1397.8443736853596
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-0",
+      "a": [
+        -2311.1004964122444,
+        37.928,
+        -1397.8443736853596
+      ],
+      "b": [
+        -2306.3976383142185,
+        37.989,
+        -1397.0568584247815
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-1",
+      "a": [
+        -2306.3976383142185,
+        37.989,
+        -1397.0568584247815
+      ],
+      "b": [
+        -2301.694780216192,
+        38.049,
+        -1396.269343164203
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-2",
+      "a": [
+        -2301.694780216192,
+        38.049,
+        -1396.269343164203
+      ],
+      "b": [
+        -2296.9919221181663,
+        38.11,
+        -1395.481827903625
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-3",
+      "a": [
+        -2296.9919221181663,
+        38.11,
+        -1395.481827903625
+      ],
+      "b": [
+        -2292.2890640201404,
+        38.128,
+        -1394.6943126430467
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-4",
+      "a": [
+        -2292.2890640201404,
+        38.128,
+        -1394.6943126430467
+      ],
+      "b": [
+        -2287.586205922114,
+        38.13,
+        -1393.9067973824683
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-5",
+      "a": [
+        -2287.586205922114,
+        38.13,
+        -1393.9067973824683
+      ],
+      "b": [
+        -2282.883347824088,
+        38.122,
+        -1393.1192821218901
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-6",
+      "a": [
+        -2282.883347824088,
+        38.122,
+        -1393.1192821218901
+      ],
+      "b": [
+        -2278.1804897260618,
+        37.98,
+        -1392.331766861312
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-7",
+      "a": [
+        -2278.1804897260618,
+        37.98,
+        -1392.331766861312
+      ],
+      "b": [
+        -2273.477631628036,
+        38.075,
+        -1391.5442516007336
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-8",
+      "a": [
+        -2273.477631628036,
+        38.075,
+        -1391.5442516007336
+      ],
+      "b": [
+        -2268.77477353001,
+        38.129,
+        -1390.7567363401554
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-9",
+      "a": [
+        -2268.77477353001,
+        38.129,
+        -1390.7567363401554
+      ],
+      "b": [
+        -2264.0719154319836,
+        38.019,
+        -1389.9692210795772
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-10",
+      "a": [
+        -2264.0719154319836,
+        38.019,
+        -1389.9692210795772
+      ],
+      "b": [
+        -2259.3690573339577,
+        37.702,
+        -1389.181705818999
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-11",
+      "a": [
+        -2259.3690573339577,
+        37.702,
+        -1389.181705818999
+      ],
+      "b": [
+        -2254.666199235932,
+        37.543,
+        -1388.3941905584206
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-12",
+      "a": [
+        -2254.666199235932,
+        37.543,
+        -1388.3941905584206
+      ],
+      "b": [
+        -2249.9633411379054,
+        37.384,
+        -1387.6066752978425
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-13",
+      "a": [
+        -2249.9633411379054,
+        37.384,
+        -1387.6066752978425
+      ],
+      "b": [
+        -2245.2604830398795,
+        37.252,
+        -1386.8191600372643
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-14",
+      "a": [
+        -2245.2604830398795,
+        37.252,
+        -1386.8191600372643
+      ],
+      "b": [
+        -2240.557624941853,
+        37.136,
+        -1386.0316447766859
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-15",
+      "a": [
+        -2240.557624941853,
+        37.136,
+        -1386.0316447766859
+      ],
+      "b": [
+        -2235.8547668438273,
+        37.003,
+        -1385.2441295161077
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-16",
+      "a": [
+        -2235.8547668438273,
+        37.003,
+        -1385.2441295161077
+      ],
+      "b": [
+        -2231.1519087458014,
+        36.756,
+        -1384.4566142555295
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-17",
+      "a": [
+        -2231.1519087458014,
+        36.756,
+        -1384.4566142555295
+      ],
+      "b": [
+        -2226.449050647775,
+        36.616,
+        -1383.6690989949511
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    },
+    {
+      "id": "aub-boundary-5-18",
+      "a": [
+        -2226.449050647775,
+        36.616,
+        -1383.6690989949511
+      ],
+      "b": [
+        -2221.746192549749,
+        36.382,
+        -1382.881583734373
+      ],
+      "height": 2.1,
+      "thickness": 0.48,
+      "sources": [
+        "aub-campus-footprint",
+        "aub-campus-edge",
+        "streetview-602"
+      ],
+      "confidence": "Boundary trace is OSM; 2.1 m wall height, coursing and coping estimated from April 2023 street photography. Individual stones are not surveyed."
+    }
+  ],
+  "trees": [
+    {
+      "id": "osm-tree-6048740953",
+      "position": [
+        -2396.736096853965,
+        36.83,
+        -1447.7585393586523
+      ],
+      "kind": "broadleaf",
+      "height": 14,
+      "crownDiameter": 13,
+      "rotationY": 0.4,
+      "sources": [
+        "osm-aub-laurel",
+        "streetview-87"
+      ],
+      "placement": "mapped",
+      "confidence": "Exact OSM trunk coordinate; Cuban-laurel identification from OSM. Height and crown extent are photographic estimates."
+    },
+    {
+      "id": "aub-canopy-estimate-15-0",
+      "position": [
+        -2787.531153016102,
+        39.962,
+        -1357.5668704154884
+      ],
+      "kind": "broadleaf",
+      "height": 10.5,
+      "crownDiameter": 13.4,
+      "rotationY": 35.999445,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-1813"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-16-0",
+      "position": [
+        -2782.358231406748,
+        40.07,
+        -1356.4578317101627
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 9.8,
+      "rotationY": 38.399408,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-1813"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-17-0",
+      "position": [
+        -2777.733306619867,
+        40.056,
+        -1358.0946443268429
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 11,
+      "rotationY": 40.799371,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-19-0",
+      "position": [
+        -2768.4834570461053,
+        40.028,
+        -1361.368269560203
+      ],
+      "kind": "broadleaf",
+      "height": 13.3,
+      "crownDiameter": 13.4,
+      "rotationY": 45.599297,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-20-0",
+      "position": [
+        -2763.310535436751,
+        40.039,
+        -1360.2592308548776
+      ],
+      "kind": "broadleaf",
+      "height": 10.5,
+      "crownDiameter": 9.8,
+      "rotationY": 47.99926,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-21-0",
+      "position": [
+        -2758.6856106498703,
+        40.057,
+        -1361.8960434715575
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 11,
+      "rotationY": 50.399223,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-21-1",
+      "position": [
+        -2759.977317445699,
+        39.59,
+        -1368.3684073019992
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 11,
+      "rotationY": 50.399223,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-22-0",
+      "position": [
+        -2754.175573827097,
+        40.216,
+        -1363.590215405348
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 52.799186,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-23-0",
+      "position": [
+        -2749.5082145825813,
+        40.148,
+        -1365.4007257488029
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 13.4,
+      "rotationY": 55.199149,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-24-0",
+      "position": [
+        -2744.203189212017,
+        40.22,
+        -1364.484813177211
+      ],
+      "kind": "broadleaf",
+      "height": 13.3,
+      "crownDiameter": 9.8,
+      "rotationY": 57.599112000000005,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-24-1",
+      "position": [
+        -2745.8656758977845,
+        39.863,
+        -1371.5929872057252
+      ],
+      "kind": "cypress",
+      "height": 13,
+      "crownDiameter": 3,
+      "rotationY": 57.599112000000005,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-25-0",
+      "position": [
+        -2739.5358299675013,
+        40.349,
+        -1366.2953235206653
+      ],
+      "kind": "broadleaf",
+      "height": 10.5,
+      "crownDiameter": 11,
+      "rotationY": 59.999075000000005,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-26-0",
+      "position": [
+        -2734.8684707229845,
+        40.337,
+        -1368.10583386412
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 62.399038000000004,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-27-0",
+      "position": [
+        -2730.2011114784677,
+        40.19,
+        -1369.9163442075749
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 13.4,
+      "rotationY": 64.799001,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-27-1",
+      "position": [
+        -2731.3853485696995,
+        39.934,
+        -1374.9797010498041
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 13.4,
+      "rotationY": 64.799001,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-28-0",
+      "position": [
+        -2724.8960861079045,
+        40.164,
+        -1369.000431635983
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 9.8,
+      "rotationY": 67.198964,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-29-0",
+      "position": [
+        -2720.2287268633877,
+        40.115,
+        -1370.8109419794375
+      ],
+      "kind": "broadleaf",
+      "height": 13.3,
+      "crownDiameter": 11,
+      "rotationY": 69.598927,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-30-0",
+      "position": [
+        -2715.561367618872,
+        40.124,
+        -1372.6214523228923
+      ],
+      "kind": "broadleaf",
+      "height": 10.5,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 71.99889,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-30-1",
+      "position": [
+        -2716.9050212416155,
+        39.762,
+        -1378.3664148938833
+      ],
+      "kind": "cypress",
+      "height": 14.2,
+      "crownDiameter": 3,
+      "rotationY": 71.99889,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-31-0",
+      "position": [
+        -2710.894008374355,
+        39.988,
+        -1374.431962666347
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 13.4,
+      "rotationY": 74.398853,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-32-0",
+      "position": [
+        -2705.588983003792,
+        40.082,
+        -1373.516050094755
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 9.8,
+      "rotationY": 76.798816,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-33-0",
+      "position": [
+        -2700.921623759275,
+        40.052,
+        -1375.3265604382095
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 11,
+      "rotationY": 79.198779,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-33-1",
+      "position": [
+        -2702.4246939135305,
+        39.745,
+        -1381.7531287379622
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 11,
+      "rotationY": 79.198779,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-594"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-46-0",
+      "position": [
+        -2638.33295520242,
+        40.563,
+        -1390.6839261579805
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 110.398298,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-592"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-47-0",
+      "position": [
+        -2633.6655959579034,
+        40.428,
+        -1392.4944365014353
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 13.4,
+      "rotationY": 112.798261,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-592"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-48-0",
+      "position": [
+        -2628.1944603086727,
+        40.528,
+        -1391.507264961674
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 9.8,
+      "rotationY": 115.19822400000001,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-592"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-49-0",
+      "position": [
+        -2623.428541122616,
+        40.496,
+        -1393.1257472440552
+      ],
+      "kind": "broadleaf",
+      "height": 13.3,
+      "crownDiameter": 11,
+      "rotationY": 117.59818700000001,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-592"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-50-0",
+      "position": [
+        -2618.662621936559,
+        40.505,
+        -1394.7442295264361
+      ],
+      "kind": "broadleaf",
+      "height": 10.5,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 119.99815000000001,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-592"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-51-0",
+      "position": [
+        -2613.896702750502,
+        40.514,
+        -1396.3627118088175
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 13.4,
+      "rotationY": 122.39811300000001,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-592"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-52-0",
+      "position": [
+        -2608.607898091769,
+        40.685,
+        -1395.2304504131248
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 9.8,
+      "rotationY": 124.79807600000001,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-592"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-53-0",
+      "position": [
+        -2603.8419789057125,
+        40.454,
+        -1396.848932695506
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 11,
+      "rotationY": 127.19803900000001,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-592"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-64-0",
+      "position": [
+        -2549.848211441059,
+        39.94,
+        -1406.400006767477
+      ],
+      "kind": "broadleaf",
+      "height": 13.3,
+      "crownDiameter": 9.8,
+      "rotationY": 153.597632,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-600"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-65-0",
+      "position": [
+        -2545.0822922550024,
+        40.123,
+        -1408.0184890498585
+      ],
+      "kind": "broadleaf",
+      "height": 10.5,
+      "crownDiameter": 11,
+      "rotationY": 155.99759500000002,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-600"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-66-0",
+      "position": [
+        -2540.3163730689453,
+        40.32,
+        -1409.6369713322397
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 158.397558,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-600"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-67-0",
+      "position": [
+        -2535.550453882888,
+        40.201,
+        -1411.2554536146206
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 13.4,
+      "rotationY": 160.79752100000002,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-600"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-68-0",
+      "position": [
+        -2530.2616492241555,
+        40.313,
+        -1410.123192218928
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 9.8,
+      "rotationY": 163.197484,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-69-0",
+      "position": [
+        -2525.4957300380993,
+        40.369,
+        -1411.7416745013093
+      ],
+      "kind": "broadleaf",
+      "height": 13.3,
+      "crownDiameter": 11,
+      "rotationY": 165.59744700000002,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-81-0",
+      "position": [
+        -2466.7360433873882,
+        39.805,
+        -1422.9112308556614
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 11,
+      "rotationY": 194.397003,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-81-1",
+      "position": [
+        -2467.9685591444095,
+        39.149,
+        -1429.3951266682645
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 11,
+      "rotationY": 194.397003,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-82-0",
+      "position": [
+        -2461.9701242013316,
+        39.354,
+        -1424.5297131380426
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 196.796966,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-83-0",
+      "position": [
+        -2457.2042050152745,
+        39.121,
+        -1426.148195420424
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 13.4,
+      "rotationY": 199.196929,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-87-0",
+      "position": [
+        -2406.1672002862415,
+        38.37,
+        -1418.917254470495
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 13.4,
+      "rotationY": 208.796781,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-87-1",
+      "position": [
+        -2405.319854577968,
+        37.936,
+        -1424.0477520341499
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 13.4,
+      "rotationY": 208.796781,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-88-0",
+      "position": [
+        -2401.5898927355033,
+        38.349,
+        -1416.032824310465
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 9.8,
+      "rotationY": 211.196744,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-89-0",
+      "position": [
+        -2396.5563221110797,
+        38.576,
+        -1415.9109697616345
+      ],
+      "kind": "broadleaf",
+      "height": 13.3,
+      "crownDiameter": 11,
+      "rotationY": 213.596707,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-90-0",
+      "position": [
+        -2391.522751486656,
+        38.602,
+        -1415.7891152128034
+      ],
+      "kind": "broadleaf",
+      "height": 10.5,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 215.99667,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-601"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-90-1",
+      "position": [
+        -2390.561340009961,
+        38.071,
+        -1421.610256679258
+      ],
+      "kind": "cypress",
+      "height": 14.2,
+      "crownDiameter": 3,
+      "rotationY": 215.99667,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-91-0",
+      "position": [
+        -2386.4891808622324,
+        38.538,
+        -1415.667260663973
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 13.4,
+      "rotationY": 218.396633,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-92-0",
+      "position": [
+        -2381.911873311494,
+        38.487,
+        -1412.7828305039432
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 9.8,
+      "rotationY": 220.796596,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-96-0",
+      "position": [
+        -2362.233853887485,
+        38.179,
+        -1409.5328366974213
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 9.8,
+      "rotationY": 230.39644800000002,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-97-0",
+      "position": [
+        -2357.2002832630615,
+        38.009,
+        -1409.4109821485904
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 11,
+      "rotationY": 232.796411,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-98-0",
+      "position": [
+        -2352.166712638638,
+        37.919,
+        -1409.2891275997597
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 235.19637400000002,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-99-0",
+      "position": [
+        -2347.1331420142137,
+        37.946,
+        -1409.1672730509292
+      ],
+      "kind": "broadleaf",
+      "height": 13.3,
+      "crownDiameter": 13.4,
+      "rotationY": 237.596337,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-100-0",
+      "position": [
+        -2342.5558344634755,
+        38.001,
+        -1406.2828428908992
+      ],
+      "kind": "broadleaf",
+      "height": 10.5,
+      "crownDiameter": 9.8,
+      "rotationY": 239.99630000000002,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-101-0",
+      "position": [
+        -2337.522263839052,
+        37.841,
+        -1406.1609883420688
+      ],
+      "kind": "broadleaf",
+      "height": 11.2,
+      "crownDiameter": 11,
+      "rotationY": 242.396263,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-102-0",
+      "position": [
+        -2332.4886932146283,
+        37.737,
+        -1406.0391337932376
+      ],
+      "kind": "broadleaf",
+      "height": 11.9,
+      "crownDiameter": 12.200000000000001,
+      "rotationY": 244.79622600000002,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-103-0",
+      "position": [
+        -2327.4551225902046,
+        37.737,
+        -1405.9172792444072
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 13.4,
+      "rotationY": 247.196189,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-597"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-119-0",
+      "position": [
+        -2251.4394483847254,
+        37.285,
+        -1393.227651284256
+      ],
+      "kind": "broadleaf",
+      "height": 13.3,
+      "crownDiameter": 13.4,
+      "rotationY": 285.595597,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-491"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-120-0",
+      "position": [
+        -2247.083415906436,
+        37.197,
+        -1390.3689740335155
+      ],
+      "kind": "broadleaf",
+      "height": 10.5,
+      "crownDiameter": 9.8,
+      "rotationY": 287.99556,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-491"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-120-1",
+      "position": [
+        -2245.877783990208,
+        36.95,
+        -1397.5687276183662
+      ],
+      "kind": "cypress",
+      "height": 13,
+      "crownDiameter": 3,
+      "rotationY": 287.99556,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-491"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    },
+    {
+      "id": "aub-canopy-estimate-123-1",
+      "position": [
+        -2231.76920969613,
+        36.579,
+        -1395.2061818366315
+      ],
+      "kind": "broadleaf",
+      "height": 12.6,
+      "crownDiameter": 13.4,
+      "rotationY": 295.195449,
+      "sources": [
+        "aub-campus-footprint",
+        "canopy-photo-491"
+      ],
+      "placement": "estimated-group",
+      "confidence": "Approximate mature canopy group reconstructed only inside AUB from nearby photographed vegetation. Individual tree positions, heights and species are not surveyed."
+    }
+  ],
+  "campusPolygon": [
+    [
+      -2221.746192549749,
+      -1382.881583734373
+    ],
+    [
+      -2224.211091743681,
+      -1366.6402100087728
+    ],
+    [
+      -2241.1613319643848,
+      -1300.268940167495
+    ],
+    [
+      -2255.8177074479936,
+      -1227.3808400977034
+    ],
+    [
+      -2059.0072905022043,
+      -1175.7980829308901
+    ],
+    [
+      -2043.4941546182865,
+      -1236.5735134538781
+    ],
+    [
+      -2057.809653194055,
+      -1242.0041867420416
+    ],
+    [
+      -2054.2251027512834,
+      -1254.2863663485473
+    ],
+    [
+      -2048.206694767977,
+      -1272.9769774786555
+    ],
+    [
+      -2045.1282446748612,
+      -1282.3334477610022
+    ],
+    [
+      -2034.7275206413744,
+      -1322.5946025986366
+    ],
+    [
+      -2063.246233408894,
+      -1330.9866623553355
+    ],
+    [
+      -2059.3567574613517,
+      -1342.9130817759572
+    ],
+    [
+      -2052.0674584497056,
+      -1367.210555824729
+    ],
+    [
+      -2053.0556445976404,
+      -1367.5102904281844
+    ],
+    [
+      -2095.732269685839,
+      -1380.3097819789803
+    ],
+    [
+      -2090.4530312113748,
+      -1399.7896984914214
+    ],
+    [
+      -2098.3590203818176,
+      -1403.021816271956
+    ],
+    [
+      -2089.8161038030835,
+      -1446.3407422747412
+    ],
+    [
+      -2076.2854886364635,
+      -1471.7542786002732
+    ],
+    [
+      -2074.188910901195,
+      -1486.2824562019453
+    ],
+    [
+      -2082.614746029341,
+      -1524.930584521973
+    ],
+    [
+      -2080.6609737009153,
+      -1546.633151333086
+    ],
+    [
+      -2094.6977679237534,
+      -1549.23869460532
+    ],
+    [
+      -2125.1543182258915,
+      -1555.5606746461394
+    ],
+    [
+      -2131.0045323139825,
+      -1548.9611009149658
+    ],
+    [
+      -2135.6201968681144,
+      -1546.978402032426
+    ],
+    [
+      -2140.569727996591,
+      -1547.4203643037229
+    ],
+    [
+      -2145.101922574068,
+      -1544.8259385264848
+    ],
+    [
+      -2170.5808539852305,
+      -1550.0608265593112
+    ],
+    [
+      -2219.986027539587,
+      -1573.5568199976203
+    ],
+    [
+      -2295.9551622086165,
+      -1610.1066725461385
+    ],
+    [
+      -2289.4359210304774,
+      -1625.1046758823088
+    ],
+    [
+      -2291.830229860655,
+      -1629.7416222829645
+    ],
+    [
+      -2361.3636546187513,
+      -1651.1900036091956
+    ],
+    [
+      -2358.4131097326967,
+      -1658.266137802885
+    ],
+    [
+      -2332.614142726952,
+      -1719.9042206138845
+    ],
+    [
+      -2367.662143037843,
+      -1730.0609586385126
+    ],
+    [
+      -2515.9165930767012,
+      -1773.0634470596547
+    ],
+    [
+      -2536.932879659826,
+      -1773.6848747390156
+    ],
+    [
+      -2811.314481440326,
+      -1715.4572384426187
+    ],
+    [
+      -2805.7424476396577,
+      -1662.3805876457113
+    ],
+    [
+      -2804.310477773883,
+      -1645.7299904082647
+    ],
+    [
+      -2796.4811873885105,
+      -1585.591449822237
+    ],
+    [
+      -2793.2251716397727,
+      -1560.588410017221
+    ],
+    [
+      -2765.2762330228534,
+      -1439.8181500616229
+    ],
+    [
+      -2778.5951990344483,
+      -1431.0228263918693
+    ],
+    [
+      -2791.6499875687946,
+      -1428.2341980904625
+    ],
+    [
+      -2779.3809462935355,
+      -1370.867999345005
+    ],
+    [
+      -2788.1433231883316,
+      -1370.184231575195
+    ],
+    [
+      -2863.7944673703187,
+      -1353.7655165921299
+    ],
+    [
+      -2860.3036952001603,
+      -1337.6389444416366
+    ],
+    [
+      -2755.541367365176,
+      -1358.5466397375678
+    ],
+    [
+      -2630.045197188442,
+      -1387.8981597195864
+    ],
+    [
+      -2453.7661372363114,
+      -1421.4068287826435
+    ],
+    [
+      -2311.1004964122444,
+      -1397.8443736853596
+    ],
+    [
+      -2221.746192549749,
+      -1382.881583734373
+    ]
+  ]
+}
